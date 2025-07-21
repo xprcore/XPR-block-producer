@@ -1,0 +1,65 @@
+{
+  "producer_account_name": "xprcore",
+  "org": {
+    "candidate_name": "xprcore",
+    "website": "https://xprcore.com",
+    "email":"xprcore@gmail.com",
+    "code_of_conduct": "https://xprcore.com/",
+    "ownership_disclosure": "https://xprcore.com/",
+    "branding":{
+      "logo_256":"https://xprcore.com/logo_256.png",
+      "logo_1024":"https://xprcore.com/logo-1024.png",
+      "logo_svg":"https://xprcore.com/logo.svg"
+    },
+    "location": {
+      "name": "Falkenstein",
+      "country": "DE",
+      "latitude": 50.479478,
+      "longitude": 12.335663
+    },
+    "social": {
+      "twitter": "xprcore",
+      "youtube": "",
+      "telegram": "xprcore",
+      "github":"xprcore",
+      "keybase": "",
+      "reddit": "",
+      "facebook": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.479478,
+        "longitude": 12.335663
+      },
+      "api_endpoint": "http://testnet-api.xprcore.com",
+      "ssl_endpoint": "https://testnet-api.xprcore.com",
+      "node_type": "query",
+      "full": false,
+      "features": ["chain-api"]
+    },      
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.479478,
+        "longitude": 12.335663
+      },
+      "p2p_endpoint": "testnet-p2p.xprcore.com:9876",
+      "node_type": "seed",
+      "full": false
+    },
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.479478,
+        "longitude": 12.335663
+      },
+      "node_type": "producer"
+    }
+  ]
+}
