@@ -35,8 +35,8 @@
         "latitude": 50.479478,
         "longitude": 12.335663
       },
-      "api_endpoint": "http://testnet-api.xprcore.com",
-      "ssl_endpoint": "https://testnet-api.xprcore.com",
+      "api_endpoint": "http://testnet-api.xprcore.com:8888",
+      "ssl_endpoint": "",
       "node_type": "query",
       "full": false,
       "features": ["chain-api"]
