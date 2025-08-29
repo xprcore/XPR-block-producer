@@ -1,0 +1,66 @@
+{
+  "producer_account_name": "xprcore",
+  "org": {
+    "candidate_name": "xprcore",
+    "website": "https://xprcore.com",
+    "email":"xprcore@gmail.com",
+    "code_of_conduct": "https://xprcore.com/code-of-conduct/",
+    "ownership_disclosure": "https://xprcore.com/proton-block-producer/",
+    "branding":{
+      "logo_256":"https://xprcore.com/logo-256.PNG",
+      "logo_1024":"https://xprcore.com/logo-1024.PNG",
+      "logo_svg":"https://xprcore.com/logo.svg"
+    },
+    "location": {
+      "name": "Falkenstein",
+      "country": "DE",
+      "latitude": 50.479478,
+      "longitude": 12.335663
+    },
+    "social": {
+      "twitter": "xprcore",
+      "youtube": "",
+      "telegram": "xprcore",
+      "github":"xprcore",
+      "keybase": "",
+      "reddit": "",
+      "facebook": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.479478,
+        "longitude": 12.335663
+      },
+      "api_endpoint": "http://api-mainnet.xprcore.com",
+      "ssl_endpoint": "https://api-mainnet.xprcore.com",
+      "snapshot_endpoint": "https://backup.xprcore.com/",
+      "node_type": "query",
+      "full": false,
+      "features": ["chain-api", "account-query"]
+    },      
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.479478,
+        "longitude": 12.335663
+      },
+      "p2p_endpoint": "p2p-mainnet.xprcore.com:9876",
+      "node_type": "seed",
+      "full": false
+    },
+    {
+      "location": {
+        "name": "Falkenstein",
+        "country": "DE",
+        "latitude": 50.479478,
+        "longitude": 12.335663
+      },
+      "node_type": "producer"
+    }
+  ]
+}
