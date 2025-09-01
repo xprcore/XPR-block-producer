@@ -7,7 +7,7 @@
     "code_of_conduct": "https://xprcore.com/code-of-conduct/",
     "ownership_disclosure": "https://xprcore.com/proton-block-producer/",
     "branding":{
-      "logo_256":"https://xprcore.com/logo-256.PNG",
+      "logo_256":"https://xprcore.com/logo_256.PNG",
       "logo_1024":"https://xprcore.com/logo-1024.PNG",
       "logo_svg":"https://xprcore.com/logo.svg"
     },
@@ -63,4 +63,5 @@
       "node_type": "producer"
     }
   ]
+
 }
