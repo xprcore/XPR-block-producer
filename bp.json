@@ -4,8 +4,8 @@
     "candidate_name": "xprcore",
     "website": "https://xprcore.com",
     "email":"xprcore@gmail.com",
-    "code_of_conduct": "https://xprcore.com/code-of-conduct/",
-    "ownership_disclosure": "https://xprcore.com/proton-block-producer/",
+    "code_of_conduct": "https://xprcore.com",
+    "ownership_disclosure": "https://xprcore.com",
     "branding":{
       "logo_256":"https://xprcore.com/logo_256.PNG",
       "logo_1024":"https://xprcore.com/logo-1024.PNG",
@@ -65,3 +65,4 @@
   ]
 
 }
+
