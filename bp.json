@@ -37,7 +37,6 @@
       },
       "api_endpoint": "http://api-mainnet.xprcore.com",
       "ssl_endpoint": "https://api-mainnet.xprcore.com",
-      "snapshot_endpoint": "https://backup.xprcore.com/",
       "node_type": "query",
       "full": false,
       "features": ["chain-api", "account-query"]
@@ -65,4 +64,5 @@
   ]
 
 }
+
 
