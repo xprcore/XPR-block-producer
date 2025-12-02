@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XPRCORE – Vision</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  /* Reset */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #f9f9f9; color: #333; }
+  a { text-decoration: none; color: inherit; }
+
+  header { background-color: #fff; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 1000; }
+  nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; padding: 15px 20px; }
+  nav h1 { font-size: 1.8rem; color: #0077cc; }
+  nav ul { list-style: none; display: flex; gap: 20px; }
+  nav li a { font-weight: bold; color: #333; transition: color 0.3s; }
+  nav li a:hover { color: #0077cc; }
+  .menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; }
+  @media(max-width:768px){
+    nav ul { display: none; flex-direction: column; gap: 10px; width: 100%; background: #fff; position: absolute; top: 60px; left: 0; border-top: 1px solid #ddd; }
+    nav ul.active { display: flex; }
+    .menu-toggle { display: block; color: #0077cc; }
+  }
+
+  main { max-width: 1000px; margin: auto; padding: 40px 20px; }
+  h2.section-title { font-size: 2rem; margin-bottom: 20px; color: #0077cc; text-align: center; }
+  p { margin-bottom: 20px; line-height: 1.6; }
+
+  footer { background-color: #fff; border-top: 1px solid #ddd; text-align: center; padding: 30px 20px; }
+  .social { margin-top: 10px; }
+  .social a { margin: 0 10px; font-weight: bold; color: #0077cc; transition: color 0.3s; }
+  .social a:hover { color: #005fa3; }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>XPRCORE</h1>
+    <i class="fas fa-bars menu-toggle"></i>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="xprnetwork.html">XPRNetwork</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2 class="section-title">Our Vision</h2>
+    <p>At <strong>XPRCORE</strong>, our vision is to support a fully decentralized and secure <strong>XPR Network</strong>, where trust and transparency are at the heart of every transaction. We maintain robust and resilient nodes to strengthen the blockchain ecosystem and ensure reliability for all participants.</p>
+
+    <p>We strive to <strong>empower the XPR Network community</strong> by providing education, resources, and open collaboration opportunities, making it easier for everyone to participate and benefit from the blockchain.</p>
+
+    <p><strong>Innovation and growth</strong> guide our approach, connecting traditional finance with modern digital assets through fast, secure, and fee-less transactions, driving real-world adoption of blockchain technology.</p>
+
+    <p>We are committed to <strong>sustainable operations</strong>, ensuring our infrastructure is reliable, energy-efficient, and capable of supporting the XPR Network for years to come.</p>
+
+    <p>Finally, we prioritize <strong>user-friendliness</strong>, creating a blockchain experience that is intuitive and accessible, lowering the barrier for newcomers while providing advanced features for developers and enterprises.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 XPRCORE. All rights reserved.</p>
+  <div class="social">
+    <a href="https://t.me/xprcore"><i class="fab fa-telegram"></i> Telegram</a>
+    <a href="https://x.com/xprcore"><i class="fab fa-x-twitter"></i></a>
+    <a href="mailto:xprcore@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('nav ul');
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
