@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XPRCORE – Block Producer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #f9f9f9; color: #333; }
+  a { text-decoration: none; color: inherit; }
+  header { background-color: #fff; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 1000; }
+  nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; padding: 15px 20px; }
+  nav h1 { font-size: 1.8rem; color: #0077cc; }
+  nav ul { list-style: none; display: flex; gap: 20px; }
+  nav li a { font-weight: bold; color: #333; transition: color 0.3s; }
+  nav li a:hover { color: #0077cc; }
+  .menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; }
+  @media(max-width:768px){
+    nav ul { display: none; flex-direction: column; gap: 10px; width: 100%; background: #fff; position: absolute; top: 60px; left: 0; border-top: 1px solid #ddd; }
+    nav ul.active { display: flex; }
+    .menu-toggle { display: block; color: #0077cc; }
+  }
+  .hero { background: linear-gradient( to bottom, #66ccff 0%, #cfeaff 50%, #f9f9f9 100% ); color: #0050F0; padding: 100px 20px 140px; /* malo več spodnjega paddinga za lep fade */ text-align: center; }
+  .hero h2 { font-size: 2.8rem; margin-bottom: 20px; opacity: 0; transform: translateY(20px); animation: fadeInUp 1s forwards; }
+  .hero p { font-size: 1.1rem; max-width: 700px; margin: 0 auto 30px; opacity: 0; transform: translateY(20px); animation: fadeInUp 1s forwards 0.3s; }
+  .hero a.button { background-color: #fff; color: #0077cc; padding: 14px 30px; border-radius: 5px; font-weight: bold; transition: all 0.3s; display: inline-block; }
+  .hero a.button:hover { background-color: #005fa3; color: #fff; transform: scale(1.05); }
+  @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+  main { max-width: 1200px; margin: auto; padding: 40px 20px; }
+  section { margin-bottom: 60px; opacity: 0; transform: translateY(20px); animation: fadeInUp 1s forwards; }
+  section:nth-child(even) { animation-delay: 0.2s; }
+  h2.section-title { font-size: 2rem; margin-bottom: 20px; color: #0077cc; text-align: center; }
+  .node-spec { background-color: #fff; padding: 25px; border: 1px solid #ddd; border-radius: 8px; max-width: 700px; margin: auto; }
+  .node-spec ul { list-style: none; padding-left: 0; }
+  .node-spec li { margin-bottom: 10px; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+  .feature-card { background-color: #fff; padding: 25px; border-radius: 8px; border: 1px solid #ddd; text-align: center; transition: transform 0.3s, box-shadow 0.3s; }
+  .feature-card:hover { transform: translateY(-5px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+  .feature-card i { font-size: 2rem; color: #0077cc; margin-bottom: 15px; }
+  footer { background-color: #fff; border-top: 1px solid #ddd; text-align: center; padding: 30px 20px; }
+  .social { margin-top: 10px; }
+  .social a { margin: 0 10px; font-weight: bold; color: #0077cc; transition: color 0.3s; }
+  .social a:hover { color: #005fa3; }
+  @media(max-width:768px){ .hero h2 { font-size: 2rem; } }
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <h1>XPRCORE</h1>
+    <i class="fas fa-bars menu-toggle"></i>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="xprnetwork.html">XPR Network</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero">
+  <div style="display:flex; flex-direction: column; align-items:center; gap:20px;">
+    <img src="IMG_8995.PNG" alt="XPRCORE Logo" style="width:150px; height:auto; border-radius:15px; object-fit:contain;" />
+    <p style="font-size:2rem; text-align:center;"><strong>Trusted Block Producer on the XPR Network.</strong></p>
+    <p><strong>Vote for Us</strong></p>
+    <p><strong>We would greatly appreciate your support.</strong></p>
+    <a href="https://explorer.xprnetwork.org/vote?producers=xprcore" class="button">🗳️ Vote Now</a>
+  </div>
+</section>
+<main>
+  <section>
+    <h2 class="section-title">About XPRCORE</h2>
+    <p>XPRCORE is a reliable and dedicated block producer on the XPR Network, committed to supporting the growth, security, and decentralization of the system. We actively contribute to the development and promotion of the XPR Network blockchain, ensuring stable, secure, and uninterrupted node operations. We collaborate with the community, support education and knowledge expansion about XPR technology, and encourage cooperation with other developers and partners within the network.</p>
+    <div style="text-align:center;margin-top:20px;"><img src="xpr_block_producer_logo.png" alt="XPR block producer Logo" style="max-width:220px;"></div>
+  </section>
+  <section>
+    <h2 class="section-title">Node Specification</h2>
+    <div class="node-spec">
+      <ul>
+        <li><i class="fas fa-microchip"></i> <strong>CPU:</strong> Intel Core i7-8700</li>
+        <li><i class="fas fa-memory"></i> <strong>RAM:</strong> 64 GB DDR4</li>
+        <li><i class="fas fa-hdd"></i> <strong>Storage:</strong> 2 x 1TB NVMe SSD</li>
+        <li><i class="fas fa-network-wired"></i> <strong>Network:</strong> 1 Gbps (unlimited)</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="features">
+      <div class="feature-card">
+        <h4>MAINNET NODE:</h4>
+        <p><strong>Mainnet API:</strong> <a href="http://api-mainnet.xprcore.com" target="_blank">http://api-mainnet.xprcore.com</a></p>
+        <p><strong>P2P Endpoint:</strong> <a href="p2p-mainnet.xprcore.com:9876" target="_blank">p2p-mainnet.xprcore.com:9876</a></p>
+        <p><strong>JSON Files:</strong> <a href="/bp.json" target="_blank" style="display:inline-block;padding:10px 20px;background-color:#007bff;color:white;border-radius:6px;">bp.json</a></p>
+      </div>
+      <div class="feature-card">
+        <h4>TESTNET NODE:</h4>
+        <p><strong>Testnet API:</strong> <a href="http://testnet-api.xprcore.com" target="_blank">http://testnet-api.xprcore.com</a></p>
+        <p><strong>P2P Endpoint:</strong> <a href="testnet-p2p.xprcore.com:9876" target="_blank">testnet-p2p.xprcore.com:9876</a></p>
+        <p><strong>JSON Files:</strong> <a href="/testnet.json" target="_blank" style="display:inline-block;padding:10px 20px;background-color:#007bff;color:white;border-radius:6px;">testnet.json</a></p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="section-title">Ownership Disclosure</h2>
+    <p>XPRCORE operates as an independent block producer fully funded and supported by our company.
+    We maintain complete financial autonomy, with no reliance on external investors, partners, or third-party funding for the development, maintenance, or operation of our project.
+    The sole owner and responsible person behind XPRCORE is Denis.</p>
+  </section>
+  <section>
+    <h2 class="section-title">Services & Features</h2>
+    <div class="features">
+      <div class="feature-card">
+        <i class="fas fa-chart-line"></i>
+        <h4>High-Performance Block Production</h4>
+        <p>Reliable and efficient block production powered by enterprise-grade infrastructure, ensuring stability, low latency, and optimal performance across the XPR Network.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-cubes"></i>
+        <h4>Secure & Professional Operations</h4>
+        <p>Robust security standards and streamlined operational practices deliver a trustworthy, resilient, and professionally managed node environment.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-users"></i>
+        <h4>Transparent & Independent Governance</h4>
+        <p>A commitment to transparent decision-making and fully self-funded operations, ensuring neutral, unbiased, and community-aligned participation throughout the XPR Network.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>© 2025 XPRCORE. All rights reserved.</p>
+  <div class="social">
+    <a href="https://t.me/xprcore"><i class="fab fa-telegram"></i> Telegram</a>
+    <a href="https://x.com/xprcore"><i class="fab fa-x-twitter"></i></a>
+    <a href="mailto:xprcore@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+</footer>
+<script>
+const toggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('nav ul');
+toggle.addEventListener('click', () => { menu.classList.toggle('active'); });
+</script>
+</body>
+</html>
