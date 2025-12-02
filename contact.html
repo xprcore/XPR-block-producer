@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XPRCORE – Contact</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  a { text-decoration: none; color: inherit; }
+
+  /* HEADER */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 20px;
+  }
+  nav h1 { font-size: 1.8rem; color: #0077cc; }
+  nav ul { list-style: none; display: flex; gap: 20px; }
+  nav li a { font-weight: bold; color: #333; transition: color 0.3s; }
+  nav li a:hover { color: #0077cc; }
+  .menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; }
+  @media(max-width:768px){
+    nav ul { display: none; flex-direction: column; gap: 10px; width: 100%; background: #fff; position: absolute; top: 60px; left: 0; border-top: 1px solid #ddd; }
+    nav ul.active { display: flex; }
+    .menu-toggle { display: block; color: #0077cc; }
+  }
+
+  /* MAIN */
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  section {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  h2.section-title { font-size: 2rem; margin-bottom: 20px; color: #0077cc; }
+  p { margin-bottom: 40px; }
+
+  form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  button {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  button:hover { background-color: #005fa3; }
+
+  /* FOOTER */
+  footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .social { margin-top: 10px; }
+  .social a { margin: 0 10px; font-weight: bold; color: #0077cc; }
+
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <h1>XPRCORE</h1>
+    <i class="fas fa-bars menu-toggle"></i>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="xprnetwork.html">XPR Network</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2 class="section-title">Contact Us</h2>
+    <p>Have questions or want to get in touch? Fill out the form below and we'll respond as soon as possible.</p>
+    <form action="mailto:xprcore@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 XPRCORE. All rights reserved.</p>
+  <div class="social">
+    <a href="https://t.me/xprcore"><i class="fab fa-telegram"></i> Telegram</a>
+    <a href="https://x.com/xprcore"><i class="fab fa-x-twitter"></i></a>
+    <a href="mailto:xprcore@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+</footer>
+
+<script>
+const toggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('nav ul');
+toggle.addEventListener('click', () => { menu.classList.toggle('active'); });
+</script>
+</body>
+</html>
