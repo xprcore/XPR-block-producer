@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XPRCORE – XPR Network</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #f9f9f9; color: #333; }
+  a { text-decoration: none; color: inherit; }
+  header { background-color: #fff; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 1000; }
+  nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; padding: 15px 20px; }
+  nav h1 { font-size: 1.8rem; color: #0077cc; }
+  nav ul { list-style: none; display: flex; gap: 20px; }
+  nav li a { font-weight: bold; color: #333; transition: color 0.3s; }
+  nav li a:hover { color: #0077cc; }
+  .menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; }
+  @media(max-width:768px){
+    nav ul { display: none; flex-direction: column; gap: 10px; width: 100%; background: #fff; position: absolute; top: 60px; left: 0; border-top: 1px solid #ddd; }
+    nav ul.active { display: flex; }
+    .menu-toggle { display: block; color: #0077cc; }
+  }
+  main { max-width: 1200px; margin: auto; padding: 40px 20px; }
+  section { margin-bottom: 60px; }
+  h2.section-title { font-size: 2rem; margin-bottom: 20px; color: #0077cc; text-align: center; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+  .feature-card { background-color: #fff; padding: 25px; border-radius: 8px; border: 1px solid #ddd; text-align: center; }
+  .feature-card i { font-size: 2rem; color: #0077cc; margin-bottom: 15px; }
+  footer { background-color: #fff; border-top: 1px solid #ddd; text-align: center; padding: 30px 20px; }
+  .social a { margin: 0 10px; font-weight: bold; color: #0077cc; }
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <h1>XPRCORE</h1>
+    <i class="fas fa-bars menu-toggle"></i>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="xprnetwork.html">XPR Network</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2 class="section-title">XPR Network</h2>
+    <p><strong>XPR Network</strong>, also known as <strong>XPR Network Blockchain</strong>, is a high-performance Layer 1 blockchain designed for fast, free, and secure digital transactions. It bridges the gap between traditional finance (TradFi) and modern digital assets (DeFi, NFTs, Web3).</p>
+        <div style="text-align:center; margin-top:50px;">
+        <div style="text-align:center;margin-top:20px;"><img src="IMG_9021.png" alt="XPR Network Logo" style="max-width:200px;"></div>
+  </section>
+  <section>
+    <div class="features">
+      <div class="feature-card">
+        <h4>🔑 Key Features:</h4>
+        <ul>
+          <li>Zero-fee transactions for end users</li>
+          <li>High-speed processing (4,000+ transactions per second)</li>
+          <li>@username identity system with built-in KYC/AML</li>
+          <li>Web3 & NFT support with smart contracts</li>
+          <li>Fiat integration via apps like Metal Pay</li>
+        </ul>
+      </div>
+      <div class="feature-card">
+        <h4>🧱 Technology:</h4>
+        <p>The network is built on EOSIO technology, optimized for scalability, speed, and ease of use. XPR makes blockchain accessible to developers and enterprises alike.</p>
+      </div>
+      <div class="feature-card">
+        <h4>🌍 Ecosystem:</h4>
+        <ul>
+          <li><a href="https://xprnetwork.org" target="_blank">XPR Network</a></li>
+          <li><a href="https://metalx.com/" target="_blank">Metal X</a></li>
+          <li><a href="https://xprnetwork.org/#download" target="_blank">WebAuth Wallet (mobile)</a></li>
+          <li><a href="https://webauth.com/start" target="_blank">WebAuth Wallet (browser)</a></li>
+          <li><a href="https://resources.xprnetwork.org/" target="_blank">XPR Network Resources</a></li>
+          <li><a href="https://nft.xprnetwork.org/" target="_blank">NFT Marketplace</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>© 2025 XPRCORE. All rights reserved.</p>
+  <div class="social">
+    <a href="https://t.me/xprcore"><i class="fab fa-telegram"></i> Telegram</a>
+    <a href="https://x.com/xprcore"><i class="fab fa-x-twitter"></i></a>
+    <a href="mailto:xprcore@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+</footer>
+<script>
+const toggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('nav ul');
+toggle.addEventListener('click', () => { menu.classList.toggle('active'); });
+</script>
+</body>
+</html>
