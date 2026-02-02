@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" width="1600" height="1600">
+
+
+
+  <defs>
+
+    <!-- Glow effect -->
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+
+      <stop offset="0%" stop-color="#2f7cff" stop-opacity="0.9"/>
+
+      <stop offset="100%" stop-color="#001a4d" stop-opacity="1"/>
+
+    </radialGradient>
+
+
+
+    <!-- Outer ring glow -->
+
+    <filter id="outerGlow" x="-50%" y="-50%" width="200%" height="200%">
+
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+
+      <feMerge>
+
+        <feMergeNode in="blur"/>
+
+        <feMergeNode in="SourceGraphic"/>
+
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+
+  <!-- Background -->
+
+  <circle cx="800" cy="800" r="760" fill="#001b44"/>
+
+
+
+  <!-- Glow ring -->
+
+  <circle cx="800" cy="800" r="720"
+
+          fill="none"
+
+          stroke="url(#glow)"
+
+          stroke-width="70"
+
+          filter="url(#outerGlow)"/>
+
+
+
+  <!-- Inner dark base -->
+
+  <circle cx="800" cy="800" r="680" fill="#021a3a"/>
+
+
+
+  <!-- XPRCORE logo -->
+
+  <g transform="translate(800, 800) scale(0.8) translate(-800, -718)">
+
+    <path fill="#2f7cff" d="m1592.3 815-336.1 576.5c-16.1 27.6-45.5 44.5-77.4 44.5H455.6c-31.8 0-61.3-16.9-77.4-44.5l-366-628.1a90.41 90.41 0 0 1 0-90.8l366-628.1C394.3 17 423.8 0 455.6 0h723.2c31.9 0 61.3 17 77.4 44.5l337 578.5h-333.8l-196.2-336.5h-492L317 713.4l253.7 436.1h492.6l195.1-334.6z"/>
+
+
+
+    <path fill="#ff4fff" d="M812.3 713.4 654.9 439.7h315.2l157.6 273.7z"/>
+
+    <path fill="#4fa3ff" d="M1127.7 713.4 970.1 987.2H654.9l157.4-273.8z"/>
+
+    <path fill="#7a2cff" d="M812.3 713.4 654.9 987.2 497.3 713.4l157.6-273.7z"/>
+
+  </g>
+
+</svg>
