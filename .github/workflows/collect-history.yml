@@ -1,0 +1,35 @@
+name: Collect XPR history
+
+on:
+  schedule:
+    - cron: '2/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: xpr-history-collector
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Collect network history
+        run: node scripts/collect-network-history.mjs
+
+      - name: Collect reliability history
+        run: node scripts/collect-reliability.mjs
+
+      - name: Commit history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/network-history.json data/missed-blocks.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'chore: update XPR history data'
+          git push
