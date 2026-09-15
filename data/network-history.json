@@ -1,1 +1,43 @@
-{"version":1,"source":"github-actions","sampleIntervalSeconds":300,"points":[]}
+{
+  "version": 1,
+  "source": "github-actions",
+  "sampleIntervalSeconds": 300,
+  "points": [
+    {
+      "ts": 1789507969115,
+      "block": 403635655,
+      "producer": "protonuk",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 0.631578947368421,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.3,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz"
+      ]
+    }
+  ]
+}
