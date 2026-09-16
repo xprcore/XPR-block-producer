@@ -254,6 +254,42 @@
         "eosusa",
         "eosusa"
       ]
+    },
+    {
+      "ts": 1789597412998,
+      "block": 403814543,
+      "producer": "protonmadrid",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.473684210526316,
+      "utilization": 0.04425048828125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.6,
+      "finality": 164,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks"
+      ]
     }
   ]
 }
