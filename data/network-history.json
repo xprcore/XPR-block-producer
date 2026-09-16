@@ -182,6 +182,42 @@
         "saltant",
         "saltant"
       ]
+    },
+    {
+      "ts": 1789577392056,
+      "block": 403774502,
+      "producer": "protonuk",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.473684210526316,
+      "utilization": 0.03814697265625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.6,
+      "finality": 165.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonmadrid"
+      ]
     }
   ]
 }
