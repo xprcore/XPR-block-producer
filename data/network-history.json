@@ -110,6 +110,42 @@
         "protonuk",
         "protonuk"
       ]
+    },
+    {
+      "ts": 1789541077003,
+      "block": 403701871,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.421052631578948,
+      "utilization": 0.034332275390625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.1,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam"
+      ]
     }
   ]
 }
