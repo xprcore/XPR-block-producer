@@ -146,6 +146,42 @@
         "eosamsterdam",
         "eosamsterdam"
       ]
+    },
+    {
+      "ts": 1789560523323,
+      "block": 403740764,
+      "producer": "storexbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.842105263157895,
+      "utilization": 0.078582763671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.3,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "storexbp",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant"
+      ]
     }
   ]
 }
