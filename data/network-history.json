@@ -326,6 +326,42 @@
         "alvosec",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1789622848464,
+      "block": 403865414,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4,
+      "utilization": 0.074005126953125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.9,
+      "finality": 165.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "cryptolions"
+      ]
     }
   ]
 }
