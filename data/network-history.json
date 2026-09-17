@@ -398,6 +398,42 @@
         "brotonbp",
         "brotonbp"
       ]
+    },
+    {
+      "ts": 1789657471355,
+      "block": 403934660,
+      "producer": "cerebroai",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 8.842105263157896,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 4.2,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe"
+      ]
     }
   ]
 }
