@@ -290,6 +290,42 @@
         "madblocks",
         "madblocks"
       ]
+    },
+    {
+      "ts": 1789605787915,
+      "block": 403831294,
+      "producer": "bloxprod",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.894736842105263,
+      "utilization": 0.051116943359375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.8,
+      "finality": 163.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec"
+      ]
     }
   ]
 }
