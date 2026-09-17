@@ -362,6 +362,42 @@
         "eosamsterdam",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1789640204102,
+      "block": 403900127,
+      "producer": "catsvote",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.6315789473684212,
+      "utilization": 0.0457763671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.25,
+      "finality": 164,
+      "validatorCounts": {},
+      "activeProducers": [
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp"
+      ]
     }
   ]
 }
