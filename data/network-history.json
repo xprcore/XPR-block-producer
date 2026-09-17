@@ -506,6 +506,42 @@
         "alvosec",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1789689477336,
+      "block": 403998673,
+      "producer": "cerebroai",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 10.631578947368421,
+      "utilization": 0.055694580078125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 5.05,
+      "finality": 165,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "cafe",
+        "cafe"
+      ]
     }
   ]
 }
