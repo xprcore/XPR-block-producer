@@ -686,6 +686,42 @@
         "protonnz",
         "protonnz"
       ]
+    },
+    {
+      "ts": 1789759939185,
+      "block": 404139595,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 18.842105263157894,
+      "utilization": 0.101470947265625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 8.95,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam"
+      ]
     }
   ]
 }
