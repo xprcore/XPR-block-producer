@@ -722,6 +722,42 @@
         "eosamsterdam",
         "eosamsterdam"
       ]
+    },
+    {
+      "ts": 1789768106453,
+      "block": 404155929,
+      "producer": "chaininfra",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.368421052631579,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.65,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "chaininfra",
+        "chaininfra",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote"
+      ]
     }
   ]
 }
