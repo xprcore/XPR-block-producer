@@ -614,6 +614,42 @@
         "eosamsterdam",
         "eosamsterdam"
       ]
+    },
+    {
+      "ts": 1789736814109,
+      "block": 404093345,
+      "producer": "xprnodeonebp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.631578947368421,
+      "utilization": 0.0213623046875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.2,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }
