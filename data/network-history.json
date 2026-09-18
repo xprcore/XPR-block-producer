@@ -542,6 +542,42 @@
         "cafe",
         "cafe"
       ]
+    },
+    {
+      "ts": 1789703116906,
+      "block": 404025952,
+      "producer": "madblocks",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 7.684210526315789,
+      "utilization": 0.159454345703125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3.65,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa"
+      ]
     }
   ]
 }
