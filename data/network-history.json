@@ -650,6 +650,42 @@
         "totalproton",
         "totalproton"
       ]
+    },
+    {
+      "ts": 1789751020837,
+      "block": 404121760,
+      "producer": "protonuk",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.631578947368421,
+      "utilization": 0.0457763671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.2,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz"
+      ]
     }
   ]
 }
