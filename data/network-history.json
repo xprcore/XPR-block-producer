@@ -578,6 +578,42 @@
         "eosusa",
         "eosusa"
       ]
+    },
+    {
+      "ts": 1789720248335,
+      "block": 404060215,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.947368421052632,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.35,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam"
+      ]
     }
   ]
 }
