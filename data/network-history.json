@@ -794,6 +794,42 @@
         "protonmadrid",
         "protonmadrid"
       ]
+    },
+    {
+      "ts": 1789781689625,
+      "block": 404183097,
+      "producer": "brotonbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.052631578947368,
+      "utilization": 0.09613037109375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.4,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "brotonbp",
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge"
+      ]
     }
   ]
 }
