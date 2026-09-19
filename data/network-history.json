@@ -1046,6 +1046,42 @@
         "protonuk",
         "protonuk"
       ]
+    },
+    {
+      "ts": 1789860603470,
+      "block": 404340914,
+      "producer": "eosamsterdam",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 6.315789473684211,
+      "utilization": 0.016021728515625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3,
+      "finality": 165,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "chaininfra",
+        "chaininfra"
+      ]
     }
   ]
 }
