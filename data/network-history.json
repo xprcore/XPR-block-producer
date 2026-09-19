@@ -902,6 +902,42 @@
         "storexbp",
         "storexbp"
       ]
+    },
+    {
+      "ts": 1789828707555,
+      "block": 404277123,
+      "producer": "cerebroai",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.368421052631579,
+      "utilization": 0.0091552734375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.65,
+      "finality": 165,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "cafe",
+        "cafe"
+      ]
     }
   ]
 }
