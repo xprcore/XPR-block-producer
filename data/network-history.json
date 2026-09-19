@@ -938,6 +938,42 @@
         "cafe",
         "cafe"
       ]
+    },
+    {
+      "ts": 1789838753666,
+      "block": 404297215,
+      "producer": "alvosec",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.8947368421052633,
+      "utilization": 0.04119873046875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.85,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp"
+      ]
     }
   ]
 }
