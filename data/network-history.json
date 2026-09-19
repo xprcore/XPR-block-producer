@@ -866,6 +866,42 @@
         "alvosec",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1789817195117,
+      "block": 404254102,
+      "producer": "totalproton",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.4210526315789473,
+      "utilization": 0.0396728515625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.15,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp"
+      ]
     }
   ]
 }
