@@ -1010,6 +1010,42 @@
         "totalproton",
         "totalproton"
       ]
+    },
+    {
+      "ts": 1789853846080,
+      "block": 404327398,
+      "producer": "snipverse",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.6842105263157894,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.75,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "snipverse",
+        "snipverse",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk"
+      ]
     }
   ]
 }
