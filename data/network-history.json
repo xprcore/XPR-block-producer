@@ -974,6 +974,42 @@
         "xprnodeonebp",
         "xprnodeonebp"
       ]
+    },
+    {
+      "ts": 1789846054619,
+      "block": 404311817,
+      "producer": "xprnodeonebp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.789473684210526,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.8,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }
