@@ -1190,6 +1190,42 @@
         "totalproton",
         "totalproton"
       ]
+    },
+    {
+      "ts": 1789916296849,
+      "block": 404452301,
+      "producer": "eosamsterdam",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.368421052631579,
+      "utilization": 0.02288818359375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.55,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions"
+      ]
     }
   ]
 }
