@@ -1262,6 +1262,42 @@
         "madblocks",
         "madblocks"
       ]
+    },
+    {
+      "ts": 1789937088732,
+      "block": 404493884,
+      "producer": "eosamsterdam",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.1578947368421053,
+      "utilization": 0.075531005859375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.5,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions"
+      ]
     }
   ]
 }
