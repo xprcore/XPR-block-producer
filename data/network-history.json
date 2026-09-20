@@ -1298,6 +1298,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1789944180442,
+      "block": 404508068,
+      "producer": "protonuk",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.9473684210526314,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.4,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz"
+      ]
     }
   ]
 }
