@@ -1154,6 +1154,42 @@
         "protonuk",
         "protonuk"
       ]
+    },
+    {
+      "ts": 1789905149457,
+      "block": 404430007,
+      "producer": "xprnodeonebp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 9.263157894736842,
+      "utilization": 0.048065185546875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 4.4,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }
