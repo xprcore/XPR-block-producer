@@ -1334,6 +1334,42 @@
         "protonnz",
         "protonnz"
       ]
+    },
+    {
+      "ts": 1789950647657,
+      "block": 404521001,
+      "producer": "blocksforge",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.157894736842105,
+      "utilization": 0.02593994140625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.45,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec"
+      ]
     }
   ]
 }

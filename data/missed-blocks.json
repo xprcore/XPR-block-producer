@@ -2,24 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1787356970000,
+  "oldestTs": 1787756520000,
   "newestTs": 1789638189000,
   "pages": 17,
   "events": [
-    {
-      "producer": "cerebroai",
-      "round": 1,
-      "block": 399336908,
-      "ts": 1787356970000,
-      "postId": 9002
-    },
-    {
-      "producer": "cerebroai",
-      "round": 2,
-      "block": 399337147,
-      "ts": 1787357095500,
-      "postId": 9003
-    },
     {
       "producer": "cryptolions",
       "round": 1,
