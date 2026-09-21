@@ -1442,6 +1442,42 @@
         "protonmadrid",
         "protonmadrid"
       ]
+    },
+    {
+      "ts": 1790008751890,
+      "block": 404637211,
+      "producer": "cafe",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.473684210526316,
+      "utilization": 0.103759765625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.6,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp"
+      ]
     }
   ]
 }
