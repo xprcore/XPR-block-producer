@@ -1478,6 +1478,42 @@
         "brotonbp",
         "brotonbp"
       ]
+    },
+    {
+      "ts": 1790022936751,
+      "block": 404665580,
+      "producer": "saltant",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 7.684210526315789,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3.65,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk"
+      ]
     }
   ]
 }
