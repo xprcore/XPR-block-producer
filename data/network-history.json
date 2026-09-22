@@ -1730,6 +1730,42 @@
         "eosamsterdam",
         "eosamsterdam"
       ]
+    },
+    {
+      "ts": 1790116871504,
+      "block": 404853450,
+      "producer": "cerebroai",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 6.842105263157895,
+      "utilization": 0.0396728515625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3.25,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote"
+      ]
     }
   ]
 }
