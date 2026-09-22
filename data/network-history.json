@@ -1694,6 +1694,42 @@
         "blocksforge",
         "blocksforge"
       ]
+    },
+    {
+      "ts": 1790106941808,
+      "block": 404833589,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.7894736842105265,
+      "utilization": 0.078582763671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.75,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam"
+      ]
     }
   ]
 }
