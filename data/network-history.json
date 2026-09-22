@@ -1586,6 +1586,42 @@
         "protonmadrid",
         "protonmadrid"
       ]
+    },
+    {
+      "ts": 1790059871125,
+      "block": 404739448,
+      "producer": "totalproton",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.7368421052631575,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.25,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp"
+      ]
     }
   ]
 }
