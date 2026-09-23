@@ -1874,6 +1874,42 @@
         "blocksforge",
         "blocksforge"
       ]
+    },
+    {
+      "ts": 1790175744836,
+      "block": 404971191,
+      "producer": "protonind",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.9473684210526314,
+      "utilization": 0.077056884765625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.4,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonind",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa"
+      ]
     }
   ]
 }
