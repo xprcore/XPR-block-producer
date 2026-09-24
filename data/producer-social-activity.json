@@ -1,7 +1,1482 @@
 {
   "version": 2,
-  "updatedAt": null,
-  "coverageStart": null,
-  "producerCount": 0,
-  "producers": {}
+  "updatedAt": "2026-09-24T16:27:38.263Z",
+  "coverageStart": "2026-09-24T16:27:38.269Z",
+  "producerCount": 37,
+  "producers": {
+    "alvosec": {
+      "owner": "alvosec",
+      "social": {
+        "twitter": "https://x.com/alvosec",
+        "youtube": "https://www.youtube.com/@channel/UCBle0p77gkC6itLDN5u91Cg",
+        "telegram": "https://t.me/alvosec",
+        "github": "https://github.com/alvosec",
+        "keybase": "https://keybase.io/alvosec",
+        "reddit": "https://www.reddit.com/user/alvosec",
+        "facebook": "https://www.facebook.com/alvosec"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "artwebin": {
+      "owner": "artwebin",
+      "social": {
+        "twitter": "https://x.com/artwebin",
+        "telegram": "https://t.me/artwebin"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "blocksforge": {
+      "owner": "blocksforge",
+      "social": {
+        "telegram": "https://t.me/+M8CY4nyK5NU5MTk1",
+        "twitter": "https://x.com/blocksforgeXPR"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "bloxprod": {
+      "owner": "bloxprod",
+      "social": {
+        "twitter": "https://x.com/bloxprodio",
+        "telegram": "https://t.me/bloxprodio",
+        "github": "https://github.com/bloxprodio"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "bpadex": {
+      "owner": "bpadex",
+      "social": {
+        "steemit": "https://steemit.com/@a-dex",
+        "github": "https://github.com/a-dex",
+        "twitter": "https://x.com/a_dex_official",
+        "telegram": "https://t.me/a_dex_official",
+        "medium": "https://medium.com/@a-dex"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "medium": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "medium": []
+      }
+    },
+    "brotonbp": {
+      "owner": "brotonbp",
+      "social": {
+        "twitter": "https://x.com/brotonbp",
+        "telegram": "https://t.me/brotonbpgroup"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "cafe": {
+      "owner": "cafe",
+      "social": {
+        "twitter": "https://x.com/MetallicusTDBN",
+        "youtube": "https://youtube.com/c/metallicusTDBN",
+        "telegram": "https://t.me/MetallicusTDBN",
+        "github": "https://github.com/metallicusdev"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": []
+      }
+    },
+    "catsvote": {
+      "owner": "catsvote",
+      "social": {
+        "twitter": "https://x.com/catsvoteXPR",
+        "telegram": "https://t.me/catsvote"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "cerebroai": {
+      "owner": "cerebroai",
+      "social": {
+        "twitter": "https://x.com/Cerebro_Agent",
+        "telegram": "https://t.me/CerebroAgentBot",
+        "github": "https://github.com/VirgilBB"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "chaininfra": {
+      "owner": "chaininfra",
+      "social": {
+        "twitter": "https://x.com/lilreom",
+        "telegram": "https://t.me/chaininfra",
+        "github": "https://github.com/chaininfra"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "cindronet": {
+      "owner": "cindronet",
+      "social": {
+        "twitter": "https://x.com/cindronet",
+        "telegram": "https://t.me/cindronet"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "cryptolions": {
+      "owner": "cryptolions",
+      "social": {
+        "steemit": "https://steemit.com/@cryptolions",
+        "twitter": "https://x.com/EOS_CryptoLions",
+        "youtube": "https://www.youtube.com/@channel/UCB7F-KO0mmZ1yVBCq0_1gtA",
+        "github": "https://github.com/CryptoLions",
+        "keybase": "https://keybase.io/cryptolions",
+        "telegram": "https://t.me/CryptoLions_io"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": []
+      }
+    },
+    "danemarkbp": {
+      "owner": "danemarkbp",
+      "social": {
+        "telegram": "https://t.me/hellium",
+        "twitter": "https://x.com/danemarkbp"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "energybp": {
+      "owner": "energybp",
+      "social": {
+        "telegram": "https://t.me/EnergyBP",
+        "twitter": "https://x.com/metal_xpr"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "eosamsterdam": {
+      "owner": "eosamsterdam",
+      "social": {
+        "steemit": "https://steemit.com/@eosamsterdam",
+        "twitter": "https://x.com/eosamsterdam",
+        "facebook": "https://www.facebook.com/EOS-Amsterdam-1586544661442120",
+        "github": "https://github.com/eosamsterdam",
+        "reddit": "https://www.reddit.com/user/eosamsterdam",
+        "keybase": "https://keybase.io/monetashi",
+        "telegram": "https://t.me/EOS_Amsterdam",
+        "wechat": "https://www.wechat.com/eosamsterdam"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "reddit": []
+      }
+    },
+    "eosarabianet": {
+      "owner": "eosarabianet",
+      "social": {
+        "steemit": "https://steemit.com/@eos.arabia",
+        "twitter": "https://x.com/eos_arabia",
+        "youtube": "https://www.youtube.com/@channel/UCku8FY8kPuJ7asKw5LKTDIg",
+        "telegram": "https://t.me/EOS_Arabia",
+        "github": "https://github.com/EOS-Arabia"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": []
+      }
+    },
+    "eosiodetroit": {
+      "owner": "eosiodetroit",
+      "social": {
+        "steemit": "https://steemit.com/@eos.detroit",
+        "twitter": "https://x.com/detledgertech",
+        "youtube": "https://www.youtube.com/@detroitledgertechnologies",
+        "facebook": "https://www.facebook.com/detroitledgertech",
+        "github": "https://github.com/eosdetroit",
+        "reddit": "https://www.reddit.com/user/eosdetroit",
+        "keybase": "https://keybase.io/wakeupjohnny",
+        "telegram": "https://t.me/detroitledgertech",
+        "wechat": "https://www.wechat.com/robrigo_eosdetroit"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "eosrio": {
+      "owner": "eosrio",
+      "social": {
+        "steemit": "https://steemit.com/@eosrio",
+        "twitter": "https://x.com/eosriobrazil",
+        "youtube": "https://www.youtube.com/@channel/UC5aslySB2QP_v8dyMMBcTxw",
+        "facebook": "https://www.facebook.com/EOSRioBP",
+        "github": "https://github.com/eosrio",
+        "reddit": "https://www.reddit.com/user/eosrio",
+        "keybase": "https://keybase.io/igorls",
+        "telegram": "https://t.me/eosrio",
+        "wechat": "https://www.wechat.com/eosrio"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "eosusa": {
+      "owner": "eosusa",
+      "social": {
+        "steemit": "https://steemit.com/@realitybytes",
+        "twitter": "https://x.com/ivote4_eos_usa",
+        "youtube": "https://www.youtube.com/@user/calbright4",
+        "facebook": "https://www.facebook.com/ivote4eosusa",
+        "github": "https://github.com/eosusa",
+        "keybase": "https://keybase.io/eosusa",
+        "telegram": "https://t.me/eosusa"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": []
+      }
+    },
+    "genereos": {
+      "owner": "genereos",
+      "social": {
+        "steemit": "https://steemit.com/@genereos",
+        "twitter": "https://x.com/GenerEOSAus",
+        "youtube": "https://www.youtube.com/channel/UC7TN0V2KCVTYvIHbtj_9Dvw",
+        "facebook": "https://www.facebook.com/generEOS",
+        "github": "https://github.com/generEOS",
+        "reddit": "https://www.reddit.com/user/generEOS",
+        "keybase": "https://keybase.io/genereos1",
+        "telegram": "https://t.me/generEOS",
+        "wechat": "https://www.wechat.com/ralf-genereos"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "homebloksbp": {
+      "owner": "homebloksbp",
+      "social": {
+        "telegram": "https://t.me/Homebloks",
+        "twitter": "https://x.com/homebloks"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "ledgerwiseio": {
+      "owner": "ledgerwiseio",
+      "social": {
+        "telegram": "https://t.me/ledgerwiseio",
+        "twitter": "https://x.com/ledgerwise",
+        "keybase": "https://keybase.io/tanishv",
+        "github": "https://github.com/ledgerwise"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "luminaryvisn": {
+      "owner": "luminaryvisn",
+      "social": {
+        "telegram": "https://t.me/luminaryvisn",
+        "twitter": "https://x.com/luminaryvisn",
+        "youtube": "https://www.youtube.com/channel/UC_oes4JZiKCBhD4cBtdEP3Q",
+        "reddit": "https://www.reddit.com/user/luminaryvisn/"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "madblocks": {
+      "owner": "madblocks",
+      "social": {
+        "twitter": "https://x.com/madblocksbp",
+        "telegram": "https://t.me/+3MwEsa3gA0hkZTBk"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "protonind": {
+      "owner": "protonind",
+      "social": {
+        "twitter": "https://x.com/protonind",
+        "youtube": "https://www.youtube.com/@protonind",
+        "reddit": "https://www.reddit.com/user/protonind",
+        "telegram": "https://t.me/thatzprem",
+        "github": "https://github.com/thatzprem",
+        "facebook": "https://www.facebook.com/protonind"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "protonmadrid": {
+      "owner": "protonmadrid",
+      "social": {
+        "telegram": "https://t.me/telosmadrid",
+        "twitter": "https://x.com/madridtelos",
+        "keybase": "https://keybase.io/msegurola",
+        "github": "https://github.com/telosmadrid"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "protonnz": {
+      "owner": "protonnz",
+      "social": {
+        "twitter": "https://x.com/protonnz",
+        "youtube": "https://www.youtube.com/@protonnz",
+        "reddit": "https://www.reddit.com/user/protonnz",
+        "telegram": "https://t.me/protonnz",
+        "github": "https://github.com/protonnz",
+        "facebook": "https://www.facebook.com/protonnz"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "protonuk": {
+      "owner": "protonuk",
+      "social": {
+        "telegram": "https://t.me/protonuk",
+        "twitter": "https://x.com/proton_uk",
+        "reddit": "https://www.reddit.com/user/protonuk"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "reddit": []
+      }
+    },
+    "rockeronebp": {
+      "owner": "rockeronebp",
+      "social": {
+        "twitter": "https://x.com/rockeronebp",
+        "youtube": "https://www.youtube.com/@rokeronebp",
+        "telegram": "https://t.me/rockerzOne",
+        "github": "https://github.com/rokeronebp",
+        "keybase": "https://keybase.io/rokeronebp",
+        "reddit": "https://www.reddit.com/user/rokeronebp",
+        "facebook": "https://www.facebook.com/rokeronebp"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "youtube": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "reddit": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "youtube": [],
+        "reddit": []
+      }
+    },
+    "saltant": {
+      "owner": "saltant",
+      "social": {
+        "keybase": "https://keybase.io/saltant",
+        "telegram": "https://t.me/saltant_bp",
+        "twitter": "https://x.com/SaltantXPR",
+        "github": "https://github.com/saltant",
+        "medium": "https://medium.com/@saltantxpr"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "medium": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": [],
+        "medium": []
+      }
+    },
+    "snipverse": {
+      "owner": "snipverse",
+      "social": {
+        "twitter": "https://x.com/snipverse",
+        "telegram": "https://t.me/snipversexpr"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "storexbp": {
+      "owner": "storexbp",
+      "social": {
+        "telegram": "https://t.me/storex_io",
+        "twitter": "https://x.com/storex_io",
+        "medium": "https://medium.com/@storex"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "medium": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "medium": []
+      }
+    },
+    "totalproton": {
+      "owner": "totalproton",
+      "social": {
+        "twitter": "https://x.com/protontotal",
+        "github": "https://github.com/totalprotondev",
+        "telegram": "https://t.me/totalproton"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "turtlebp": {
+      "owner": "turtlebp",
+      "social": {
+        "telegram": "https://t.me/turtle_BP",
+        "twitter": "https://x.com/turtle_xpr",
+        "github": "https://github.com/turlebp"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "xprcore": {
+      "owner": "xprcore",
+      "social": {
+        "twitter": "https://x.com/xprcore",
+        "telegram": "https://t.me/xprcore",
+        "github": "https://github.com/xprcore"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    },
+    "xprdata": {
+      "owner": "xprdata",
+      "social": {
+        "twitter": "https://x.com/xpr_data",
+        "telegram": "https://t.me/Mirsad_XPRdata"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": []
+      }
+    },
+    "xprnodeonebp": {
+      "owner": "xprnodeonebp",
+      "social": {
+        "telegram": "https://t.me/nodeoneio",
+        "twitter": "https://x.com/eosnodeoneio",
+        "github": "https://github.com/nodeoneio"
+      },
+      "activity": {
+        "7D": 0,
+        "30D": 0,
+        "1Y": 0
+      },
+      "networkActivity": {
+        "telegram": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        },
+        "github": {
+          "count": {
+            "7D": 0,
+            "30D": 0,
+            "1Y": 0
+          },
+          "lastActivity": null
+        }
+      },
+      "lastSocialActivity": null,
+      "events": {
+        "telegram": [],
+        "github": []
+      }
+    }
+  }
 }
