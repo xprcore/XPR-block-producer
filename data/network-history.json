@@ -2018,6 +2018,42 @@
         "blocksforge",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1790226750584,
+      "block": 405073202,
+      "producer": "chaininfra",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.7894736842105263,
+      "utilization": 0.016021728515625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.85,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai"
+      ]
     }
   ]
 }
