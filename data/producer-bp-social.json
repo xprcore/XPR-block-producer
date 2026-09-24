@@ -1,7 +1,7 @@
 {
   "version": 2,
   "chainId": "384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0",
-  "updatedAt": "2026-09-24T14:46:12.450Z",
+  "updatedAt": "2026-09-24T15:48:52.977Z",
   "producerCount": 37,
   "producers": {
     "alvosec": {
@@ -18,7 +18,7 @@
         "reddit": "https://www.reddit.com/user/alvosec",
         "facebook": "https://www.facebook.com/alvosec"
       },
-      "fetchedAt": "2026-09-24T14:45:41.579Z",
+      "fetchedAt": "2026-09-24T15:48:14.955Z",
       "error": null
     },
     "artwebin": {
@@ -30,7 +30,7 @@
         "twitter": "https://x.com/artwebin",
         "telegram": "https://t.me/artwebin"
       },
-      "fetchedAt": "2026-09-24T14:45:42.530Z",
+      "fetchedAt": "2026-09-24T15:48:16.255Z",
       "error": null
     },
     "blocksforge": {
@@ -42,7 +42,7 @@
         "telegram": "https://t.me/+M8CY4nyK5NU5MTk1",
         "twitter": "https://x.com/blocksforgeXPR"
       },
-      "fetchedAt": "2026-09-24T14:45:42.975Z",
+      "fetchedAt": "2026-09-24T15:48:16.457Z",
       "error": null
     },
     "bloxprod": {
@@ -55,7 +55,7 @@
         "telegram": "https://t.me/bloxprodio",
         "github": "https://github.com/bloxprodio"
       },
-      "fetchedAt": "2026-09-24T14:45:44.201Z",
+      "fetchedAt": "2026-09-24T15:48:17.352Z",
       "error": null
     },
     "bpadex": {
@@ -70,7 +70,7 @@
         "telegram": "https://t.me/a_dex_official",
         "medium": "https://medium.com/@a-dex"
       },
-      "fetchedAt": "2026-09-24T14:45:44.641Z",
+      "fetchedAt": "2026-09-24T15:48:17.921Z",
       "error": null
     },
     "brotonbp": {
@@ -82,17 +82,22 @@
         "twitter": "https://x.com/brotonbp",
         "telegram": "https://t.me/brotonbpgroup"
       },
-      "fetchedAt": "2026-09-24T14:45:46.210Z",
+      "fetchedAt": "2026-09-24T15:48:19.494Z",
       "error": null
     },
     "cafe": {
       "owner": "cafe",
       "rank": null,
       "website": "https://metallicus.com/cafe",
-      "bpUrl": null,
-      "social": {},
-      "fetchedAt": "2026-09-24T14:45:46.407Z",
-      "error": "bp.json unavailable"
+      "bpUrl": "https://metallicus.com/cafe/bp.json",
+      "social": {
+        "twitter": "https://x.com/MetallicusTDBN",
+        "youtube": "https://youtube.com/c/metallicusTDBN",
+        "telegram": "https://t.me/MetallicusTDBN",
+        "github": "https://github.com/metallicusdev"
+      },
+      "fetchedAt": "2026-09-24T15:48:19.895Z",
+      "error": null
     },
     "catsvote": {
       "owner": "catsvote",
@@ -103,7 +108,7 @@
         "twitter": "https://x.com/catsvoteXPR",
         "telegram": "https://t.me/catsvote"
       },
-      "fetchedAt": "2026-09-24T14:45:46.912Z",
+      "fetchedAt": "2026-09-24T15:48:21.923Z",
       "error": null
     },
     "cerebroai": {
@@ -116,7 +121,7 @@
         "telegram": "https://t.me/CerebroAgentBot",
         "github": "https://github.com/VirgilBB"
       },
-      "fetchedAt": "2026-09-24T14:45:47.151Z",
+      "fetchedAt": "2026-09-24T15:48:22.680Z",
       "error": null
     },
     "chaininfra": {
@@ -129,7 +134,7 @@
         "telegram": "https://t.me/chaininfra",
         "github": "https://github.com/chaininfra"
       },
-      "fetchedAt": "2026-09-24T14:45:47.790Z",
+      "fetchedAt": "2026-09-24T15:48:22.899Z",
       "error": null
     },
     "cindronet": {
@@ -141,17 +146,24 @@
         "twitter": "https://x.com/cindronet",
         "telegram": "https://t.me/cindronet"
       },
-      "fetchedAt": "2026-09-24T14:45:48.277Z",
+      "fetchedAt": "2026-09-24T15:48:24.524Z",
       "error": null
     },
     "cryptolions": {
       "owner": "cryptolions",
       "rank": null,
       "website": "https://cryptolions.io",
-      "bpUrl": null,
-      "social": {},
-      "fetchedAt": "2026-09-24T14:45:49.849Z",
-      "error": "bp.json unavailable"
+      "bpUrl": "https://cryptolions.io/proton.json",
+      "social": {
+        "steemit": "https://steemit.com/@cryptolions",
+        "twitter": "https://x.com/EOS_CryptoLions",
+        "youtube": "https://www.youtube.com/@channel/UCB7F-KO0mmZ1yVBCq0_1gtA",
+        "github": "https://github.com/CryptoLions",
+        "keybase": "https://keybase.io/cryptolions",
+        "telegram": "https://t.me/CryptoLions_io"
+      },
+      "fetchedAt": "2026-09-24T15:48:25.466Z",
+      "error": null
     },
     "danemarkbp": {
       "owner": "danemarkbp",
@@ -162,17 +174,20 @@
         "telegram": "https://t.me/hellium",
         "twitter": "https://x.com/danemarkbp"
       },
-      "fetchedAt": "2026-09-24T14:45:50.607Z",
+      "fetchedAt": "2026-09-24T15:48:26.375Z",
       "error": null
     },
     "energybp": {
       "owner": "energybp",
       "rank": null,
       "website": "https://metalxpr.com/energybp",
-      "bpUrl": null,
-      "social": {},
-      "fetchedAt": "2026-09-24T14:45:51.024Z",
-      "error": "bp.json unavailable"
+      "bpUrl": "https://metalxpr.com/energybp/bp.json",
+      "social": {
+        "telegram": "https://t.me/EnergyBP",
+        "twitter": "https://x.com/metal_xpr"
+      },
+      "fetchedAt": "2026-09-24T15:48:26.982Z",
+      "error": null
     },
     "eosamsterdam": {
       "owner": "eosamsterdam",
@@ -189,7 +204,7 @@
         "telegram": "https://t.me/EOS_Amsterdam",
         "wechat": "https://www.wechat.com/eosamsterdam"
       },
-      "fetchedAt": "2026-09-24T14:45:53.089Z",
+      "fetchedAt": "2026-09-24T15:48:30.527Z",
       "error": null
     },
     "eosarabianet": {
@@ -201,9 +216,10 @@
         "steemit": "https://steemit.com/@eos.arabia",
         "twitter": "https://x.com/eos_arabia",
         "youtube": "https://www.youtube.com/@channel/UCku8FY8kPuJ7asKw5LKTDIg",
-        "telegram": "https://t.me/EOS_Arabia"
+        "telegram": "https://t.me/EOS_Arabia",
+        "github": "https://github.com/EOS-Arabia"
       },
-      "fetchedAt": "2026-09-24T14:45:55.815Z",
+      "fetchedAt": "2026-09-24T15:48:31.596Z",
       "error": null
     },
     "eosiodetroit": {
@@ -222,26 +238,44 @@
         "telegram": "https://t.me/detroitledgertech",
         "wechat": "https://www.wechat.com/robrigo_eosdetroit"
       },
-      "fetchedAt": "2026-09-24T14:45:56.161Z",
+      "fetchedAt": "2026-09-24T15:48:31.873Z",
       "error": null
     },
     "eosrio": {
       "owner": "eosrio",
       "rank": null,
       "website": "https://eosrio.io/proton/",
-      "bpUrl": null,
-      "social": {},
-      "fetchedAt": "2026-09-24T14:45:57.726Z",
-      "error": "bp.json unavailable"
+      "bpUrl": "https://eosrio.io/proton/bp.json",
+      "social": {
+        "steemit": "https://steemit.com/@eosrio",
+        "twitter": "https://x.com/eosriobrazil",
+        "youtube": "https://www.youtube.com/@channel/UC5aslySB2QP_v8dyMMBcTxw",
+        "facebook": "https://www.facebook.com/EOSRioBP",
+        "github": "https://github.com/eosrio",
+        "reddit": "https://www.reddit.com/user/eosrio",
+        "keybase": "https://keybase.io/igorls",
+        "telegram": "https://t.me/eosrio",
+        "wechat": "https://www.wechat.com/eosrio"
+      },
+      "fetchedAt": "2026-09-24T15:48:33.079Z",
+      "error": null
     },
     "eosusa": {
       "owner": "eosusa",
       "rank": null,
       "website": "https://eosusa.io/bp/proton/",
-      "bpUrl": null,
-      "social": {},
-      "fetchedAt": "2026-09-24T14:45:58.070Z",
-      "error": "bp.json unavailable"
+      "bpUrl": "https://eosusa.io/bp/proton/bp.json",
+      "social": {
+        "steemit": "https://steemit.com/@realitybytes",
+        "twitter": "https://x.com/ivote4_eos_usa",
+        "youtube": "https://www.youtube.com/@user/calbright4",
+        "facebook": "https://www.facebook.com/ivote4eosusa",
+        "github": "https://github.com/eosusa",
+        "keybase": "https://keybase.io/eosusa",
+        "telegram": "https://t.me/eosusa"
+      },
+      "fetchedAt": "2026-09-24T15:48:33.613Z",
+      "error": null
     },
     "genereos": {
       "owner": "genereos",
@@ -249,7 +283,7 @@
       "website": "https://genereos.io",
       "bpUrl": null,
       "social": {},
-      "fetchedAt": "2026-09-24T14:45:58.926Z",
+      "fetchedAt": "2026-09-24T15:48:37.894Z",
       "error": "bp.json unavailable"
     },
     "homebloksbp": {
@@ -261,17 +295,22 @@
         "telegram": "https://t.me/Homebloks",
         "twitter": "https://x.com/homebloks"
       },
-      "fetchedAt": "2026-09-24T14:45:59.622Z",
+      "fetchedAt": "2026-09-24T15:48:38.357Z",
       "error": null
     },
     "ledgerwiseio": {
       "owner": "ledgerwiseio",
       "rank": null,
       "website": "https://ledgerwise.io/proton",
-      "bpUrl": null,
-      "social": {},
-      "fetchedAt": "2026-09-24T14:46:00.141Z",
-      "error": "bp.json unavailable"
+      "bpUrl": "https://ledgerwise.io/proton/bp.json",
+      "social": {
+        "telegram": "https://t.me/ledgerwiseio",
+        "twitter": "https://x.com/ledgerwise",
+        "keybase": "https://keybase.io/tanishv",
+        "github": "https://github.com/ledgerwise"
+      },
+      "fetchedAt": "2026-09-24T15:48:38.951Z",
+      "error": null
     },
     "luminaryvisn": {
       "owner": "luminaryvisn",
@@ -284,7 +323,7 @@
         "youtube": "https://www.youtube.com/channel/UC_oes4JZiKCBhD4cBtdEP3Q",
         "reddit": "https://www.reddit.com/user/luminaryvisn/"
       },
-      "fetchedAt": "2026-09-24T14:46:00.270Z",
+      "fetchedAt": "2026-09-24T15:48:39.666Z",
       "error": null
     },
     "madblocks": {
@@ -296,7 +335,7 @@
         "twitter": "https://x.com/madblocksbp",
         "telegram": "https://t.me/+3MwEsa3gA0hkZTBk"
       },
-      "fetchedAt": "2026-09-24T14:46:01.033Z",
+      "fetchedAt": "2026-09-24T15:48:40.756Z",
       "error": null
     },
     "protonind": {
@@ -312,17 +351,22 @@
         "github": "https://github.com/thatzprem",
         "facebook": "https://www.facebook.com/protonind"
       },
-      "fetchedAt": "2026-09-24T14:46:02.276Z",
+      "fetchedAt": "2026-09-24T15:48:41.914Z",
       "error": null
     },
     "protonmadrid": {
       "owner": "protonmadrid",
       "rank": null,
       "website": "https://eosiomadrid.io/proton",
-      "bpUrl": null,
-      "social": {},
-      "fetchedAt": "2026-09-24T14:46:03.359Z",
-      "error": "bp.json unavailable"
+      "bpUrl": "https://eosiomadrid.io/proton/bp.json",
+      "social": {
+        "telegram": "https://t.me/telosmadrid",
+        "twitter": "https://x.com/madridtelos",
+        "keybase": "https://keybase.io/msegurola",
+        "github": "https://github.com/telosmadrid"
+      },
+      "fetchedAt": "2026-09-24T15:48:42.972Z",
+      "error": null
     },
     "protonnz": {
       "owner": "protonnz",
@@ -337,7 +381,7 @@
         "github": "https://github.com/protonnz",
         "facebook": "https://www.facebook.com/protonnz"
       },
-      "fetchedAt": "2026-09-24T14:46:03.774Z",
+      "fetchedAt": "2026-09-24T15:48:43.265Z",
       "error": null
     },
     "protonuk": {
@@ -350,7 +394,7 @@
         "twitter": "https://x.com/proton_uk",
         "reddit": "https://www.reddit.com/user/protonuk"
       },
-      "fetchedAt": "2026-09-24T14:46:04.902Z",
+      "fetchedAt": "2026-09-24T15:48:44.180Z",
       "error": null
     },
     "rockeronebp": {
@@ -359,7 +403,7 @@
       "website": "https://bp.rockerone.io",
       "bpUrl": null,
       "social": {},
-      "fetchedAt": "2026-09-24T14:46:06.380Z",
+      "fetchedAt": "2026-09-24T15:48:45.599Z",
       "error": "bp.json unavailable"
     },
     "saltant": {
@@ -374,7 +418,7 @@
         "github": "https://github.com/saltant",
         "medium": "https://medium.com/@saltantxpr"
       },
-      "fetchedAt": "2026-09-24T14:46:07.199Z",
+      "fetchedAt": "2026-09-24T15:48:46.707Z",
       "error": null
     },
     "snipverse": {
@@ -386,7 +430,7 @@
         "twitter": "https://x.com/snipverse",
         "telegram": "https://t.me/snipversexpr"
       },
-      "fetchedAt": "2026-09-24T14:46:07.697Z",
+      "fetchedAt": "2026-09-24T15:48:46.957Z",
       "error": null
     },
     "storexbp": {
@@ -399,7 +443,7 @@
         "twitter": "https://x.com/storex_io",
         "medium": "https://medium.com/@storex"
       },
-      "fetchedAt": "2026-09-24T14:46:08.303Z",
+      "fetchedAt": "2026-09-24T15:48:47.531Z",
       "error": null
     },
     "totalproton": {
@@ -412,7 +456,7 @@
         "github": "https://github.com/totalprotondev",
         "telegram": "https://t.me/totalproton"
       },
-      "fetchedAt": "2026-09-24T14:46:09.330Z",
+      "fetchedAt": "2026-09-24T15:48:50.332Z",
       "error": null
     },
     "turtlebp": {
@@ -425,7 +469,7 @@
         "twitter": "https://x.com/turtle_xpr",
         "github": "https://github.com/turlebp"
       },
-      "fetchedAt": "2026-09-24T14:46:10.074Z",
+      "fetchedAt": "2026-09-24T15:48:50.980Z",
       "error": null
     },
     "xprcore": {
@@ -438,7 +482,7 @@
         "telegram": "https://t.me/xprcore",
         "github": "https://github.com/xprcore"
       },
-      "fetchedAt": "2026-09-24T14:46:10.422Z",
+      "fetchedAt": "2026-09-24T15:48:51.314Z",
       "error": null
     },
     "xprdata": {
@@ -450,7 +494,7 @@
         "twitter": "https://x.com/xpr_data",
         "telegram": "https://t.me/Mirsad_XPRdata"
       },
-      "fetchedAt": "2026-09-24T14:46:11.493Z",
+      "fetchedAt": "2026-09-24T15:48:52.218Z",
       "error": null
     },
     "xprnodeonebp": {
@@ -459,7 +503,7 @@
       "website": "https://www.nodeone.io",
       "bpUrl": null,
       "social": {},
-      "fetchedAt": "2026-09-24T14:46:12.450Z",
+      "fetchedAt": "2026-09-24T15:48:52.977Z",
       "error": "bp.json unavailable"
     }
   }
