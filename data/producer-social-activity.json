@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updatedAt": "2026-09-24T17:38:36.817Z",
-  "coverageStart": "2025-09-24T17:38:36.817Z",
+  "updatedAt": "2026-09-24T20:04:12.348Z",
+  "coverageStart": "2025-09-24T20:04:12.348Z",
   "producerCount": 37,
   "producers": {
     "alvosec": {
@@ -21,7 +21,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:08.072Z"
+          "checkedAt": "2026-09-24T20:03:37.333Z"
         },
         "telegram": {
           "count": {
@@ -32,7 +32,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:08.822Z"
+          "checkedAt": "2026-09-24T20:03:38.475Z"
         },
         "youtube": {
           "count": {
@@ -43,7 +43,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "7 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:09.136Z"
+          "checkedAt": "2026-09-24T20:03:38.843Z"
         },
         "reddit": {
           "count": {
@@ -54,7 +54,7 @@
           "lastActivity": "2026-03-05T20:45:20.000Z",
           "status": "NO_ACTIVITY",
           "detail": "No Reddit submissions returned",
-          "checkedAt": "2026-09-24T17:38:09.424Z"
+          "checkedAt": "2026-09-24T20:03:39.162Z"
         }
       },
       "lastSocialActivity": "2026-03-05T20:45:20.000Z",
@@ -75,7 +75,7 @@
         ]
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:07.566Z",
+        "checkedAt": "2026-09-24T20:03:37.036Z",
         "networks": {
           "github": {
             "source": "https://github.com/alvosec",
@@ -83,7 +83,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:08.072Z"
+            "checkedAt": "2026-09-24T20:03:37.333Z"
           },
           "telegram": {
             "source": "https://t.me/alvosec",
@@ -91,7 +91,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:08.822Z"
+            "checkedAt": "2026-09-24T20:03:38.475Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@channel/UCBle0p77gkC6itLDN5u91Cg",
@@ -99,7 +99,7 @@
             "detail": "7 YouTube videos found",
             "fetchedEvents": 7,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:09.136Z"
+            "checkedAt": "2026-09-24T20:03:38.843Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/alvosec",
@@ -107,7 +107,7 @@
             "detail": "No Reddit submissions returned",
             "fetchedEvents": 0,
             "storedEvents": 1,
-            "checkedAt": "2026-09-24T17:38:09.424Z"
+            "checkedAt": "2026-09-24T20:03:39.162Z"
           }
         }
       }
@@ -129,7 +129,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:09.866Z"
+          "checkedAt": "2026-09-24T20:03:39.753Z"
         }
       },
       "lastSocialActivity": null,
@@ -137,7 +137,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:09.675Z",
+        "checkedAt": "2026-09-24T20:03:39.412Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/artwebin",
@@ -145,7 +145,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:09.866Z"
+            "checkedAt": "2026-09-24T20:03:39.753Z"
           }
         }
       }
@@ -167,7 +167,7 @@
           "lastActivity": null,
           "status": "UNSUPPORTED",
           "detail": "Private/invite Telegram link cannot be read without joining the channel",
-          "checkedAt": "2026-09-24T17:38:10.117Z"
+          "checkedAt": "2026-09-24T20:03:40.005Z"
         }
       },
       "lastSocialActivity": null,
@@ -175,7 +175,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:10.117Z",
+        "checkedAt": "2026-09-24T20:03:40.004Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/+M8CY4nyK5NU5MTk1",
@@ -183,7 +183,7 @@
             "detail": "Private/invite Telegram link cannot be read without joining the channel",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:10.117Z"
+            "checkedAt": "2026-09-24T20:03:40.005Z"
           }
         }
       }
@@ -205,7 +205,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:10.582Z"
+          "checkedAt": "2026-09-24T20:03:40.528Z"
         },
         "telegram": {
           "count": {
@@ -216,7 +216,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:10.928Z"
+          "checkedAt": "2026-09-24T20:03:41.020Z"
         }
       },
       "lastSocialActivity": null,
@@ -225,7 +225,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:10.368Z",
+        "checkedAt": "2026-09-24T20:03:40.255Z",
         "networks": {
           "github": {
             "source": "https://github.com/bloxprodio",
@@ -233,7 +233,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:10.582Z"
+            "checkedAt": "2026-09-24T20:03:40.528Z"
           },
           "telegram": {
             "source": "https://t.me/bloxprodio",
@@ -241,7 +241,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:10.928Z"
+            "checkedAt": "2026-09-24T20:03:41.020Z"
           }
         }
       }
@@ -263,7 +263,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:11.325Z"
+          "checkedAt": "2026-09-24T20:03:41.419Z"
         },
         "telegram": {
           "count": {
@@ -274,7 +274,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:11.668Z"
+          "checkedAt": "2026-09-24T20:03:41.911Z"
         },
         "medium": {
           "count": {
@@ -285,7 +285,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "8 Medium articles found",
-          "checkedAt": "2026-09-24T17:38:12.209Z"
+          "checkedAt": "2026-09-24T20:03:42.561Z"
         }
       },
       "lastSocialActivity": null,
@@ -295,7 +295,7 @@
         "medium": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:11.178Z",
+        "checkedAt": "2026-09-24T20:03:41.271Z",
         "networks": {
           "github": {
             "source": "https://github.com/a-dex",
@@ -303,7 +303,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:11.325Z"
+            "checkedAt": "2026-09-24T20:03:41.419Z"
           },
           "telegram": {
             "source": "https://t.me/a_dex_official",
@@ -311,7 +311,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:11.668Z"
+            "checkedAt": "2026-09-24T20:03:41.911Z"
           },
           "medium": {
             "source": "https://medium.com/@a-dex",
@@ -319,7 +319,7 @@
             "detail": "8 Medium articles found",
             "fetchedEvents": 8,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:12.209Z"
+            "checkedAt": "2026-09-24T20:03:42.561Z"
           }
         }
       }
@@ -341,7 +341,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:12.653Z"
+          "checkedAt": "2026-09-24T20:03:43.150Z"
         }
       },
       "lastSocialActivity": null,
@@ -349,7 +349,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:12.460Z",
+        "checkedAt": "2026-09-24T20:03:42.812Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/brotonbpgroup",
@@ -357,7 +357,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:12.653Z"
+            "checkedAt": "2026-09-24T20:03:43.150Z"
           }
         }
       }
@@ -379,7 +379,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:13.046Z"
+          "checkedAt": "2026-09-24T20:03:43.595Z"
         },
         "telegram": {
           "count": {
@@ -390,7 +390,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:13.391Z"
+          "checkedAt": "2026-09-24T20:03:44.096Z"
         },
         "youtube": {
           "count": {
@@ -401,7 +401,7 @@
           "lastActivity": null,
           "status": "NOT_FOUND",
           "detail": "YouTube channel not found: https://youtube.com/c/metallicusTDBN",
-          "checkedAt": "2026-09-24T17:38:13.648Z"
+          "checkedAt": "2026-09-24T20:03:44.411Z"
         }
       },
       "lastSocialActivity": null,
@@ -411,7 +411,7 @@
         "youtube": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:12.904Z",
+        "checkedAt": "2026-09-24T20:03:43.401Z",
         "networks": {
           "github": {
             "source": "https://github.com/metallicusdev",
@@ -419,7 +419,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:13.046Z"
+            "checkedAt": "2026-09-24T20:03:43.595Z"
           },
           "telegram": {
             "source": "https://t.me/MetallicusTDBN",
@@ -427,7 +427,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:13.391Z"
+            "checkedAt": "2026-09-24T20:03:44.096Z"
           },
           "youtube": {
             "source": "https://youtube.com/c/metallicusTDBN",
@@ -435,7 +435,7 @@
             "detail": "YouTube channel not found: https://youtube.com/c/metallicusTDBN",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:13.648Z"
+            "checkedAt": "2026-09-24T20:03:44.411Z"
           }
         }
       }
@@ -457,7 +457,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:14.095Z"
+          "checkedAt": "2026-09-24T20:03:45.009Z"
         }
       },
       "lastSocialActivity": null,
@@ -465,7 +465,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:13.899Z",
+        "checkedAt": "2026-09-24T20:03:44.661Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/catsvote",
@@ -473,7 +473,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:14.095Z"
+            "checkedAt": "2026-09-24T20:03:45.009Z"
           }
         }
       }
@@ -495,7 +495,7 @@
           "lastActivity": "2026-08-31T05:20:53.000Z",
           "status": "OK",
           "detail": "16 public events",
-          "checkedAt": "2026-09-24T17:38:14.518Z"
+          "checkedAt": "2026-09-24T20:03:45.603Z"
         },
         "telegram": {
           "count": {
@@ -506,7 +506,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:14.861Z"
+          "checkedAt": "2026-09-24T20:03:46.096Z"
         }
       },
       "lastSocialActivity": "2026-08-31T05:20:53.000Z",
@@ -820,7 +820,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:14.346Z",
+        "checkedAt": "2026-09-24T20:03:45.260Z",
         "networks": {
           "github": {
             "source": "https://github.com/VirgilBB",
@@ -828,7 +828,7 @@
             "detail": "16 public events",
             "fetchedEvents": 16,
             "storedEvents": 32,
-            "checkedAt": "2026-09-24T17:38:14.518Z"
+            "checkedAt": "2026-09-24T20:03:45.603Z"
           },
           "telegram": {
             "source": "https://t.me/CerebroAgentBot",
@@ -836,7 +836,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:14.861Z"
+            "checkedAt": "2026-09-24T20:03:46.096Z"
           }
         }
       }
@@ -858,7 +858,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:15.197Z"
+          "checkedAt": "2026-09-24T20:03:46.490Z"
         },
         "telegram": {
           "count": {
@@ -869,7 +869,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:15.546Z"
+          "checkedAt": "2026-09-24T20:03:46.973Z"
         }
       },
       "lastSocialActivity": null,
@@ -878,7 +878,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:15.111Z",
+        "checkedAt": "2026-09-24T20:03:46.347Z",
         "networks": {
           "github": {
             "source": "https://github.com/chaininfra",
@@ -886,7 +886,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:15.197Z"
+            "checkedAt": "2026-09-24T20:03:46.490Z"
           },
           "telegram": {
             "source": "https://t.me/chaininfra",
@@ -894,7 +894,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:15.546Z"
+            "checkedAt": "2026-09-24T20:03:46.973Z"
           }
         }
       }
@@ -916,7 +916,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:15.985Z"
+          "checkedAt": "2026-09-24T20:03:47.560Z"
         }
       },
       "lastSocialActivity": null,
@@ -924,7 +924,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:15.795Z",
+        "checkedAt": "2026-09-24T20:03:47.223Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/cindronet",
@@ -932,7 +932,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:15.985Z"
+            "checkedAt": "2026-09-24T20:03:47.560Z"
           }
         }
       }
@@ -954,7 +954,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:16.345Z"
+          "checkedAt": "2026-09-24T20:03:47.937Z"
         },
         "telegram": {
           "count": {
@@ -965,7 +965,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:16.685Z"
+          "checkedAt": "2026-09-24T20:03:48.423Z"
         },
         "youtube": {
           "count": {
@@ -976,7 +976,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "15 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:16.995Z"
+          "checkedAt": "2026-09-24T20:03:48.756Z"
         }
       },
       "lastSocialActivity": null,
@@ -986,7 +986,7 @@
         "youtube": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:16.236Z",
+        "checkedAt": "2026-09-24T20:03:47.810Z",
         "networks": {
           "github": {
             "source": "https://github.com/CryptoLions",
@@ -994,7 +994,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:16.345Z"
+            "checkedAt": "2026-09-24T20:03:47.937Z"
           },
           "telegram": {
             "source": "https://t.me/CryptoLions_io",
@@ -1002,7 +1002,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:16.685Z"
+            "checkedAt": "2026-09-24T20:03:48.423Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@channel/UCB7F-KO0mmZ1yVBCq0_1gtA",
@@ -1010,7 +1010,7 @@
             "detail": "15 YouTube videos found",
             "fetchedEvents": 15,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:16.995Z"
+            "checkedAt": "2026-09-24T20:03:48.756Z"
           }
         }
       }
@@ -1032,7 +1032,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:17.436Z"
+          "checkedAt": "2026-09-24T20:03:49.347Z"
         }
       },
       "lastSocialActivity": null,
@@ -1040,7 +1040,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:17.245Z",
+        "checkedAt": "2026-09-24T20:03:49.007Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/hellium",
@@ -1048,7 +1048,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:17.436Z"
+            "checkedAt": "2026-09-24T20:03:49.347Z"
           }
         }
       }
@@ -1070,7 +1070,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:17.880Z"
+          "checkedAt": "2026-09-24T20:03:49.935Z"
         }
       },
       "lastSocialActivity": null,
@@ -1078,7 +1078,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:17.686Z",
+        "checkedAt": "2026-09-24T20:03:49.598Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/EnergyBP",
@@ -1086,7 +1086,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:17.880Z"
+            "checkedAt": "2026-09-24T20:03:49.935Z"
           }
         }
       }
@@ -1108,7 +1108,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:18.247Z"
+          "checkedAt": "2026-09-24T20:03:50.341Z"
         },
         "telegram": {
           "count": {
@@ -1119,7 +1119,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:18.589Z"
+          "checkedAt": "2026-09-24T20:03:50.833Z"
         },
         "reddit": {
           "count": {
@@ -1130,7 +1130,7 @@
           "lastActivity": null,
           "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:18.772Z"
+          "checkedAt": "2026-09-24T20:03:51.077Z"
         }
       },
       "lastSocialActivity": null,
@@ -1140,7 +1140,7 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:18.130Z",
+        "checkedAt": "2026-09-24T20:03:50.186Z",
         "networks": {
           "github": {
             "source": "https://github.com/eosamsterdam",
@@ -1148,7 +1148,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:18.247Z"
+            "checkedAt": "2026-09-24T20:03:50.341Z"
           },
           "telegram": {
             "source": "https://t.me/EOS_Amsterdam",
@@ -1156,7 +1156,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:18.589Z"
+            "checkedAt": "2026-09-24T20:03:50.833Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/eosamsterdam",
@@ -1164,7 +1164,7 @@
             "detail": "Reddit HTTP 429",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:18.772Z"
+            "checkedAt": "2026-09-24T20:03:51.077Z"
           }
         }
       }
@@ -1186,7 +1186,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:19.099Z"
+          "checkedAt": "2026-09-24T20:03:51.473Z"
         },
         "telegram": {
           "count": {
@@ -1197,7 +1197,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:19.444Z"
+          "checkedAt": "2026-09-24T20:03:51.963Z"
         },
         "youtube": {
           "count": {
@@ -1208,7 +1208,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "6 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:19.675Z"
+          "checkedAt": "2026-09-24T20:03:52.363Z"
         }
       },
       "lastSocialActivity": null,
@@ -1218,7 +1218,7 @@
         "youtube": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:19.022Z",
+        "checkedAt": "2026-09-24T20:03:51.327Z",
         "networks": {
           "github": {
             "source": "https://github.com/EOS-Arabia",
@@ -1226,7 +1226,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:19.099Z"
+            "checkedAt": "2026-09-24T20:03:51.473Z"
           },
           "telegram": {
             "source": "https://t.me/EOS_Arabia",
@@ -1234,7 +1234,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:19.444Z"
+            "checkedAt": "2026-09-24T20:03:51.963Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@channel/UCku8FY8kPuJ7asKw5LKTDIg",
@@ -1242,7 +1242,7 @@
             "detail": "6 YouTube videos found",
             "fetchedEvents": 6,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:19.675Z"
+            "checkedAt": "2026-09-24T20:03:52.363Z"
           }
         }
       }
@@ -1264,7 +1264,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:19.998Z"
+          "checkedAt": "2026-09-24T20:03:52.816Z"
         },
         "telegram": {
           "count": {
@@ -1275,7 +1275,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:20.353Z"
+          "checkedAt": "2026-09-24T20:03:53.321Z"
         },
         "youtube": {
           "count": {
@@ -1286,7 +1286,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "15 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:20.920Z"
+          "checkedAt": "2026-09-24T20:03:53.960Z"
         },
         "reddit": {
           "count": {
@@ -1297,7 +1297,7 @@
           "lastActivity": null,
           "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:21.086Z"
+          "checkedAt": "2026-09-24T20:03:54.189Z"
         }
       },
       "lastSocialActivity": null,
@@ -1308,7 +1308,7 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:19.926Z",
+        "checkedAt": "2026-09-24T20:03:52.614Z",
         "networks": {
           "github": {
             "source": "https://github.com/eosdetroit",
@@ -1316,7 +1316,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:19.998Z"
+            "checkedAt": "2026-09-24T20:03:52.816Z"
           },
           "telegram": {
             "source": "https://t.me/detroitledgertech",
@@ -1324,7 +1324,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:20.353Z"
+            "checkedAt": "2026-09-24T20:03:53.321Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@detroitledgertechnologies",
@@ -1332,7 +1332,7 @@
             "detail": "15 YouTube videos found",
             "fetchedEvents": 15,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:20.920Z"
+            "checkedAt": "2026-09-24T20:03:53.960Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/eosdetroit",
@@ -1340,7 +1340,7 @@
             "detail": "Reddit HTTP 429",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:21.086Z"
+            "checkedAt": "2026-09-24T20:03:54.189Z"
           }
         }
       }
@@ -1362,7 +1362,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:21.451Z"
+          "checkedAt": "2026-09-24T20:03:54.701Z"
         },
         "telegram": {
           "count": {
@@ -1373,7 +1373,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:21.798Z"
+          "checkedAt": "2026-09-24T20:03:55.187Z"
         },
         "youtube": {
           "count": {
@@ -1384,7 +1384,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "15 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:22.031Z"
+          "checkedAt": "2026-09-24T20:03:55.506Z"
         },
         "reddit": {
           "count": {
@@ -1395,7 +1395,7 @@
           "lastActivity": null,
           "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:22.203Z"
+          "checkedAt": "2026-09-24T20:03:55.733Z"
         }
       },
       "lastSocialActivity": null,
@@ -1406,7 +1406,7 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:21.336Z",
+        "checkedAt": "2026-09-24T20:03:54.439Z",
         "networks": {
           "github": {
             "source": "https://github.com/eosrio",
@@ -1414,7 +1414,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:21.451Z"
+            "checkedAt": "2026-09-24T20:03:54.701Z"
           },
           "telegram": {
             "source": "https://t.me/eosrio",
@@ -1422,7 +1422,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:21.798Z"
+            "checkedAt": "2026-09-24T20:03:55.187Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@channel/UC5aslySB2QP_v8dyMMBcTxw",
@@ -1430,7 +1430,7 @@
             "detail": "15 YouTube videos found",
             "fetchedEvents": 15,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:22.031Z"
+            "checkedAt": "2026-09-24T20:03:55.506Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/eosrio",
@@ -1438,7 +1438,7 @@
             "detail": "Reddit HTTP 429",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:22.203Z"
+            "checkedAt": "2026-09-24T20:03:55.733Z"
           }
         }
       }
@@ -1460,7 +1460,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:22.521Z"
+          "checkedAt": "2026-09-24T20:03:56.112Z"
         },
         "telegram": {
           "count": {
@@ -1471,7 +1471,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:22.862Z"
+          "checkedAt": "2026-09-24T20:03:56.612Z"
         },
         "youtube": {
           "count": {
@@ -1482,7 +1482,7 @@
           "lastActivity": null,
           "status": "NOT_FOUND",
           "detail": "YouTube channel not found: https://www.youtube.com/@user/calbright4",
-          "checkedAt": "2026-09-24T17:38:23.151Z"
+          "checkedAt": "2026-09-24T20:03:57.044Z"
         }
       },
       "lastSocialActivity": null,
@@ -1492,7 +1492,7 @@
         "youtube": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:22.453Z",
+        "checkedAt": "2026-09-24T20:03:55.983Z",
         "networks": {
           "github": {
             "source": "https://github.com/eosusa",
@@ -1500,7 +1500,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:22.521Z"
+            "checkedAt": "2026-09-24T20:03:56.112Z"
           },
           "telegram": {
             "source": "https://t.me/eosusa",
@@ -1508,7 +1508,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:22.862Z"
+            "checkedAt": "2026-09-24T20:03:56.612Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@user/calbright4",
@@ -1516,7 +1516,7 @@
             "detail": "YouTube channel not found: https://www.youtube.com/@user/calbright4",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:23.151Z"
+            "checkedAt": "2026-09-24T20:03:57.044Z"
           }
         }
       }
@@ -1536,9 +1536,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:23.519Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:03:57.295Z"
         },
         "telegram": {
           "count": {
@@ -1547,9 +1547,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:23.861Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:03:57.295Z"
         },
         "youtube": {
           "count": {
@@ -1558,9 +1558,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "OK",
-          "detail": "15 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:24.115Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:03:57.296Z"
         },
         "reddit": {
           "count": {
@@ -1569,9 +1569,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "RATE_LIMITED",
-          "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:24.280Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:03:57.296Z"
         }
       },
       "lastSocialActivity": null,
@@ -1582,41 +1582,8 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:23.401Z",
-        "networks": {
-          "github": {
-            "source": "https://github.com/generEOS",
-            "status": "NO_ACTIVITY",
-            "detail": "No public GitHub events returned",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:23.519Z"
-          },
-          "telegram": {
-            "source": "https://t.me/generEOS",
-            "status": "NO_ACTIVITY",
-            "detail": "No public Telegram posts found in current feed",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:23.861Z"
-          },
-          "youtube": {
-            "source": "https://www.youtube.com/channel/UC7TN0V2KCVTYvIHbtj_9Dvw",
-            "status": "OK",
-            "detail": "15 YouTube videos found",
-            "fetchedEvents": 15,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:24.115Z"
-          },
-          "reddit": {
-            "source": "https://www.reddit.com/user/generEOS",
-            "status": "RATE_LIMITED",
-            "detail": "Reddit HTTP 429",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:24.280Z"
-          }
-        }
+        "checkedAt": "2026-09-24T20:03:57.295Z",
+        "networks": {}
       }
     },
     "homebloksbp": {
@@ -1636,7 +1603,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:24.722Z"
+          "checkedAt": "2026-09-24T20:03:57.734Z"
         }
       },
       "lastSocialActivity": null,
@@ -1644,7 +1611,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:24.530Z",
+        "checkedAt": "2026-09-24T20:03:57.396Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/Homebloks",
@@ -1652,7 +1619,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:24.722Z"
+            "checkedAt": "2026-09-24T20:03:57.734Z"
           }
         }
       }
@@ -1674,7 +1641,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:25.093Z"
+          "checkedAt": "2026-09-24T20:03:58.138Z"
         },
         "telegram": {
           "count": {
@@ -1685,7 +1652,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:25.429Z"
+          "checkedAt": "2026-09-24T20:03:58.624Z"
         }
       },
       "lastSocialActivity": null,
@@ -1694,7 +1661,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:24.973Z",
+        "checkedAt": "2026-09-24T20:03:57.984Z",
         "networks": {
           "github": {
             "source": "https://github.com/ledgerwise",
@@ -1702,7 +1669,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:25.093Z"
+            "checkedAt": "2026-09-24T20:03:58.138Z"
           },
           "telegram": {
             "source": "https://t.me/ledgerwiseio",
@@ -1710,7 +1677,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:25.429Z"
+            "checkedAt": "2026-09-24T20:03:58.624Z"
           }
         }
       }
@@ -1732,7 +1699,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:25.870Z"
+          "checkedAt": "2026-09-24T20:03:59.221Z"
         },
         "youtube": {
           "count": {
@@ -1743,7 +1710,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "1 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:26.092Z"
+          "checkedAt": "2026-09-24T20:03:59.585Z"
         },
         "reddit": {
           "count": {
@@ -1754,7 +1721,7 @@
           "lastActivity": null,
           "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:26.266Z"
+          "checkedAt": "2026-09-24T20:03:59.820Z"
         }
       },
       "lastSocialActivity": null,
@@ -1764,7 +1731,7 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:25.679Z",
+        "checkedAt": "2026-09-24T20:03:58.875Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/luminaryvisn",
@@ -1772,7 +1739,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:25.870Z"
+            "checkedAt": "2026-09-24T20:03:59.221Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/channel/UC_oes4JZiKCBhD4cBtdEP3Q",
@@ -1780,7 +1747,7 @@
             "detail": "1 YouTube videos found",
             "fetchedEvents": 1,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:26.092Z"
+            "checkedAt": "2026-09-24T20:03:59.585Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/luminaryvisn/",
@@ -1788,7 +1755,7 @@
             "detail": "Reddit HTTP 429",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:26.266Z"
+            "checkedAt": "2026-09-24T20:03:59.820Z"
           }
         }
       }
@@ -1810,7 +1777,7 @@
           "lastActivity": null,
           "status": "UNSUPPORTED",
           "detail": "Private/invite Telegram link cannot be read without joining the channel",
-          "checkedAt": "2026-09-24T17:38:26.516Z"
+          "checkedAt": "2026-09-24T20:04:00.071Z"
         }
       },
       "lastSocialActivity": null,
@@ -1818,7 +1785,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:26.516Z",
+        "checkedAt": "2026-09-24T20:04:00.071Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/+3MwEsa3gA0hkZTBk",
@@ -1826,7 +1793,7 @@
             "detail": "Private/invite Telegram link cannot be read without joining the channel",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:26.516Z"
+            "checkedAt": "2026-09-24T20:04:00.071Z"
           }
         }
       }
@@ -1848,7 +1815,7 @@
           "lastActivity": "2026-09-22T10:54:55.000Z",
           "status": "OK",
           "detail": "13 public events",
-          "checkedAt": "2026-09-24T17:38:26.945Z"
+          "checkedAt": "2026-09-24T20:04:00.829Z"
         },
         "telegram": {
           "count": {
@@ -1859,7 +1826,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:27.286Z"
+          "checkedAt": "2026-09-24T20:04:01.340Z"
         },
         "youtube": {
           "count": {
@@ -1870,7 +1837,7 @@
           "lastActivity": null,
           "status": "NOT_FOUND",
           "detail": "YouTube channel not found: https://www.youtube.com/@protonind",
-          "checkedAt": "2026-09-24T17:38:27.497Z"
+          "checkedAt": "2026-09-24T20:04:01.558Z"
         },
         "reddit": {
           "count": {
@@ -1879,9 +1846,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "RATE_LIMITED",
-          "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:27.662Z"
+          "status": "NO_ACTIVITY",
+          "detail": "No Reddit submissions returned",
+          "checkedAt": "2026-09-24T20:04:01.868Z"
         }
       },
       "lastSocialActivity": "2026-09-22T10:54:55.000Z",
@@ -2140,7 +2107,7 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:26.767Z",
+        "checkedAt": "2026-09-24T20:04:00.321Z",
         "networks": {
           "github": {
             "source": "https://github.com/thatzprem",
@@ -2148,7 +2115,7 @@
             "detail": "13 public events",
             "fetchedEvents": 13,
             "storedEvents": 26,
-            "checkedAt": "2026-09-24T17:38:26.945Z"
+            "checkedAt": "2026-09-24T20:04:00.829Z"
           },
           "telegram": {
             "source": "https://t.me/thatzprem",
@@ -2156,7 +2123,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:27.286Z"
+            "checkedAt": "2026-09-24T20:04:01.340Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@protonind",
@@ -2164,15 +2131,15 @@
             "detail": "YouTube channel not found: https://www.youtube.com/@protonind",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:27.497Z"
+            "checkedAt": "2026-09-24T20:04:01.558Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/protonind",
-            "status": "RATE_LIMITED",
-            "detail": "Reddit HTTP 429",
+            "status": "NO_ACTIVITY",
+            "detail": "No Reddit submissions returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:27.662Z"
+            "checkedAt": "2026-09-24T20:04:01.869Z"
           }
         }
       }
@@ -2194,7 +2161,7 @@
           "lastActivity": null,
           "status": "NOT_FOUND",
           "detail": "GitHub user not found: telosmadrid",
-          "checkedAt": "2026-09-24T17:38:27.948Z"
+          "checkedAt": "2026-09-24T20:04:02.233Z"
         },
         "telegram": {
           "count": {
@@ -2205,7 +2172,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:28.282Z"
+          "checkedAt": "2026-09-24T20:04:02.717Z"
         }
       },
       "lastSocialActivity": null,
@@ -2214,7 +2181,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:27.913Z",
+        "checkedAt": "2026-09-24T20:04:02.120Z",
         "networks": {
           "github": {
             "source": "https://github.com/telosmadrid",
@@ -2222,7 +2189,7 @@
             "detail": "GitHub user not found: telosmadrid",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:27.948Z"
+            "checkedAt": "2026-09-24T20:04:02.233Z"
           },
           "telegram": {
             "source": "https://t.me/telosmadrid",
@@ -2230,7 +2197,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:28.282Z"
+            "checkedAt": "2026-09-24T20:04:02.717Z"
           }
         }
       }
@@ -2252,7 +2219,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:28.658Z"
+          "checkedAt": "2026-09-24T20:04:03.096Z"
         },
         "telegram": {
           "count": {
@@ -2263,7 +2230,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:28.997Z"
+          "checkedAt": "2026-09-24T20:04:03.584Z"
         },
         "youtube": {
           "count": {
@@ -2274,7 +2241,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "6 YouTube videos found",
-          "checkedAt": "2026-09-24T17:38:29.487Z"
+          "checkedAt": "2026-09-24T20:04:04.186Z"
         },
         "reddit": {
           "count": {
@@ -2285,7 +2252,7 @@
           "lastActivity": null,
           "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:29.655Z"
+          "checkedAt": "2026-09-24T20:04:04.412Z"
         }
       },
       "lastSocialActivity": null,
@@ -2296,7 +2263,7 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:28.533Z",
+        "checkedAt": "2026-09-24T20:04:02.968Z",
         "networks": {
           "github": {
             "source": "https://github.com/protonnz",
@@ -2304,7 +2271,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:28.658Z"
+            "checkedAt": "2026-09-24T20:04:03.096Z"
           },
           "telegram": {
             "source": "https://t.me/protonnz",
@@ -2312,7 +2279,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:28.997Z"
+            "checkedAt": "2026-09-24T20:04:03.584Z"
           },
           "youtube": {
             "source": "https://www.youtube.com/@protonnz",
@@ -2320,7 +2287,7 @@
             "detail": "6 YouTube videos found",
             "fetchedEvents": 6,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:29.487Z"
+            "checkedAt": "2026-09-24T20:04:04.186Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/protonnz",
@@ -2328,7 +2295,7 @@
             "detail": "Reddit HTTP 429",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:29.655Z"
+            "checkedAt": "2026-09-24T20:04:04.412Z"
           }
         }
       }
@@ -2350,7 +2317,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:30.103Z"
+          "checkedAt": "2026-09-24T20:04:05.009Z"
         },
         "reddit": {
           "count": {
@@ -2361,7 +2328,7 @@
           "lastActivity": null,
           "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:30.270Z"
+          "checkedAt": "2026-09-24T20:04:05.236Z"
         }
       },
       "lastSocialActivity": null,
@@ -2370,7 +2337,7 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:29.906Z",
+        "checkedAt": "2026-09-24T20:04:04.663Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/protonuk",
@@ -2378,7 +2345,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:30.103Z"
+            "checkedAt": "2026-09-24T20:04:05.009Z"
           },
           "reddit": {
             "source": "https://www.reddit.com/user/protonuk",
@@ -2386,7 +2353,7 @@
             "detail": "Reddit HTTP 429",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:30.270Z"
+            "checkedAt": "2026-09-24T20:04:05.236Z"
           }
         }
       }
@@ -2406,9 +2373,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NOT_FOUND",
-          "detail": "GitHub user not found: rokeronebp",
-          "checkedAt": "2026-09-24T17:38:30.555Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:04:05.487Z"
         },
         "telegram": {
           "count": {
@@ -2417,9 +2384,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:30.935Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:04:05.487Z"
         },
         "youtube": {
           "count": {
@@ -2428,9 +2395,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NOT_FOUND",
-          "detail": "YouTube channel not found: https://www.youtube.com/@rokeronebp",
-          "checkedAt": "2026-09-24T17:38:31.141Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:04:05.487Z"
         },
         "reddit": {
           "count": {
@@ -2439,9 +2406,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "RATE_LIMITED",
-          "detail": "Reddit HTTP 429",
-          "checkedAt": "2026-09-24T17:38:31.312Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:04:05.487Z"
         }
       },
       "lastSocialActivity": null,
@@ -2452,41 +2419,8 @@
         "reddit": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:30.520Z",
-        "networks": {
-          "github": {
-            "source": "https://github.com/rokeronebp",
-            "status": "NOT_FOUND",
-            "detail": "GitHub user not found: rokeronebp",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:30.555Z"
-          },
-          "telegram": {
-            "source": "https://t.me/rockerzOne",
-            "status": "NO_ACTIVITY",
-            "detail": "No public Telegram posts found in current feed",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:30.935Z"
-          },
-          "youtube": {
-            "source": "https://www.youtube.com/@rokeronebp",
-            "status": "NOT_FOUND",
-            "detail": "YouTube channel not found: https://www.youtube.com/@rokeronebp",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:31.141Z"
-          },
-          "reddit": {
-            "source": "https://www.reddit.com/user/rokeronebp",
-            "status": "RATE_LIMITED",
-            "detail": "Reddit HTTP 429",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:31.312Z"
-          }
-        }
+        "checkedAt": "2026-09-24T20:04:05.487Z",
+        "networks": {}
       }
     },
     "saltant": {
@@ -2506,7 +2440,7 @@
           "lastActivity": "2026-09-07T22:03:42.000Z",
           "status": "OK",
           "detail": "5 public events",
-          "checkedAt": "2026-09-24T17:38:31.693Z"
+          "checkedAt": "2026-09-24T20:04:05.798Z"
         },
         "telegram": {
           "count": {
@@ -2517,7 +2451,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:32.033Z"
+          "checkedAt": "2026-09-24T20:04:06.291Z"
         },
         "medium": {
           "count": {
@@ -2528,7 +2462,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "4 Medium articles found",
-          "checkedAt": "2026-09-24T17:38:32.264Z"
+          "checkedAt": "2026-09-24T20:04:06.692Z"
         }
       },
       "lastSocialActivity": "2026-09-07T22:03:42.000Z",
@@ -2634,7 +2568,7 @@
         "medium": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:31.563Z",
+        "checkedAt": "2026-09-24T20:04:05.587Z",
         "networks": {
           "github": {
             "source": "https://github.com/saltant",
@@ -2642,7 +2576,7 @@
             "detail": "5 public events",
             "fetchedEvents": 5,
             "storedEvents": 10,
-            "checkedAt": "2026-09-24T17:38:31.693Z"
+            "checkedAt": "2026-09-24T20:04:05.798Z"
           },
           "telegram": {
             "source": "https://t.me/saltant_bp",
@@ -2650,7 +2584,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:32.033Z"
+            "checkedAt": "2026-09-24T20:04:06.291Z"
           },
           "medium": {
             "source": "https://medium.com/@saltantxpr",
@@ -2658,7 +2592,7 @@
             "detail": "4 Medium articles found",
             "fetchedEvents": 4,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:32.264Z"
+            "checkedAt": "2026-09-24T20:04:06.692Z"
           }
         }
       }
@@ -2680,7 +2614,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:32.705Z"
+          "checkedAt": "2026-09-24T20:04:07.275Z"
         }
       },
       "lastSocialActivity": null,
@@ -2688,7 +2622,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:32.515Z",
+        "checkedAt": "2026-09-24T20:04:06.942Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/snipversexpr",
@@ -2696,7 +2630,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:32.705Z"
+            "checkedAt": "2026-09-24T20:04:07.275Z"
           }
         }
       }
@@ -2718,7 +2652,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:33.152Z"
+          "checkedAt": "2026-09-24T20:04:07.873Z"
         },
         "medium": {
           "count": {
@@ -2729,7 +2663,7 @@
           "lastActivity": null,
           "status": "OK",
           "detail": "10 Medium articles found",
-          "checkedAt": "2026-09-24T17:38:33.358Z"
+          "checkedAt": "2026-09-24T20:04:08.323Z"
         }
       },
       "lastSocialActivity": null,
@@ -2738,7 +2672,7 @@
         "medium": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:32.956Z",
+        "checkedAt": "2026-09-24T20:04:07.526Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/storex_io",
@@ -2746,7 +2680,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:33.152Z"
+            "checkedAt": "2026-09-24T20:04:07.873Z"
           },
           "medium": {
             "source": "https://medium.com/@storex",
@@ -2754,7 +2688,7 @@
             "detail": "10 Medium articles found",
             "fetchedEvents": 10,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:33.358Z"
+            "checkedAt": "2026-09-24T20:04:08.323Z"
           }
         }
       }
@@ -2776,7 +2710,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:33.729Z"
+          "checkedAt": "2026-09-24T20:04:08.813Z"
         },
         "telegram": {
           "count": {
@@ -2787,7 +2721,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:34.074Z"
+          "checkedAt": "2026-09-24T20:04:09.309Z"
         }
       },
       "lastSocialActivity": null,
@@ -2796,7 +2730,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:33.608Z",
+        "checkedAt": "2026-09-24T20:04:08.574Z",
         "networks": {
           "github": {
             "source": "https://github.com/totalprotondev",
@@ -2804,7 +2738,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:33.729Z"
+            "checkedAt": "2026-09-24T20:04:08.813Z"
           },
           "telegram": {
             "source": "https://t.me/totalproton",
@@ -2812,7 +2746,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:34.074Z"
+            "checkedAt": "2026-09-24T20:04:09.309Z"
           }
         }
       }
@@ -2834,7 +2768,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:34.392Z"
+          "checkedAt": "2026-09-24T20:04:09.751Z"
         },
         "telegram": {
           "count": {
@@ -2845,7 +2779,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:34.733Z"
+          "checkedAt": "2026-09-24T20:04:10.250Z"
         }
       },
       "lastSocialActivity": null,
@@ -2854,7 +2788,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:34.325Z",
+        "checkedAt": "2026-09-24T20:04:09.560Z",
         "networks": {
           "github": {
             "source": "https://github.com/turlebp",
@@ -2862,7 +2796,7 @@
             "detail": "No public GitHub events returned",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:34.392Z"
+            "checkedAt": "2026-09-24T20:04:09.751Z"
           },
           "telegram": {
             "source": "https://t.me/turtle_BP",
@@ -2870,7 +2804,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:34.733Z"
+            "checkedAt": "2026-09-24T20:04:10.250Z"
           }
         }
       }
@@ -2878,21 +2812,21 @@
     "xprcore": {
       "owner": "xprcore",
       "activity": {
-        "7D": 92,
-        "30D": 96,
-        "1Y": 96
+        "7D": 102,
+        "30D": 106,
+        "1Y": 106
       },
       "networkActivity": {
         "github": {
           "count": {
-            "7D": 92,
-            "30D": 96,
-            "1Y": 96
+            "7D": 102,
+            "30D": 106,
+            "1Y": 106
           },
           "lastActivity": "2026-09-24T17:14:17.000Z",
           "status": "OK",
-          "detail": "48 public events",
-          "checkedAt": "2026-09-24T17:38:35.100Z"
+          "detail": "58 public events",
+          "checkedAt": "2026-09-24T20:04:10.924Z"
         },
         "telegram": {
           "count": {
@@ -2903,7 +2837,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:35.437Z"
+          "checkedAt": "2026-09-24T20:04:11.410Z"
         }
       },
       "lastSocialActivity": "2026-09-24T17:14:17.000Z",
@@ -2922,6 +2856,24 @@
           {
             "id": "22059719298",
             "timestamp": "2026-09-24T17:14:17.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22066714652",
+            "timestamp": "2026-09-24T16:32:19.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22065837324",
+            "timestamp": "2026-09-24T16:19:12.000Z",
             "type": "PushEvent",
             "actor": "xprcore",
             "repo": "xprcore/XPR-block-producer",
@@ -2948,6 +2900,69 @@
             "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
+            "id": "22065342875",
+            "timestamp": "2026-09-24T16:17:14.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22069134926",
+            "timestamp": "2026-09-24T16:10:28.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22071521808",
+            "timestamp": "2026-09-24T15:50:42.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22062442300",
+            "timestamp": "2026-09-24T15:47:14.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22072422448",
+            "timestamp": "2026-09-24T15:44:41.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22071101030",
+            "timestamp": "2026-09-24T15:24:11.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22065527808",
+            "timestamp": "2026-09-24T14:44:30.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
             "id": "github:22056392326",
             "network": "github",
             "type": "PushEvent",
@@ -2960,6 +2975,15 @@
           {
             "id": "22056392326",
             "timestamp": "2026-09-24T14:43:49.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22064199316",
+            "timestamp": "2026-09-24T14:42:57.000Z",
             "type": "PushEvent",
             "actor": "xprcore",
             "repo": "xprcore/XPR-block-producer",
@@ -3825,15 +3849,15 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:34.983Z",
+        "checkedAt": "2026-09-24T20:04:10.500Z",
         "networks": {
           "github": {
             "source": "https://github.com/xprcore",
             "status": "OK",
-            "detail": "48 public events",
-            "fetchedEvents": 48,
-            "storedEvents": 96,
-            "checkedAt": "2026-09-24T17:38:35.100Z"
+            "detail": "58 public events",
+            "fetchedEvents": 58,
+            "storedEvents": 106,
+            "checkedAt": "2026-09-24T20:04:10.924Z"
           },
           "telegram": {
             "source": "https://t.me/xprcore",
@@ -3841,7 +3865,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:35.437Z"
+            "checkedAt": "2026-09-24T20:04:11.410Z"
           }
         }
       }
@@ -3863,7 +3887,7 @@
           "lastActivity": null,
           "status": "NO_ACTIVITY",
           "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:35.876Z"
+          "checkedAt": "2026-09-24T20:04:11.996Z"
         }
       },
       "lastSocialActivity": null,
@@ -3871,7 +3895,7 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:35.688Z",
+        "checkedAt": "2026-09-24T20:04:11.660Z",
         "networks": {
           "telegram": {
             "source": "https://t.me/Mirsad_XPRdata",
@@ -3879,7 +3903,7 @@
             "detail": "No public Telegram posts found in current feed",
             "fetchedEvents": 0,
             "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:35.876Z"
+            "checkedAt": "2026-09-24T20:04:11.996Z"
           }
         }
       }
@@ -3899,9 +3923,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No public GitHub events returned",
-          "checkedAt": "2026-09-24T17:38:36.227Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:04:12.247Z"
         },
         "telegram": {
           "count": {
@@ -3910,9 +3934,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No public Telegram posts found in current feed",
-          "checkedAt": "2026-09-24T17:38:36.565Z"
+          "status": "NOT_CHECKED",
+          "detail": "No profile configured in BP social record",
+          "checkedAt": "2026-09-24T20:04:12.247Z"
         }
       },
       "lastSocialActivity": null,
@@ -3921,25 +3945,8 @@
         "telegram": []
       },
       "diagnostics": {
-        "checkedAt": "2026-09-24T17:38:36.126Z",
-        "networks": {
-          "github": {
-            "source": "https://github.com/nodeoneio",
-            "status": "NO_ACTIVITY",
-            "detail": "No public GitHub events returned",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:36.227Z"
-          },
-          "telegram": {
-            "source": "https://t.me/nodeoneio",
-            "status": "NO_ACTIVITY",
-            "detail": "No public Telegram posts found in current feed",
-            "fetchedEvents": 0,
-            "storedEvents": 0,
-            "checkedAt": "2026-09-24T17:38:36.565Z"
-          }
-        }
+        "checkedAt": "2026-09-24T20:04:12.247Z",
+        "networks": {}
       }
     }
   }
