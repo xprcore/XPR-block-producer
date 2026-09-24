@@ -2090,6 +2090,42 @@
         "blocksforge",
         "blocksforge"
       ]
+    },
+    {
+      "ts": 1790261681702,
+      "block": 405143041,
+      "producer": "protonind",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.473684210526316,
+      "utilization": 0.029754638671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.6,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks"
+      ]
     }
   ]
 }

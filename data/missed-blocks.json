@@ -3,8 +3,8 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1787756520000,
-  "newestTs": 1790174478000,
-  "pages": 17,
+  "newestTs": 1790259906500,
+  "pages": 18,
   "events": [
     {
       "producer": "cryptolions",
@@ -1951,6 +1951,20 @@
       "block": 404968659,
       "ts": 1790174478000,
       "postId": 9339
+    },
+    {
+      "producer": "eosusa",
+      "round": 1,
+      "block": 405139001,
+      "ts": 1790259655000,
+      "postId": 9343
+    },
+    {
+      "producer": "eosusa",
+      "round": 1,
+      "block": 405139492,
+      "ts": 1790259906500,
+      "postId": 9345
     }
   ]
 }
