@@ -11,7 +11,45 @@ async function readJson(url, fallback) {
 
 function cleanHandle(value) {
   if (!value) return '';
-  return String(value).replace(/^@/, '').trim();
+  const raw = String(value).trim();
+  if (!raw) return '';
+
+  // Accept both a plain username and the full social URL stored in bp.json.
+  try {
+    const u = new URL(raw);
+
+    // Telegram: https://t.me/name or https://telegram.me/name
+    if (/^(www\.)?(t\.me|telegram\.me)$/i.test(u.hostname)) {
+      return decodeURIComponent(u.pathname.split('/').filter(Boolean)[0] || '').replace(/^@/, '');
+    }
+
+    // GitHub: https://github.com/name
+    if (/^(www\.)?github\.com$/i.test(u.hostname)) {
+      return decodeURIComponent(u.pathname.split('/').filter(Boolean)[0] || '').replace(/^@/, '');
+    }
+
+    // Reddit: https://reddit.com/user/name
+    if (/^(www\.)?reddit\.com$/i.test(u.hostname)) {
+      const parts = u.pathname.split('/').filter(Boolean);
+      const i = parts.findIndex(x => /^user$/i.test(x));
+      return i >= 0 ? decodeURIComponent(parts[i + 1] || '').replace(/^@/, '') : '';
+    }
+
+    // Medium: https://medium.com/@name
+    if (/^(www\.)?medium\.com$/i.test(u.hostname)) {
+      const parts = u.pathname.split('/').filter(Boolean);
+      return (parts[0] || '').replace(/^@/, '');
+    }
+
+    // X/Twitter: https://x.com/name or https://twitter.com/name
+    if (/^(www\.)?(x\.com|twitter\.com)$/i.test(u.hostname)) {
+      return decodeURIComponent(u.pathname.split('/').filter(Boolean)[0] || '').replace(/^@/, '');
+    }
+
+    // YouTube is handled separately because channel URLs are not usernames.
+  } catch {}
+
+  return raw.replace(/^@/, '').replace(/^https?:\/\//i, '').replace(/^www\./i, '').replace(/\/$/, '');
 }
 
 function toDateMs(v) {
@@ -82,7 +120,7 @@ async function telegramEvents(handle) {
 async function redditEvents(urlOrHandle) {
   let u = String(urlOrHandle || '').trim();
   if (!u) return [];
-  let user = cleanHandle(u.replace(/^https?:\/\/(www\.)?reddit\.com\/user\//i, '').replace(/\/.*$/, ''));
+  let user = cleanHandle(u);
   if (!user) return [];
   const out = [];
   for (const kind of ['submitted', 'comments']) {
@@ -104,7 +142,7 @@ async function redditEvents(urlOrHandle) {
 async function mediumEvents(urlOrHandle) {
   let u = String(urlOrHandle || '').trim();
   if (!u) return [];
-  let handle = cleanHandle(u.replace(/^https?:\/\/medium\.com\/@/i, '').replace(/^@/, '').replace(/\/.*$/, ''));
+  let handle = cleanHandle(u);
   if (!handle) return [];
   try {
     const res = await fetch(`https://medium.com/feed/@${encodeURIComponent(handle)}`, {headers:{'user-agent':'XPRCORE-social-activity/1.0'}});
