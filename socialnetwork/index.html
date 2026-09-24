@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title></title>
+<style>
+:root{--bg:#03142e;--panel:#082650;--card:#061d3f;--border:rgba(90,169,248,.18);--text:#f4f8ff;--muted:#8fa9c7;--blue:#5aa9f8;--green:#42e8a0}
+*{box-sizing:border-box}body{margin:0;color:var(--text);font:13px Arial,Helvetica,sans-serif;background:radial-gradient(circle at 8% 0%,rgba(65,145,255,.16),transparent 30%),linear-gradient(180deg,#03142e,#041a38 55%,#020e21);min-height:100vh}
+.wrap{width:min(1180px,calc(100% - 30px));margin:auto;padding:34px 0 60px}.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}.brand{display:flex;gap:13px;align-items:center}.mark{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:rgba(90,169,248,.12);border:1px solid rgba(90,169,248,.25);font-weight:900;color:#fff}.brand h1{margin:0;font-size:20px}.brand p{margin:4px 0 0;color:var(--muted);font-size:10px}.live{display:flex;gap:7px;align-items:center;color:var(--green);font-size:9px;font-weight:800}.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px rgba(66,232,160,.65)}
+.panel{background:linear-gradient(180deg,rgba(8,38,80,.95),rgba(4,24,52,.98));border:1px solid var(--border);border-radius:18px;padding:20px;box-shadow:0 18px 50px rgba(0,0,0,.25)}.eyebrow{color:var(--blue);font-size:9px;letter-spacing:.14em;text-transform:uppercase;font-weight:800}.title{margin:7px 0 4px;font-size:21px}.sub{margin:0;color:var(--muted);font-size:10px}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:20px 0 15px}.periods{display:flex;gap:6px}.period{border:1px solid var(--border);background:rgba(0,0,0,.18);color:var(--muted);padding:7px 12px;border-radius:8px;font-size:9px;font-weight:800}.period.active{color:#fff;background:rgba(90,169,248,.1);border-color:rgba(90,169,248,.42)}.status{color:var(--muted);font-size:9px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.producer{background:rgba(2,17,36,.5);border:1px solid rgba(90,169,248,.13);border-radius:14px;padding:14px}.ptop{display:flex;justify-content:space-between;align-items:center;gap:10px}.identity{display:flex;align-items:center;gap:10px;min-width:0}.avatar{width:35px;height:35px;flex:0 0 35px;border-radius:50%;display:grid;place-items:center;background:rgba(90,169,248,.1);border:1px solid rgba(90,169,248,.22);color:var(--blue);font-size:10px;font-weight:900}.name{font-size:12px;font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rank{color:var(--muted);font-size:8px;margin-top:3px}.badge{font-size:8px;color:var(--green);border:1px solid rgba(66,232,160,.18);background:rgba(66,232,160,.06);padding:5px 7px;border-radius:10px;white-space:nowrap}.socials{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:6px;margin-top:13px}.social{min-width:0;min-height:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:1px solid rgba(90,169,248,.11);border-radius:9px;background:rgba(8,35,70,.55);text-decoration:none;color:var(--muted)}.social.available{color:#dceeff;border-color:rgba(90,169,248,.28)}.icon{width:20px;height:20px;display:grid;place-items:center;color:var(--blue)}.icon svg{width:18px;height:18px;display:block}.label{font-size:7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}.empty{padding:35px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:12px;grid-column:1/-1}.note{margin-top:14px;color:var(--muted);font-size:9px;line-height:1.5}
+@media(max-width:720px){.grid{grid-template-columns:1fr}.bar{align-items:flex-start;flex-direction:column}.periods{width:100%}.period{flex:1}.status{font-size:8px}.socials{gap:4px}}
+
+    .activity-status{
+      margin:0 0 18px;
+      color:#7f9db5;
+      font-size:12px;
+      letter-spacing:.02em;
+    }
+    .activity-status.ok{color:#71e6b5}
+    .activity-status.warn{color:#ffd27a}
+    .activity-status.error{color:#ff8b8b}
+    .activity-value{font-weight:700;color:#fff}
+    
+
+/* Removed header LIVE green indicator */
+.header .live-dot,
+.header .status-dot,
+.header .online-dot,
+.title .live-dot,
+.title .status-dot,
+.title .online-dot { display:none !important; }
+
+.text-icon{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;font-size:10px;font-weight:800;letter-spacing:-.3px;border:1px solid currentColor;border-radius:5px;line-height:1;}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="head">
+  <div class="brand"><div><p></p></div></div>
+  
+</header>
+
+<section class="panel">
+  <div class="eyebrow">Producer Social Activity</div>
+  <div class="title"></div>
+  
+
+  <div class="bar">
+    <div class="periods">
+      <button class="period active" type="button">7D</button>
+      <button class="period" type="button">30D</button>
+      <button class="period" type="button">1Y</button>
+    </div>
+    <div class="status" id="status">Loading active producers…</div>
+  </div>
+
+  <div class="grid" id="producers"><div class="empty">Loading active producers…</div></div>
+  
+</section>
+</main>
+
+<script>
+const SOCIALS=[
+  ["telegram","Telegram","telegram"],["twitter","X / Twitter","x"],["github","GitHub","github"],
+  ["youtube","YouTube","youtube"],["facebook","Facebook","facebook"],["keybase","Keybase","keybase"],
+  ["reddit","Reddit","reddit"],["discord","Discord","discord"],["wechat","WeChat","wechat"],
+  ["medium","Medium","medium"],["steemit","Steemit","steemit"],["hive","Hive","hive"],
+  ["instagram","Instagram","instagram"],["linkedin","LinkedIn","linkedin"],["tiktok","TikTok","tiktok"],["mastodon","Mastodon","mastodon"]
+];
+const $=id=>document.getElementById(id);
+function esc(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function socialIcon(name){
+  const common='viewBox="0 0 24 24" aria-hidden="true" focusable="false"';
+  const paths={
+    telegram:`<svg ${common}><path fill="currentColor" d="M21.8 3.2 18.5 20c-.25 1.18-.9 1.47-1.83.92l-5.08-3.74-2.45 2.36c-.27.27-.5.5-1.03.5l.37-5.17 9.42-8.51c.41-.37-.09-.58-.64-.21L5.6 13.57.57 11.99c-1.1-.35-1.12-1.1.23-1.6L20.45 2.9c.9-.33 1.69.22 1.35.3Z"/></svg>`,
+    x:`<svg ${common}><path fill="currentColor" d="M18.24 2H21.7l-7.55 8.63L23 22h-6.84l-5.36-7-6.13 7H1.2l8.08-9.24L1 2h7l4.85 6.41L18.24 2Zm-1.2 17.95h1.91L7.03 3.92H4.98L17.04 19.95Z"/></svg>`,
+    github:`<svg ${common}><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2.18c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.7 1.25 3.36.95.1-.75.4-1.25.73-1.54-2.57-.29-5.28-1.28-5.28-5.72 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.47.11-3.06 0 0 .98-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.06.75.81 1.2 1.84 1.2 3.1 0 4.45-2.72 5.42-5.3 5.7.42.37.78 1.1.78 2.22v3.29c0 .32.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>`,
+    youtube:`<svg ${common}><path fill="currentColor" d="M23.5 6.2a3.1 3.1 0 0 0-2.18-2.2C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.32.5A3.1 3.1 0 0 0 .5 6.2 32.2 32.2 0 0 0 0 12a32.2 32.2 0 0 0 .5 5.8 3.1 3.1 0 0 0 2.18 2.2c1.92.5 9.32.5 9.32.5s7.4 0 9.32-.5a3.1 3.1 0 0 0 2.18-2.2A32.2 32.2 0 0 0 24 12a32.2 32.2 0 0 0-.5-5.8ZM9.6 15.9V8.1l6.8 3.9-6.8 3.9Z"/></svg>`,
+    facebook:`<svg ${common}><path fill="currentColor" d="M13.7 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.25-1.5 1.55-1.5h1.65V4.6c-.29-.04-1.29-.13-2.46-.13-2.44 0-4.11 1.49-4.11 4.22v2.22H7.57V14h2.76v8h3.37Z"/></svg>`
+  };
+  if(paths[name]) return paths[name];
+  const labels={keybase:'KB',reddit:'R',discord:'DC',wechat:'WC',medium:'M',steemit:'S',hive:'H',instagram:'IG',linkedin:'in',tiktok:'TK',mastodon:'M'};
+  return `<span class="text-icon">${labels[name]||'•'}</span>`;
+}
+function render(data){
+  const records=data?.producers||{};
+  const producers=Object.values(records).sort((a,b)=>(a.rank??999999)-(b.rank??999999));
+  const root=$("producers");
+  if(!producers.length){root.innerHTML='<div class="empty">No producer BP social data available yet.</div>';return;}
+  root.innerHTML=producers.map(p=>{
+    const social=p.social||{};
+    const cards=SOCIALS.filter(([key])=>social[key]).map(([key,label,icon])=>`<a class="social available" href="${esc(social[key])}" target="_blank" rel="noopener noreferrer" title="${esc(label)}"><span class="icon">${socialIcon(icon)}</span><span class="label">${label}</span></a>`).join('');
+    return `<article class="producer"><div class="ptop"><div class="identity"><div class="avatar">${esc(String(p.owner||'').slice(0,2).toUpperCase())}</div><div><div class="name">${esc(p.owner)}</div><div class="rank">Active producer · #${esc(p.rank ?? '—')}</div></div></div><span class="badge">ACTIVE</span></div><div class="socials">${cards || '<div class="empty" style="padding:16px">No social networks listed in bp.json</div>'}</div></article>`;
+  }).join('');
+}
+async function load(){
+  $("status").textContent="Updating…";
+  try{
+    const r=await fetch('../data/producer-bp-social.json?ts='+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const data=await r.json();
+    render(data);
+    $("status").textContent=`${data.producerCount||Object.keys(data.producers||{}).length} active producers · BP data updated ${data.updatedAt ? new Date(data.updatedAt).toLocaleString() : '—'}`;
+  }catch(e){
+    $("status").textContent="Producer BP data is not available yet";
+    $("producers").innerHTML='<div class="empty">Run the GitHub Action once to generate data/producer-bp-social.json.</div>';
+  }
+}
+load();
+setInterval(load,60000);
+</script>
+
+
+</body>
+</html>
