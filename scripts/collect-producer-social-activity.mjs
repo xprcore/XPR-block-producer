@@ -32,7 +32,7 @@ async function fetchJson(url, options = {}) {
       ...(options.headers || {})
     }
   });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  if (!res.ok) return null;
   return await res.json();
 }
 
@@ -42,6 +42,7 @@ async function githubEvents(handle) {
   const out = [];
   for (let page = 1; page <= 3; page++) {
     const data = await fetchJson(`https://api.github.com/users/${encodeURIComponent(user)}/events/public?per_page=100&page=${page}`);
+    // A missing/deleted/private GitHub account must not stop the whole collector.
     if (!Array.isArray(data) || !data.length) break;
     for (const e of data) {
       const ts = toDateMs(e.created_at);
@@ -179,8 +180,14 @@ async function main() {
 
     for (const [network, promise] of tasks) {
       try {
-        events[network] = addUnique(events[network], await promise);
-      } catch {}
+        const collected = await promise;
+        if (Array.isArray(collected)) {
+          events[network] = addUnique(events[network], collected);
+        }
+      } catch (err) {
+        // Never let one broken/unavailable social profile stop all producers.
+        console.warn(`${owner}: ${network} skipped: ${err?.message || err}`);
+      }
     }
 
     const networkActivity = {};
