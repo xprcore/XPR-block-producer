@@ -133,6 +133,40 @@ function sortProducers(producers){
 function num(v){const n=Number(v);return Number.isFinite(n)?n:0}
 function activityFor(record,period){const a=record?.activity?.[period]||record?.[period]||{};if(typeof a==='number')return {total:a,social:{}};const social=a.social||{};const total=Number.isFinite(Number(a.total))?Number(a.total):Object.values(social).reduce((s,v)=>s+num(v),0);return {total,social}}
 function socialCount(record,key,period){return num(activityFor(record,period).social[key])}
+function findLastSocial(record){
+  const v=record?.lastSocialActivity ?? record?.last_social_activity ?? record?.lastActivity ?? record?.last_activity ?? null;
+  if(v) return v;
+  const candidates=[];
+  for(const period of ["7D","30D","1Y"]){
+    const a=activityFor(record,period);
+    const last=a?.lastSocialActivity ?? a?.last_social_activity ?? a?.lastActivity ?? a?.last_activity;
+    if(last) candidates.push(last);
+    const social=a?.social||{};
+    for(const val of Object.values(social)){
+      if(val && typeof val === "object"){
+        const t=val.lastActivity || val.last_activity || val.lastSocialActivity || val.last_social_activity || val.lastPost || val.last_post;
+        if(t) candidates.push(t);
+      }
+    }
+  }
+  if(!candidates.length) return null;
+  const dates=candidates.map(x=>new Date(x)).filter(d=>Number.isFinite(d.getTime()));
+  return dates.length ? new Date(Math.max(...dates.map(d=>d.getTime()))).toISOString() : candidates[0];
+}
+function formatLastSocial(value){
+  if(!value) return 'Last social activity: —';
+  const d=new Date(value);
+  if(!Number.isFinite(d.getTime())) return 'Last social activity: '+String(value);
+  const diff=Math.max(0,Date.now()-d.getTime());
+  const mins=Math.floor(diff/60000);
+  if(mins<1) return 'Last social activity: just now';
+  if(mins<60) return `Last social activity: ${mins}m ago`;
+  const hours=Math.floor(mins/60);
+  if(hours<24) return `Last social activity: ${hours}h ago`;
+  const days=Math.floor(hours/24);
+  if(days<7) return `Last social activity: ${days}d ago`;
+  return 'Last social activity: '+d.toLocaleDateString();
+}
 function render(producers,socialRecords){
  const root=$("producers"); if(!producers.length){root.innerHTML='<div class="empty">No active producers found on the XPR blockchain.</div>';return;}
  root.innerHTML=producers.map((p,index)=>{
@@ -140,7 +174,7 @@ function render(producers,socialRecords){
   const a7=activityFor(record,'7D'),a30=activityFor(record,'30D'),a1y=activityFor(record,'1Y');
   const cards=SOCIALS.filter(([key])=>social[key]).map(([key,label,icon])=>`<div class="detail-social"><span class="icon">${socialIcon(icon)}</span><span>${label}</span><span class="detail-count">${socialCount(record,key,'7D')}/${socialCount(record,key,'30D')}/${socialCount(record,key,'1Y')}</span></div>`).join('');
   const rank=Number.isFinite(Number(p.rank))?p.rank:index+1;
-  return `<article class="producer" tabindex="0"><div class="ptop"><div class="identity"><div class="ranknum">#${esc(rank)}</div><div class="avatar">${esc(String(p.owner||'').slice(0,2).toUpperCase())}</div><div><div class="name">${esc(p.owner)}</div><div class="rank">Active producer · blockchain rank</div></div></div><span class="badge">${formatLastSocial(lastSocial)}</span></div><div class="activity"><div class="metric"><span>7D</span><strong>${a7.total.toLocaleString()}</strong></div><div class="metric"><span>30D</span><strong>${a30.total.toLocaleString()}</strong></div><div class="metric"><span>1Y</span><strong>${a1y.total.toLocaleString()}</strong></div></div><div class="details"><div class="details-title">Social networks · 7D / 30D / 1Y</div><div class="detail-socials">${cards||'<div class="empty" style="padding:16px;grid-column:1/-1">No social networks listed in bp.json</div>'}</div></div></article>`;
+  return `<article class="producer" tabindex="0"><div class="ptop"><div class="identity"><div class="ranknum">#${esc(rank)}</div><div class="avatar">${esc(String(p.owner||'').slice(0,2).toUpperCase())}</div><div><div class="name">${esc(p.owner)}</div><div class="rank">Blockchain rank</div></div></div><span class="badge">${formatLastSocial(lastSocial)}</span></div><div class="activity"><div class="metric"><span>7D</span><strong>${a7.total.toLocaleString()}</strong></div><div class="metric"><span>30D</span><strong>${a30.total.toLocaleString()}</strong></div><div class="metric"><span>1Y</span><strong>${a1y.total.toLocaleString()}</strong></div></div><div class="details"><div class="details-title">Social networks · 7D / 30D / 1Y</div><div class="detail-socials">${cards||'<div class="empty" style="padding:16px;grid-column:1/-1">No social networks listed in bp.json</div>'}</div></div></article>`;
  }).join('');
  root.querySelectorAll('.producer').forEach(card=>{const toggle=()=>card.classList.toggle('open');card.addEventListener('click',e=>{if(e.target.closest('a'))return;toggle()});card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}})});
 }
