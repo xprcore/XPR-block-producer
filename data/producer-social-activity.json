@@ -1,7 +1,7 @@
 {
-  "version": 2,
-  "updatedAt": "2026-09-24T17:31:41.933Z",
-  "coverageStart": "2025-09-24T17:31:41.939Z",
+  "version": 3,
+  "updatedAt": "2026-09-24T17:38:36.817Z",
+  "coverageStart": "2025-09-24T17:38:36.817Z",
   "producerCount": 37,
   "producers": {
     "alvosec": {
@@ -20,8 +20,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for alvosec",
-          "source": "https://github.com/alvosec"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:08.072Z"
         },
         "telegram": {
           "count": {
@@ -31,8 +31,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for alvosec",
-          "source": "https://t.me/alvosec"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:08.822Z"
         },
         "youtube": {
           "count": {
@@ -41,9 +41,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UCBle0p77gkC6itLDN5u91Cg",
-          "source": "https://www.youtube.com/@channel/UCBle0p77gkC6itLDN5u91Cg"
+          "status": "OK",
+          "detail": "7 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:09.136Z"
         },
         "reddit": {
           "count": {
@@ -52,9 +52,9 @@
             "1Y": 1
           },
           "lastActivity": "2026-03-05T20:45:20.000Z",
-          "status": "OK",
-          "detail": "1 recent Reddit posts",
-          "source": "https://www.reddit.com/user/alvosec"
+          "status": "NO_ACTIVITY",
+          "detail": "No Reddit submissions returned",
+          "checkedAt": "2026-09-24T17:38:09.424Z"
         }
       },
       "lastSocialActivity": "2026-03-05T20:45:20.000Z",
@@ -75,37 +75,40 @@
         ]
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for alvosec",
-          "source": "https://github.com/alvosec",
-          "fetchedAt": "2026-09-24T17:31:42.116Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for alvosec",
-          "source": "https://t.me/alvosec",
-          "fetchedAt": "2026-09-24T17:31:42.710Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UCBle0p77gkC6itLDN5u91Cg",
-          "source": "https://www.youtube.com/@channel/UCBle0p77gkC6itLDN5u91Cg",
-          "fetchedAt": "2026-09-24T17:31:42.844Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "OK",
-          "detail": "1 recent Reddit posts",
-          "source": "https://www.reddit.com/user/alvosec",
-          "fetchedAt": "2026-09-24T17:31:44.586Z",
-          "discovered": 1,
-          "stored": 1
+        "checkedAt": "2026-09-24T17:38:07.566Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/alvosec",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:08.072Z"
+          },
+          "telegram": {
+            "source": "https://t.me/alvosec",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:08.822Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@channel/UCBle0p77gkC6itLDN5u91Cg",
+            "status": "OK",
+            "detail": "7 YouTube videos found",
+            "fetchedEvents": 7,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:09.136Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/alvosec",
+            "status": "NO_ACTIVITY",
+            "detail": "No Reddit submissions returned",
+            "fetchedEvents": 0,
+            "storedEvents": 1,
+            "checkedAt": "2026-09-24T17:38:09.424Z"
+          }
         }
       }
     },
@@ -125,8 +128,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for artwebin",
-          "source": "https://t.me/artwebin"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:09.866Z"
         }
       },
       "lastSocialActivity": null,
@@ -134,13 +137,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for artwebin",
-          "source": "https://t.me/artwebin",
-          "fetchedAt": "2026-09-24T17:31:44.782Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:09.675Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/artwebin",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:09.866Z"
+          }
         }
       }
     },
@@ -161,7 +167,7 @@
           "lastActivity": null,
           "status": "UNSUPPORTED",
           "detail": "Private/invite Telegram link cannot be read without joining the channel",
-          "source": "https://t.me/+M8CY4nyK5NU5MTk1"
+          "checkedAt": "2026-09-24T17:38:10.117Z"
         }
       },
       "lastSocialActivity": null,
@@ -169,13 +175,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "UNSUPPORTED",
-          "detail": "Private/invite Telegram link cannot be read without joining the channel",
-          "source": "https://t.me/+M8CY4nyK5NU5MTk1",
-          "fetchedAt": "2026-09-24T17:31:44.782Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:10.117Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/+M8CY4nyK5NU5MTk1",
+            "status": "UNSUPPORTED",
+            "detail": "Private/invite Telegram link cannot be read without joining the channel",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:10.117Z"
+          }
         }
       }
     },
@@ -195,8 +204,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for bloxprodio",
-          "source": "https://github.com/bloxprodio"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:10.582Z"
         },
         "telegram": {
           "count": {
@@ -206,8 +215,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for bloxprodio",
-          "source": "https://t.me/bloxprodio"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:10.928Z"
         }
       },
       "lastSocialActivity": null,
@@ -216,21 +225,24 @@
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for bloxprodio",
-          "source": "https://github.com/bloxprodio",
-          "fetchedAt": "2026-09-24T17:31:44.990Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for bloxprodio",
-          "source": "https://t.me/bloxprodio",
-          "fetchedAt": "2026-09-24T17:31:45.184Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:10.368Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/bloxprodio",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:10.582Z"
+          },
+          "telegram": {
+            "source": "https://t.me/bloxprodio",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:10.928Z"
+          }
         }
       }
     },
@@ -250,8 +262,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for a-dex",
-          "source": "https://github.com/a-dex"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:11.325Z"
         },
         "telegram": {
           "count": {
@@ -261,8 +273,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for a_dex_official",
-          "source": "https://t.me/a_dex_official"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:11.668Z"
         },
         "medium": {
           "count": {
@@ -271,9 +283,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NOT_FOUND",
-          "detail": "Medium profile not found: a-dex",
-          "source": "https://medium.com/@a-dex"
+          "status": "OK",
+          "detail": "8 Medium articles found",
+          "checkedAt": "2026-09-24T17:38:12.209Z"
         }
       },
       "lastSocialActivity": null,
@@ -283,29 +295,32 @@
         "medium": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for a-dex",
-          "source": "https://github.com/a-dex",
-          "fetchedAt": "2026-09-24T17:31:45.276Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for a_dex_official",
-          "source": "https://t.me/a_dex_official",
-          "fetchedAt": "2026-09-24T17:31:45.469Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "medium": {
-          "status": "NOT_FOUND",
-          "detail": "Medium profile not found: a-dex",
-          "source": "https://medium.com/@a-dex",
-          "fetchedAt": "2026-09-24T17:31:45.582Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:11.178Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/a-dex",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:11.325Z"
+          },
+          "telegram": {
+            "source": "https://t.me/a_dex_official",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:11.668Z"
+          },
+          "medium": {
+            "source": "https://medium.com/@a-dex",
+            "status": "OK",
+            "detail": "8 Medium articles found",
+            "fetchedEvents": 8,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:12.209Z"
+          }
         }
       }
     },
@@ -325,8 +340,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for brotonbpgroup",
-          "source": "https://t.me/brotonbpgroup"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:12.653Z"
         }
       },
       "lastSocialActivity": null,
@@ -334,13 +349,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for brotonbpgroup",
-          "source": "https://t.me/brotonbpgroup",
-          "fetchedAt": "2026-09-24T17:31:45.776Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:12.460Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/brotonbpgroup",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:12.653Z"
+          }
         }
       }
     },
@@ -360,8 +378,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for metallicusdev",
-          "source": "https://github.com/metallicusdev"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:13.046Z"
         },
         "telegram": {
           "count": {
@@ -371,8 +389,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for MetallicusTDBN",
-          "source": "https://t.me/MetallicusTDBN"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:13.391Z"
         },
         "youtube": {
           "count": {
@@ -381,9 +399,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @metallicusTDBN",
-          "source": "https://youtube.com/c/metallicusTDBN"
+          "status": "NOT_FOUND",
+          "detail": "YouTube channel not found: https://youtube.com/c/metallicusTDBN",
+          "checkedAt": "2026-09-24T17:38:13.648Z"
         }
       },
       "lastSocialActivity": null,
@@ -393,29 +411,32 @@
         "youtube": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for metallicusdev",
-          "source": "https://github.com/metallicusdev",
-          "fetchedAt": "2026-09-24T17:31:45.846Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for MetallicusTDBN",
-          "source": "https://t.me/MetallicusTDBN",
-          "fetchedAt": "2026-09-24T17:31:46.038Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @metallicusTDBN",
-          "source": "https://youtube.com/c/metallicusTDBN",
-          "fetchedAt": "2026-09-24T17:31:46.038Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:12.904Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/metallicusdev",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:13.046Z"
+          },
+          "telegram": {
+            "source": "https://t.me/MetallicusTDBN",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:13.391Z"
+          },
+          "youtube": {
+            "source": "https://youtube.com/c/metallicusTDBN",
+            "status": "NOT_FOUND",
+            "detail": "YouTube channel not found: https://youtube.com/c/metallicusTDBN",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:13.648Z"
+          }
         }
       }
     },
@@ -435,8 +456,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for catsvote",
-          "source": "https://t.me/catsvote"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:14.095Z"
         }
       },
       "lastSocialActivity": null,
@@ -444,13 +465,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for catsvote",
-          "source": "https://t.me/catsvote",
-          "fetchedAt": "2026-09-24T17:31:46.230Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:13.899Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/catsvote",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:14.095Z"
+          }
         }
       }
     },
@@ -458,20 +482,20 @@
       "owner": "cerebroai",
       "activity": {
         "7D": 0,
-        "30D": 16,
-        "1Y": 16
+        "30D": 32,
+        "1Y": 32
       },
       "networkActivity": {
         "github": {
           "count": {
             "7D": 0,
-            "30D": 16,
-            "1Y": 16
+            "30D": 32,
+            "1Y": 32
           },
-          "lastActivity": "2026-08-31T05:20:53Z",
+          "lastActivity": "2026-08-31T05:20:53.000Z",
           "status": "OK",
           "detail": "16 public events",
-          "source": "https://github.com/VirgilBB"
+          "checkedAt": "2026-09-24T17:38:14.518Z"
         },
         "telegram": {
           "count": {
@@ -481,11 +505,11 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for CerebroAgentBot",
-          "source": "https://t.me/CerebroAgentBot"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:14.861Z"
         }
       },
-      "lastSocialActivity": "2026-08-31T05:20:53Z",
+      "lastSocialActivity": "2026-08-31T05:20:53.000Z",
       "events": {
         "github": [
           {
@@ -493,180 +517,327 @@
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T05:20:53Z",
+            "timestamp": "2026-08-31T05:20:53.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19504420615",
+            "timestamp": "2026-08-31T05:20:53.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19531119548",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T04:41:27Z",
+            "timestamp": "2026-08-31T04:41:27.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19531119548",
+            "timestamp": "2026-08-31T04:41:27.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19500205600",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T04:25:04Z",
+            "timestamp": "2026-08-31T04:25:04.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19500205600",
+            "timestamp": "2026-08-31T04:25:04.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19522139687",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T02:50:22Z",
+            "timestamp": "2026-08-31T02:50:22.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19522139687",
+            "timestamp": "2026-08-31T02:50:22.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19488625409",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T01:49:58Z",
+            "timestamp": "2026-08-31T01:49:58.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19488625409",
+            "timestamp": "2026-08-31T01:49:58.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19488291487",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T01:45:34Z",
+            "timestamp": "2026-08-31T01:45:34.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19488291487",
+            "timestamp": "2026-08-31T01:45:34.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19487125231",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T01:30:15Z",
+            "timestamp": "2026-08-31T01:30:15.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19487125231",
+            "timestamp": "2026-08-31T01:30:15.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19502997057",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T00:40:55Z",
+            "timestamp": "2026-08-31T00:40:55.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19502997057",
+            "timestamp": "2026-08-31T00:40:55.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19482928791",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T00:36:14Z",
+            "timestamp": "2026-08-31T00:36:14.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19482928791",
+            "timestamp": "2026-08-31T00:36:14.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19512046704",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T00:20:51Z",
+            "timestamp": "2026-08-31T00:20:51.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19512046704",
+            "timestamp": "2026-08-31T00:20:51.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19493665015",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-31T00:12:52Z",
+            "timestamp": "2026-08-31T00:12:52.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19493665015",
+            "timestamp": "2026-08-31T00:12:52.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19489339585",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-30T23:50:38Z",
+            "timestamp": "2026-08-30T23:50:38.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19489339585",
+            "timestamp": "2026-08-30T23:50:38.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19500608216",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-30T23:43:01Z",
+            "timestamp": "2026-08-30T23:43:01.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19500608216",
+            "timestamp": "2026-08-30T23:43:01.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19491266337",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-30T23:31:28Z",
+            "timestamp": "2026-08-30T23:31:28.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19491266337",
+            "timestamp": "2026-08-30T23:31:28.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19484531686",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-30T23:30:03Z",
+            "timestamp": "2026-08-30T23:30:03.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "19484531686",
+            "timestamp": "2026-08-30T23:30:03.000Z",
+            "type": "PushEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "PushEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:18882578235",
             "network": "github",
             "type": "CreateEvent",
             "title": "CreateEvent — VirgilBB/cerebro_ai",
-            "timestamp": "2026-08-25T21:13:37Z",
+            "timestamp": "2026-08-25T21:13:37.000Z",
             "url": "https://github.com/VirgilBB/cerebro_ai",
             "source": "https://github.com/VirgilBB",
             "actor": "VirgilBB"
+          },
+          {
+            "id": "18882578235",
+            "timestamp": "2026-08-25T21:13:37.000Z",
+            "type": "CreateEvent",
+            "actor": "VirgilBB",
+            "repo": "VirgilBB/cerebro_ai",
+            "title": "CreateEvent — VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           }
         ],
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "OK",
-          "detail": "16 public events",
-          "source": "https://github.com/VirgilBB",
-          "fetchedAt": "2026-09-24T17:31:46.433Z",
-          "discovered": 16,
-          "stored": 16
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for CerebroAgentBot",
-          "source": "https://t.me/CerebroAgentBot",
-          "fetchedAt": "2026-09-24T17:31:46.623Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:14.346Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/VirgilBB",
+            "status": "OK",
+            "detail": "16 public events",
+            "fetchedEvents": 16,
+            "storedEvents": 32,
+            "checkedAt": "2026-09-24T17:38:14.518Z"
+          },
+          "telegram": {
+            "source": "https://t.me/CerebroAgentBot",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:14.861Z"
+          }
         }
       }
     },
@@ -686,8 +857,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for chaininfra",
-          "source": "https://github.com/chaininfra"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:15.197Z"
         },
         "telegram": {
           "count": {
@@ -697,8 +868,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for chaininfra",
-          "source": "https://t.me/chaininfra"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:15.546Z"
         }
       },
       "lastSocialActivity": null,
@@ -707,21 +878,24 @@
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for chaininfra",
-          "source": "https://github.com/chaininfra",
-          "fetchedAt": "2026-09-24T17:31:46.700Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for chaininfra",
-          "source": "https://t.me/chaininfra",
-          "fetchedAt": "2026-09-24T17:31:46.903Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:15.111Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/chaininfra",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:15.197Z"
+          },
+          "telegram": {
+            "source": "https://t.me/chaininfra",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:15.546Z"
+          }
         }
       }
     },
@@ -741,8 +915,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for cindronet",
-          "source": "https://t.me/cindronet"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:15.985Z"
         }
       },
       "lastSocialActivity": null,
@@ -750,13 +924,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for cindronet",
-          "source": "https://t.me/cindronet",
-          "fetchedAt": "2026-09-24T17:31:47.095Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:15.795Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/cindronet",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:15.985Z"
+          }
         }
       }
     },
@@ -776,8 +953,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for CryptoLions",
-          "source": "https://github.com/CryptoLions"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:16.345Z"
         },
         "telegram": {
           "count": {
@@ -787,8 +964,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for CryptoLions_io",
-          "source": "https://t.me/CryptoLions_io"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:16.685Z"
         },
         "youtube": {
           "count": {
@@ -797,9 +974,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UCB7F-KO0mmZ1yVBCq0_1gtA",
-          "source": "https://www.youtube.com/@channel/UCB7F-KO0mmZ1yVBCq0_1gtA"
+          "status": "OK",
+          "detail": "15 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:16.995Z"
         }
       },
       "lastSocialActivity": null,
@@ -809,29 +986,32 @@
         "youtube": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for CryptoLions",
-          "source": "https://github.com/CryptoLions",
-          "fetchedAt": "2026-09-24T17:31:47.217Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for CryptoLions_io",
-          "source": "https://t.me/CryptoLions_io",
-          "fetchedAt": "2026-09-24T17:31:47.410Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UCB7F-KO0mmZ1yVBCq0_1gtA",
-          "source": "https://www.youtube.com/@channel/UCB7F-KO0mmZ1yVBCq0_1gtA",
-          "fetchedAt": "2026-09-24T17:31:47.513Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:16.236Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/CryptoLions",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:16.345Z"
+          },
+          "telegram": {
+            "source": "https://t.me/CryptoLions_io",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:16.685Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@channel/UCB7F-KO0mmZ1yVBCq0_1gtA",
+            "status": "OK",
+            "detail": "15 YouTube videos found",
+            "fetchedEvents": 15,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:16.995Z"
+          }
         }
       }
     },
@@ -851,8 +1031,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for hellium",
-          "source": "https://t.me/hellium"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:17.436Z"
         }
       },
       "lastSocialActivity": null,
@@ -860,13 +1040,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for hellium",
-          "source": "https://t.me/hellium",
-          "fetchedAt": "2026-09-24T17:31:47.708Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:17.245Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/hellium",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:17.436Z"
+          }
         }
       }
     },
@@ -886,8 +1069,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for EnergyBP",
-          "source": "https://t.me/EnergyBP"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:17.880Z"
         }
       },
       "lastSocialActivity": null,
@@ -895,13 +1078,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for EnergyBP",
-          "source": "https://t.me/EnergyBP",
-          "fetchedAt": "2026-09-24T17:31:47.897Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:17.686Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/EnergyBP",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:17.880Z"
+          }
         }
       }
     },
@@ -921,8 +1107,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosamsterdam",
-          "source": "https://github.com/eosamsterdam"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:18.247Z"
         },
         "telegram": {
           "count": {
@@ -932,8 +1118,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for EOS_Amsterdam",
-          "source": "https://t.me/EOS_Amsterdam"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:18.589Z"
         },
         "reddit": {
           "count": {
@@ -942,9 +1128,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/eosamsterdam"
+          "checkedAt": "2026-09-24T17:38:18.772Z"
         }
       },
       "lastSocialActivity": null,
@@ -954,29 +1140,32 @@
         "reddit": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosamsterdam",
-          "source": "https://github.com/eosamsterdam",
-          "fetchedAt": "2026-09-24T17:31:47.961Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for EOS_Amsterdam",
-          "source": "https://t.me/EOS_Amsterdam",
-          "fetchedAt": "2026-09-24T17:31:48.153Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/eosamsterdam",
-          "fetchedAt": "2026-09-24T17:31:48.169Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:18.130Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/eosamsterdam",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:18.247Z"
+          },
+          "telegram": {
+            "source": "https://t.me/EOS_Amsterdam",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:18.589Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/eosamsterdam",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:18.772Z"
+          }
         }
       }
     },
@@ -996,8 +1185,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for EOS-Arabia",
-          "source": "https://github.com/EOS-Arabia"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:19.099Z"
         },
         "telegram": {
           "count": {
@@ -1007,8 +1196,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for EOS_Arabia",
-          "source": "https://t.me/EOS_Arabia"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:19.444Z"
         },
         "youtube": {
           "count": {
@@ -1017,9 +1206,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UCku8FY8kPuJ7asKw5LKTDIg",
-          "source": "https://www.youtube.com/@channel/UCku8FY8kPuJ7asKw5LKTDIg"
+          "status": "OK",
+          "detail": "6 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:19.675Z"
         }
       },
       "lastSocialActivity": null,
@@ -1029,29 +1218,32 @@
         "youtube": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for EOS-Arabia",
-          "source": "https://github.com/EOS-Arabia",
-          "fetchedAt": "2026-09-24T17:31:48.257Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for EOS_Arabia",
-          "source": "https://t.me/EOS_Arabia",
-          "fetchedAt": "2026-09-24T17:31:48.448Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UCku8FY8kPuJ7asKw5LKTDIg",
-          "source": "https://www.youtube.com/@channel/UCku8FY8kPuJ7asKw5LKTDIg",
-          "fetchedAt": "2026-09-24T17:31:48.580Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:19.022Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/EOS-Arabia",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:19.099Z"
+          },
+          "telegram": {
+            "source": "https://t.me/EOS_Arabia",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:19.444Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@channel/UCku8FY8kPuJ7asKw5LKTDIg",
+            "status": "OK",
+            "detail": "6 YouTube videos found",
+            "fetchedEvents": 6,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:19.675Z"
+          }
         }
       }
     },
@@ -1071,8 +1263,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosdetroit",
-          "source": "https://github.com/eosdetroit"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:19.998Z"
         },
         "telegram": {
           "count": {
@@ -1082,8 +1274,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for detroitledgertech",
-          "source": "https://t.me/detroitledgertech"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:20.353Z"
         },
         "youtube": {
           "count": {
@@ -1092,9 +1284,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @detroitledgertechnologies",
-          "source": "https://www.youtube.com/@detroitledgertechnologies"
+          "status": "OK",
+          "detail": "15 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:20.920Z"
         },
         "reddit": {
           "count": {
@@ -1103,9 +1295,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/eosdetroit"
+          "checkedAt": "2026-09-24T17:38:21.086Z"
         }
       },
       "lastSocialActivity": null,
@@ -1116,37 +1308,40 @@
         "reddit": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosdetroit",
-          "source": "https://github.com/eosdetroit",
-          "fetchedAt": "2026-09-24T17:31:48.665Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for detroitledgertech",
-          "source": "https://t.me/detroitledgertech",
-          "fetchedAt": "2026-09-24T17:31:48.855Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @detroitledgertechnologies",
-          "source": "https://www.youtube.com/@detroitledgertechnologies",
-          "fetchedAt": "2026-09-24T17:31:48.856Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/eosdetroit",
-          "fetchedAt": "2026-09-24T17:31:48.875Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:19.926Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/eosdetroit",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:19.998Z"
+          },
+          "telegram": {
+            "source": "https://t.me/detroitledgertech",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:20.353Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@detroitledgertechnologies",
+            "status": "OK",
+            "detail": "15 YouTube videos found",
+            "fetchedEvents": 15,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:20.920Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/eosdetroit",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:21.086Z"
+          }
         }
       }
     },
@@ -1166,8 +1361,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosrio",
-          "source": "https://github.com/eosrio"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:21.451Z"
         },
         "telegram": {
           "count": {
@@ -1177,8 +1372,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for eosrio",
-          "source": "https://t.me/eosrio"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:21.798Z"
         },
         "youtube": {
           "count": {
@@ -1187,9 +1382,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UC5aslySB2QP_v8dyMMBcTxw",
-          "source": "https://www.youtube.com/@channel/UC5aslySB2QP_v8dyMMBcTxw"
+          "status": "OK",
+          "detail": "15 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:22.031Z"
         },
         "reddit": {
           "count": {
@@ -1198,9 +1393,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/eosrio"
+          "checkedAt": "2026-09-24T17:38:22.203Z"
         }
       },
       "lastSocialActivity": null,
@@ -1211,37 +1406,40 @@
         "reddit": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosrio",
-          "source": "https://github.com/eosrio",
-          "fetchedAt": "2026-09-24T17:31:48.940Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for eosrio",
-          "source": "https://t.me/eosrio",
-          "fetchedAt": "2026-09-24T17:31:49.134Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UC5aslySB2QP_v8dyMMBcTxw",
-          "source": "https://www.youtube.com/@channel/UC5aslySB2QP_v8dyMMBcTxw",
-          "fetchedAt": "2026-09-24T17:31:49.225Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/eosrio",
-          "fetchedAt": "2026-09-24T17:31:49.242Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:21.336Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/eosrio",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:21.451Z"
+          },
+          "telegram": {
+            "source": "https://t.me/eosrio",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:21.798Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@channel/UC5aslySB2QP_v8dyMMBcTxw",
+            "status": "OK",
+            "detail": "15 YouTube videos found",
+            "fetchedEvents": 15,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:22.031Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/eosrio",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:22.203Z"
+          }
         }
       }
     },
@@ -1261,8 +1459,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosusa",
-          "source": "https://github.com/eosusa"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:22.521Z"
         },
         "telegram": {
           "count": {
@@ -1272,8 +1470,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for eosusa",
-          "source": "https://t.me/eosusa"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:22.862Z"
         },
         "youtube": {
           "count": {
@@ -1282,9 +1480,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @user",
-          "source": "https://www.youtube.com/@user/calbright4"
+          "status": "NOT_FOUND",
+          "detail": "YouTube channel not found: https://www.youtube.com/@user/calbright4",
+          "checkedAt": "2026-09-24T17:38:23.151Z"
         }
       },
       "lastSocialActivity": null,
@@ -1294,29 +1492,32 @@
         "youtube": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for eosusa",
-          "source": "https://github.com/eosusa",
-          "fetchedAt": "2026-09-24T17:31:49.308Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for eosusa",
-          "source": "https://t.me/eosusa",
-          "fetchedAt": "2026-09-24T17:31:49.499Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @user",
-          "source": "https://www.youtube.com/@user/calbright4",
-          "fetchedAt": "2026-09-24T17:31:49.500Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:22.453Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/eosusa",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:22.521Z"
+          },
+          "telegram": {
+            "source": "https://t.me/eosusa",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:22.862Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@user/calbright4",
+            "status": "NOT_FOUND",
+            "detail": "YouTube channel not found: https://www.youtube.com/@user/calbright4",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:23.151Z"
+          }
         }
       }
     },
@@ -1336,8 +1537,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for generEOS",
-          "source": "https://github.com/generEOS"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:23.519Z"
         },
         "telegram": {
           "count": {
@@ -1347,8 +1548,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for generEOS",
-          "source": "https://t.me/generEOS"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:23.861Z"
         },
         "youtube": {
           "count": {
@@ -1357,9 +1558,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UC7TN0V2KCVTYvIHbtj_9Dvw",
-          "source": "https://www.youtube.com/channel/UC7TN0V2KCVTYvIHbtj_9Dvw"
+          "status": "OK",
+          "detail": "15 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:24.115Z"
         },
         "reddit": {
           "count": {
@@ -1368,9 +1569,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/generEOS"
+          "checkedAt": "2026-09-24T17:38:24.280Z"
         }
       },
       "lastSocialActivity": null,
@@ -1381,37 +1582,40 @@
         "reddit": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for generEOS",
-          "source": "https://github.com/generEOS",
-          "fetchedAt": "2026-09-24T17:31:49.586Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for generEOS",
-          "source": "https://t.me/generEOS",
-          "fetchedAt": "2026-09-24T17:31:49.776Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UC7TN0V2KCVTYvIHbtj_9Dvw",
-          "source": "https://www.youtube.com/channel/UC7TN0V2KCVTYvIHbtj_9Dvw",
-          "fetchedAt": "2026-09-24T17:31:49.905Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/generEOS",
-          "fetchedAt": "2026-09-24T17:31:49.942Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:23.401Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/generEOS",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:23.519Z"
+          },
+          "telegram": {
+            "source": "https://t.me/generEOS",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:23.861Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/channel/UC7TN0V2KCVTYvIHbtj_9Dvw",
+            "status": "OK",
+            "detail": "15 YouTube videos found",
+            "fetchedEvents": 15,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:24.115Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/generEOS",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:24.280Z"
+          }
         }
       }
     },
@@ -1431,8 +1635,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for Homebloks",
-          "source": "https://t.me/Homebloks"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:24.722Z"
         }
       },
       "lastSocialActivity": null,
@@ -1440,13 +1644,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for Homebloks",
-          "source": "https://t.me/Homebloks",
-          "fetchedAt": "2026-09-24T17:31:50.134Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:24.530Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/Homebloks",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:24.722Z"
+          }
         }
       }
     },
@@ -1466,8 +1673,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for ledgerwise",
-          "source": "https://github.com/ledgerwise"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:25.093Z"
         },
         "telegram": {
           "count": {
@@ -1477,8 +1684,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for ledgerwiseio",
-          "source": "https://t.me/ledgerwiseio"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:25.429Z"
         }
       },
       "lastSocialActivity": null,
@@ -1487,21 +1694,24 @@
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for ledgerwise",
-          "source": "https://github.com/ledgerwise",
-          "fetchedAt": "2026-09-24T17:31:50.240Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for ledgerwiseio",
-          "source": "https://t.me/ledgerwiseio",
-          "fetchedAt": "2026-09-24T17:31:50.426Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:24.973Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/ledgerwise",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:25.093Z"
+          },
+          "telegram": {
+            "source": "https://t.me/ledgerwiseio",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:25.429Z"
+          }
         }
       }
     },
@@ -1521,8 +1731,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for luminaryvisn",
-          "source": "https://t.me/luminaryvisn"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:25.870Z"
         },
         "youtube": {
           "count": {
@@ -1531,9 +1741,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UC_oes4JZiKCBhD4cBtdEP3Q",
-          "source": "https://www.youtube.com/channel/UC_oes4JZiKCBhD4cBtdEP3Q"
+          "status": "OK",
+          "detail": "1 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:26.092Z"
         },
         "reddit": {
           "count": {
@@ -1542,9 +1752,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/luminaryvisn/"
+          "checkedAt": "2026-09-24T17:38:26.266Z"
         }
       },
       "lastSocialActivity": null,
@@ -1554,29 +1764,32 @@
         "reddit": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for luminaryvisn",
-          "source": "https://t.me/luminaryvisn",
-          "fetchedAt": "2026-09-24T17:31:50.616Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent videos found for UC_oes4JZiKCBhD4cBtdEP3Q",
-          "source": "https://www.youtube.com/channel/UC_oes4JZiKCBhD4cBtdEP3Q",
-          "fetchedAt": "2026-09-24T17:31:50.745Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/luminaryvisn/",
-          "fetchedAt": "2026-09-24T17:31:50.763Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:25.679Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/luminaryvisn",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:25.870Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/channel/UC_oes4JZiKCBhD4cBtdEP3Q",
+            "status": "OK",
+            "detail": "1 YouTube videos found",
+            "fetchedEvents": 1,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:26.092Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/luminaryvisn/",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:26.266Z"
+          }
         }
       }
     },
@@ -1597,7 +1810,7 @@
           "lastActivity": null,
           "status": "UNSUPPORTED",
           "detail": "Private/invite Telegram link cannot be read without joining the channel",
-          "source": "https://t.me/+3MwEsa3gA0hkZTBk"
+          "checkedAt": "2026-09-24T17:38:26.516Z"
         }
       },
       "lastSocialActivity": null,
@@ -1605,34 +1818,37 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "UNSUPPORTED",
-          "detail": "Private/invite Telegram link cannot be read without joining the channel",
-          "source": "https://t.me/+3MwEsa3gA0hkZTBk",
-          "fetchedAt": "2026-09-24T17:31:50.763Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:26.516Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/+3MwEsa3gA0hkZTBk",
+            "status": "UNSUPPORTED",
+            "detail": "Private/invite Telegram link cannot be read without joining the channel",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:26.516Z"
+          }
         }
       }
     },
     "protonind": {
       "owner": "protonind",
       "activity": {
-        "7D": 3,
-        "30D": 13,
-        "1Y": 13
+        "7D": 6,
+        "30D": 26,
+        "1Y": 26
       },
       "networkActivity": {
         "github": {
           "count": {
-            "7D": 3,
-            "30D": 13,
-            "1Y": 13
+            "7D": 6,
+            "30D": 26,
+            "1Y": 26
           },
-          "lastActivity": "2026-09-22T10:54:55Z",
+          "lastActivity": "2026-09-22T10:54:55.000Z",
           "status": "OK",
           "detail": "13 public events",
-          "source": "https://github.com/thatzprem"
+          "checkedAt": "2026-09-24T17:38:26.945Z"
         },
         "telegram": {
           "count": {
@@ -1642,8 +1858,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for thatzprem",
-          "source": "https://t.me/thatzprem"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:27.286Z"
         },
         "youtube": {
           "count": {
@@ -1652,9 +1868,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @protonind",
-          "source": "https://www.youtube.com/@protonind"
+          "status": "NOT_FOUND",
+          "detail": "YouTube channel not found: https://www.youtube.com/@protonind",
+          "checkedAt": "2026-09-24T17:38:27.497Z"
         },
         "reddit": {
           "count": {
@@ -1663,12 +1879,12 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/protonind"
+          "checkedAt": "2026-09-24T17:38:27.662Z"
         }
       },
-      "lastSocialActivity": "2026-09-22T10:54:55Z",
+      "lastSocialActivity": "2026-09-22T10:54:55.000Z",
       "events": {
         "github": [
           {
@@ -1676,130 +1892,247 @@
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — thatzprem/relayjoin",
-            "timestamp": "2026-09-22T10:54:55Z",
+            "timestamp": "2026-09-22T10:54:55.000Z",
             "url": "https://github.com/thatzprem/relayjoin",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "21832151833",
+            "timestamp": "2026-09-22T10:54:55.000Z",
+            "type": "PushEvent",
+            "actor": "thatzprem",
+            "repo": "thatzprem/relayjoin",
+            "title": "PushEvent — thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           },
           {
             "id": "github:21829081640",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — thatzprem/relayjoin",
-            "timestamp": "2026-09-22T10:42:12Z",
+            "timestamp": "2026-09-22T10:42:12.000Z",
             "url": "https://github.com/thatzprem/relayjoin",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "21829081640",
+            "timestamp": "2026-09-22T10:42:12.000Z",
+            "type": "PushEvent",
+            "actor": "thatzprem",
+            "repo": "thatzprem/relayjoin",
+            "title": "PushEvent — thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           },
           {
             "id": "github:21870291631",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — thatzprem/relayjoin",
-            "timestamp": "2026-09-22T10:24:49Z",
+            "timestamp": "2026-09-22T10:24:49.000Z",
             "url": "https://github.com/thatzprem/relayjoin",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "21870291631",
+            "timestamp": "2026-09-22T10:24:49.000Z",
+            "type": "PushEvent",
+            "actor": "thatzprem",
+            "repo": "thatzprem/relayjoin",
+            "title": "PushEvent — thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           },
           {
             "id": "github:15493494084",
             "network": "github",
             "type": "PublicEvent",
             "title": "PublicEvent — thatzprem/relayjoin",
-            "timestamp": "2026-09-10T10:07:38Z",
+            "timestamp": "2026-09-10T10:07:38.000Z",
             "url": "https://github.com/thatzprem/relayjoin",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "15493494084",
+            "timestamp": "2026-09-10T10:07:38.000Z",
+            "type": "PublicEvent",
+            "actor": "thatzprem",
+            "repo": "thatzprem/relayjoin",
+            "title": "PublicEvent — thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           },
           {
             "id": "github:20597801139",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-08T10:47:43Z",
+            "timestamp": "2026-09-08T10:47:43.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "20597801139",
+            "timestamp": "2026-09-08T10:47:43.000Z",
+            "type": "PushEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PushEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14627362097",
             "network": "github",
             "type": "PullRequestEvent",
             "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-08T10:47:42Z",
+            "timestamp": "2026-09-08T10:47:42.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "14627362097",
+            "timestamp": "2026-09-08T10:47:42.000Z",
+            "type": "PullRequestEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14627352537",
             "network": "github",
             "type": "PullRequestEvent",
             "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-08T10:47:33Z",
+            "timestamp": "2026-09-08T10:47:33.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "14627352537",
+            "timestamp": "2026-09-08T10:47:33.000Z",
+            "type": "PullRequestEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:20604305274",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-08T10:47:23Z",
+            "timestamp": "2026-09-08T10:47:23.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "20604305274",
+            "timestamp": "2026-09-08T10:47:23.000Z",
+            "type": "PushEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PushEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14473300772",
             "network": "github",
             "type": "ForkEvent",
             "title": "ForkEvent — elastic/meetups",
-            "timestamp": "2026-09-05T05:38:07Z",
+            "timestamp": "2026-09-05T05:38:07.000Z",
             "url": "https://github.com/elastic/meetups",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "14473300772",
+            "timestamp": "2026-09-05T05:38:07.000Z",
+            "type": "ForkEvent",
+            "actor": "thatzprem",
+            "repo": "elastic/meetups",
+            "title": "ForkEvent — elastic/meetups",
+            "url": "https://github.com/elastic/meetups"
           },
           {
             "id": "github:20247160663",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-04T10:32:55Z",
+            "timestamp": "2026-09-04T10:32:55.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "20247160663",
+            "timestamp": "2026-09-04T10:32:55.000Z",
+            "type": "PushEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PushEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14424726598",
             "network": "github",
             "type": "PullRequestEvent",
             "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-04T10:32:54Z",
+            "timestamp": "2026-09-04T10:32:54.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "14424726598",
+            "timestamp": "2026-09-04T10:32:54.000Z",
+            "type": "PullRequestEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14424691668",
             "network": "github",
             "type": "PullRequestEvent",
             "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-04T10:32:14Z",
+            "timestamp": "2026-09-04T10:32:14.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "14424691668",
+            "timestamp": "2026-09-04T10:32:14.000Z",
+            "type": "PullRequestEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PullRequestEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:20250043874",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — BlockIndia-LLC/bi_website",
-            "timestamp": "2026-09-04T10:26:49Z",
+            "timestamp": "2026-09-04T10:26:49.000Z",
             "url": "https://github.com/BlockIndia-LLC/bi_website",
             "source": "https://github.com/thatzprem",
             "actor": "thatzprem"
+          },
+          {
+            "id": "20250043874",
+            "timestamp": "2026-09-04T10:26:49.000Z",
+            "type": "PushEvent",
+            "actor": "thatzprem",
+            "repo": "BlockIndia-LLC/bi_website",
+            "title": "PushEvent — BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           }
         ],
         "telegram": [],
@@ -1807,37 +2140,40 @@
         "reddit": []
       },
       "diagnostics": {
-        "github": {
-          "status": "OK",
-          "detail": "13 public events",
-          "source": "https://github.com/thatzprem",
-          "fetchedAt": "2026-09-24T17:31:51.034Z",
-          "discovered": 13,
-          "stored": 13
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for thatzprem",
-          "source": "https://t.me/thatzprem",
-          "fetchedAt": "2026-09-24T17:31:51.227Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @protonind",
-          "source": "https://www.youtube.com/@protonind",
-          "fetchedAt": "2026-09-24T17:31:51.227Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/protonind",
-          "fetchedAt": "2026-09-24T17:31:51.262Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:26.767Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/thatzprem",
+            "status": "OK",
+            "detail": "13 public events",
+            "fetchedEvents": 13,
+            "storedEvents": 26,
+            "checkedAt": "2026-09-24T17:38:26.945Z"
+          },
+          "telegram": {
+            "source": "https://t.me/thatzprem",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:27.286Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@protonind",
+            "status": "NOT_FOUND",
+            "detail": "YouTube channel not found: https://www.youtube.com/@protonind",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:27.497Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/protonind",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:27.662Z"
+          }
         }
       }
     },
@@ -1858,7 +2194,7 @@
           "lastActivity": null,
           "status": "NOT_FOUND",
           "detail": "GitHub user not found: telosmadrid",
-          "source": "https://github.com/telosmadrid"
+          "checkedAt": "2026-09-24T17:38:27.948Z"
         },
         "telegram": {
           "count": {
@@ -1868,8 +2204,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for telosmadrid",
-          "source": "https://t.me/telosmadrid"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:28.282Z"
         }
       },
       "lastSocialActivity": null,
@@ -1878,21 +2214,24 @@
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NOT_FOUND",
-          "detail": "GitHub user not found: telosmadrid",
-          "source": "https://github.com/telosmadrid",
-          "fetchedAt": "2026-09-24T17:31:51.300Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for telosmadrid",
-          "source": "https://t.me/telosmadrid",
-          "fetchedAt": "2026-09-24T17:31:51.491Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:27.913Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/telosmadrid",
+            "status": "NOT_FOUND",
+            "detail": "GitHub user not found: telosmadrid",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:27.948Z"
+          },
+          "telegram": {
+            "source": "https://t.me/telosmadrid",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:28.282Z"
+          }
         }
       }
     },
@@ -1912,8 +2251,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for protonnz",
-          "source": "https://github.com/protonnz"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:28.658Z"
         },
         "telegram": {
           "count": {
@@ -1923,8 +2262,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for protonnz",
-          "source": "https://t.me/protonnz"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:28.997Z"
         },
         "youtube": {
           "count": {
@@ -1933,9 +2272,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @protonnz",
-          "source": "https://www.youtube.com/@protonnz"
+          "status": "OK",
+          "detail": "6 YouTube videos found",
+          "checkedAt": "2026-09-24T17:38:29.487Z"
         },
         "reddit": {
           "count": {
@@ -1944,9 +2283,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/protonnz"
+          "checkedAt": "2026-09-24T17:38:29.655Z"
         }
       },
       "lastSocialActivity": null,
@@ -1957,37 +2296,40 @@
         "reddit": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for protonnz",
-          "source": "https://github.com/protonnz",
-          "fetchedAt": "2026-09-24T17:31:51.561Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for protonnz",
-          "source": "https://t.me/protonnz",
-          "fetchedAt": "2026-09-24T17:31:51.753Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @protonnz",
-          "source": "https://www.youtube.com/@protonnz",
-          "fetchedAt": "2026-09-24T17:31:51.754Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/protonnz",
-          "fetchedAt": "2026-09-24T17:31:51.775Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:28.533Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/protonnz",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:28.658Z"
+          },
+          "telegram": {
+            "source": "https://t.me/protonnz",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:28.997Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@protonnz",
+            "status": "OK",
+            "detail": "6 YouTube videos found",
+            "fetchedEvents": 6,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:29.487Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/protonnz",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:29.655Z"
+          }
         }
       }
     },
@@ -2007,8 +2349,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for protonuk",
-          "source": "https://t.me/protonuk"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:30.103Z"
         },
         "reddit": {
           "count": {
@@ -2017,9 +2359,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/protonuk"
+          "checkedAt": "2026-09-24T17:38:30.270Z"
         }
       },
       "lastSocialActivity": null,
@@ -2028,21 +2370,24 @@
         "reddit": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for protonuk",
-          "source": "https://t.me/protonuk",
-          "fetchedAt": "2026-09-24T17:31:51.966Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/protonuk",
-          "fetchedAt": "2026-09-24T17:31:51.991Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:29.906Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/protonuk",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:30.103Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/protonuk",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:30.270Z"
+          }
         }
       }
     },
@@ -2063,7 +2408,7 @@
           "lastActivity": null,
           "status": "NOT_FOUND",
           "detail": "GitHub user not found: rokeronebp",
-          "source": "https://github.com/rokeronebp"
+          "checkedAt": "2026-09-24T17:38:30.555Z"
         },
         "telegram": {
           "count": {
@@ -2073,8 +2418,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for rockerzOne",
-          "source": "https://t.me/rockerzOne"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:30.935Z"
         },
         "youtube": {
           "count": {
@@ -2083,9 +2428,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @rokeronebp",
-          "source": "https://www.youtube.com/@rokeronebp"
+          "status": "NOT_FOUND",
+          "detail": "YouTube channel not found: https://www.youtube.com/@rokeronebp",
+          "checkedAt": "2026-09-24T17:38:31.141Z"
         },
         "reddit": {
           "count": {
@@ -2094,9 +2439,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "ERROR",
+          "status": "RATE_LIMITED",
           "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/rokeronebp"
+          "checkedAt": "2026-09-24T17:38:31.312Z"
         }
       },
       "lastSocialActivity": null,
@@ -2107,37 +2452,40 @@
         "reddit": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NOT_FOUND",
-          "detail": "GitHub user not found: rokeronebp",
-          "source": "https://github.com/rokeronebp",
-          "fetchedAt": "2026-09-24T17:31:52.025Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for rockerzOne",
-          "source": "https://t.me/rockerzOne",
-          "fetchedAt": "2026-09-24T17:31:52.218Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "youtube": {
-          "status": "UNSUPPORTED",
-          "detail": "YouTube handle requires channel ID: @rokeronebp",
-          "source": "https://www.youtube.com/@rokeronebp",
-          "fetchedAt": "2026-09-24T17:31:52.218Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "reddit": {
-          "status": "ERROR",
-          "detail": "Reddit HTTP 429",
-          "source": "https://www.reddit.com/user/rokeronebp",
-          "fetchedAt": "2026-09-24T17:31:52.232Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:30.520Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/rokeronebp",
+            "status": "NOT_FOUND",
+            "detail": "GitHub user not found: rokeronebp",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:30.555Z"
+          },
+          "telegram": {
+            "source": "https://t.me/rockerzOne",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:30.935Z"
+          },
+          "youtube": {
+            "source": "https://www.youtube.com/@rokeronebp",
+            "status": "NOT_FOUND",
+            "detail": "YouTube channel not found: https://www.youtube.com/@rokeronebp",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:31.141Z"
+          },
+          "reddit": {
+            "source": "https://www.reddit.com/user/rokeronebp",
+            "status": "RATE_LIMITED",
+            "detail": "Reddit HTTP 429",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:31.312Z"
+          }
         }
       }
     },
@@ -2145,20 +2493,20 @@
       "owner": "saltant",
       "activity": {
         "7D": 0,
-        "30D": 5,
-        "1Y": 5
+        "30D": 10,
+        "1Y": 10
       },
       "networkActivity": {
         "github": {
           "count": {
             "7D": 0,
-            "30D": 5,
-            "1Y": 5
+            "30D": 10,
+            "1Y": 10
           },
-          "lastActivity": "2026-09-07T22:03:42Z",
+          "lastActivity": "2026-09-07T22:03:42.000Z",
           "status": "OK",
           "detail": "5 public events",
-          "source": "https://github.com/saltant"
+          "checkedAt": "2026-09-24T17:38:31.693Z"
         },
         "telegram": {
           "count": {
@@ -2168,8 +2516,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for saltant_bp",
-          "source": "https://t.me/saltant_bp"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:32.033Z"
         },
         "medium": {
           "count": {
@@ -2178,12 +2526,12 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent Medium posts found for saltantxpr",
-          "source": "https://medium.com/@saltantxpr"
+          "status": "OK",
+          "detail": "4 Medium articles found",
+          "checkedAt": "2026-09-24T17:38:32.264Z"
         }
       },
-      "lastSocialActivity": "2026-09-07T22:03:42Z",
+      "lastSocialActivity": "2026-09-07T22:03:42.000Z",
       "events": {
         "github": [
           {
@@ -2191,79 +2539,127 @@
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — Saltant/XPR-Peer-Probe",
-            "timestamp": "2026-09-07T22:03:42Z",
+            "timestamp": "2026-09-07T22:03:42.000Z",
             "url": "https://github.com/Saltant/XPR-Peer-Probe",
             "source": "https://github.com/saltant",
             "actor": "saltant"
+          },
+          {
+            "id": "20552568050",
+            "timestamp": "2026-09-07T22:03:42.000Z",
+            "type": "PushEvent",
+            "actor": "Saltant",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "title": "PushEvent — Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:20374911010",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — Saltant/XPR-Peer-Probe",
-            "timestamp": "2026-09-07T21:51:06Z",
+            "timestamp": "2026-09-07T21:51:06.000Z",
             "url": "https://github.com/Saltant/XPR-Peer-Probe",
             "source": "https://github.com/saltant",
             "actor": "saltant"
+          },
+          {
+            "id": "20374911010",
+            "timestamp": "2026-09-07T21:51:06.000Z",
+            "type": "PushEvent",
+            "actor": "Saltant",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "title": "PushEvent — Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:20551475421",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — Saltant/XPR-Peer-Probe",
-            "timestamp": "2026-09-07T21:50:14Z",
+            "timestamp": "2026-09-07T21:50:14.000Z",
             "url": "https://github.com/Saltant/XPR-Peer-Probe",
             "source": "https://github.com/saltant",
             "actor": "saltant"
+          },
+          {
+            "id": "20551475421",
+            "timestamp": "2026-09-07T21:50:14.000Z",
+            "type": "PushEvent",
+            "actor": "Saltant",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "title": "PushEvent — Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:20534392525",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — Saltant/XPR-Peer-Probe",
-            "timestamp": "2026-09-07T20:44:48Z",
+            "timestamp": "2026-09-07T20:44:48.000Z",
             "url": "https://github.com/Saltant/XPR-Peer-Probe",
             "source": "https://github.com/saltant",
             "actor": "saltant"
+          },
+          {
+            "id": "20534392525",
+            "timestamp": "2026-09-07T20:44:48.000Z",
+            "type": "PushEvent",
+            "actor": "Saltant",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "title": "PushEvent — Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:14591747779",
             "network": "github",
             "type": "PublicEvent",
             "title": "PublicEvent — Saltant/XPR-Peer-Probe",
-            "timestamp": "2026-09-07T19:53:39Z",
+            "timestamp": "2026-09-07T19:53:39.000Z",
             "url": "https://github.com/Saltant/XPR-Peer-Probe",
             "source": "https://github.com/saltant",
             "actor": "saltant"
+          },
+          {
+            "id": "14591747779",
+            "timestamp": "2026-09-07T19:53:39.000Z",
+            "type": "PublicEvent",
+            "actor": "Saltant",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "title": "PublicEvent — Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           }
         ],
         "telegram": [],
         "medium": []
       },
       "diagnostics": {
-        "github": {
-          "status": "OK",
-          "detail": "5 public events",
-          "source": "https://github.com/saltant",
-          "fetchedAt": "2026-09-24T17:31:52.346Z",
-          "discovered": 5,
-          "stored": 5
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for saltant_bp",
-          "source": "https://t.me/saltant_bp",
-          "fetchedAt": "2026-09-24T17:31:52.538Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "medium": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent Medium posts found for saltantxpr",
-          "source": "https://medium.com/@saltantxpr",
-          "fetchedAt": "2026-09-24T17:31:52.840Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:31.563Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/saltant",
+            "status": "OK",
+            "detail": "5 public events",
+            "fetchedEvents": 5,
+            "storedEvents": 10,
+            "checkedAt": "2026-09-24T17:38:31.693Z"
+          },
+          "telegram": {
+            "source": "https://t.me/saltant_bp",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:32.033Z"
+          },
+          "medium": {
+            "source": "https://medium.com/@saltantxpr",
+            "status": "OK",
+            "detail": "4 Medium articles found",
+            "fetchedEvents": 4,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:32.264Z"
+          }
         }
       }
     },
@@ -2283,8 +2679,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for snipversexpr",
-          "source": "https://t.me/snipversexpr"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:32.705Z"
         }
       },
       "lastSocialActivity": null,
@@ -2292,13 +2688,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for snipversexpr",
-          "source": "https://t.me/snipversexpr",
-          "fetchedAt": "2026-09-24T17:31:53.035Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:32.515Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/snipversexpr",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:32.705Z"
+          }
         }
       }
     },
@@ -2318,8 +2717,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for storex_io",
-          "source": "https://t.me/storex_io"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:33.152Z"
         },
         "medium": {
           "count": {
@@ -2328,9 +2727,9 @@
             "1Y": 0
           },
           "lastActivity": null,
-          "status": "NO_ACTIVITY",
-          "detail": "No recent Medium posts found for storex",
-          "source": "https://medium.com/@storex"
+          "status": "OK",
+          "detail": "10 Medium articles found",
+          "checkedAt": "2026-09-24T17:38:33.358Z"
         }
       },
       "lastSocialActivity": null,
@@ -2339,21 +2738,24 @@
         "medium": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for storex_io",
-          "source": "https://t.me/storex_io",
-          "fetchedAt": "2026-09-24T17:31:53.227Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "medium": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent Medium posts found for storex",
-          "source": "https://medium.com/@storex",
-          "fetchedAt": "2026-09-24T17:31:53.548Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:32.956Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/storex_io",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:33.152Z"
+          },
+          "medium": {
+            "source": "https://medium.com/@storex",
+            "status": "OK",
+            "detail": "10 Medium articles found",
+            "fetchedEvents": 10,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:33.358Z"
+          }
         }
       }
     },
@@ -2373,8 +2775,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for totalprotondev",
-          "source": "https://github.com/totalprotondev"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:33.729Z"
         },
         "telegram": {
           "count": {
@@ -2384,8 +2786,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for totalproton",
-          "source": "https://t.me/totalproton"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:34.074Z"
         }
       },
       "lastSocialActivity": null,
@@ -2394,21 +2796,24 @@
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for totalprotondev",
-          "source": "https://github.com/totalprotondev",
-          "fetchedAt": "2026-09-24T17:31:53.616Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for totalproton",
-          "source": "https://t.me/totalproton",
-          "fetchedAt": "2026-09-24T17:31:53.805Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:33.608Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/totalprotondev",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:33.729Z"
+          },
+          "telegram": {
+            "source": "https://t.me/totalproton",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:34.074Z"
+          }
         }
       }
     },
@@ -2428,8 +2833,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for turlebp",
-          "source": "https://github.com/turlebp"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:34.392Z"
         },
         "telegram": {
           "count": {
@@ -2439,8 +2844,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for turtle_BP",
-          "source": "https://t.me/turtle_BP"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:34.733Z"
         }
       },
       "lastSocialActivity": null,
@@ -2449,42 +2854,45 @@
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for turlebp",
-          "source": "https://github.com/turlebp",
-          "fetchedAt": "2026-09-24T17:31:53.924Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for turtle_BP",
-          "source": "https://t.me/turtle_BP",
-          "fetchedAt": "2026-09-24T17:31:54.115Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:34.325Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/turlebp",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:34.392Z"
+          },
+          "telegram": {
+            "source": "https://t.me/turtle_BP",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:34.733Z"
+          }
         }
       }
     },
     "xprcore": {
       "owner": "xprcore",
       "activity": {
-        "7D": 46,
-        "30D": 48,
-        "1Y": 48
+        "7D": 92,
+        "30D": 96,
+        "1Y": 96
       },
       "networkActivity": {
         "github": {
           "count": {
-            "7D": 46,
-            "30D": 48,
-            "1Y": 48
+            "7D": 92,
+            "30D": 96,
+            "1Y": 96
           },
-          "lastActivity": "2026-09-24T17:14:17Z",
+          "lastActivity": "2026-09-24T17:14:17.000Z",
           "status": "OK",
           "detail": "48 public events",
-          "source": "https://github.com/xprcore"
+          "checkedAt": "2026-09-24T17:38:35.100Z"
         },
         "telegram": {
           "count": {
@@ -2494,11 +2902,11 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for xprcore",
-          "source": "https://t.me/xprcore"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:35.437Z"
         }
       },
-      "lastSocialActivity": "2026-09-24T17:14:17Z",
+      "lastSocialActivity": "2026-09-24T17:14:17.000Z",
       "events": {
         "github": [
           {
@@ -2506,37 +2914,64 @@
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-24T17:14:17Z",
+            "timestamp": "2026-09-24T17:14:17.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "22059719298",
+            "timestamp": "2026-09-24T17:14:17.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:22055793116",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-24T16:18:27Z",
+            "timestamp": "2026-09-24T16:18:27.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "22055793116",
+            "timestamp": "2026-09-24T16:18:27.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:22056392326",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-24T14:43:49Z",
+            "timestamp": "2026-09-24T14:43:49.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "22056392326",
+            "timestamp": "2026-09-24T14:43:49.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:22055693569",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-24T14:36:17Z",
+            "timestamp": "2026-09-24T14:36:17.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
@@ -2546,460 +2981,868 @@
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-24T14:36:17Z",
+            "timestamp": "2026-09-24T14:36:17.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "22055693569",
+            "timestamp": "2026-09-24T14:36:17.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "22048506212",
+            "timestamp": "2026-09-24T14:36:17.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21793208252",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:38:28Z",
+            "timestamp": "2026-09-21T22:38:28.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21793208252",
+            "timestamp": "2026-09-21T22:38:28.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21791422843",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:13:17Z",
+            "timestamp": "2026-09-21T22:13:17.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21791422843",
+            "timestamp": "2026-09-21T22:13:17.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787538088",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:13:00Z",
+            "timestamp": "2026-09-21T22:13:00.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21787538088",
+            "timestamp": "2026-09-21T22:13:00.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787934913",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:12:40Z",
+            "timestamp": "2026-09-21T22:12:40.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21787934913",
+            "timestamp": "2026-09-21T22:12:40.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21781282619",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:12:27Z",
+            "timestamp": "2026-09-21T22:12:27.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21781282619",
+            "timestamp": "2026-09-21T22:12:27.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787487890",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:12:02Z",
+            "timestamp": "2026-09-21T22:12:02.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21787487890",
+            "timestamp": "2026-09-21T22:12:02.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21791704520",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:11:45Z",
+            "timestamp": "2026-09-21T22:11:45.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21791704520",
+            "timestamp": "2026-09-21T22:11:45.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21786803338",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:09:58Z",
+            "timestamp": "2026-09-21T22:09:58.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21786803338",
+            "timestamp": "2026-09-21T22:09:58.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21791365488",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:05:46Z",
+            "timestamp": "2026-09-21T22:05:46.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21791365488",
+            "timestamp": "2026-09-21T22:05:46.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780977838",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:05:26Z",
+            "timestamp": "2026-09-21T22:05:26.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21780977838",
+            "timestamp": "2026-09-21T22:05:26.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780334984",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:02:02Z",
+            "timestamp": "2026-09-21T22:02:02.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21780334984",
+            "timestamp": "2026-09-21T22:02:02.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21823416113",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:01:48Z",
+            "timestamp": "2026-09-21T22:01:48.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21823416113",
+            "timestamp": "2026-09-21T22:01:48.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21790813367",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:01:33Z",
+            "timestamp": "2026-09-21T22:01:33.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21790813367",
+            "timestamp": "2026-09-21T22:01:33.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21790860311",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:01:16Z",
+            "timestamp": "2026-09-21T22:01:16.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21790860311",
+            "timestamp": "2026-09-21T22:01:16.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21790839940",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:00:56Z",
+            "timestamp": "2026-09-21T22:00:56.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21790839940",
+            "timestamp": "2026-09-21T22:00:56.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780264384",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:00:39Z",
+            "timestamp": "2026-09-21T22:00:39.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21780264384",
+            "timestamp": "2026-09-21T22:00:39.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787362100",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T22:00:03Z",
+            "timestamp": "2026-09-21T22:00:03.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21787362100",
+            "timestamp": "2026-09-21T22:00:03.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780698685",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T21:59:36Z",
+            "timestamp": "2026-09-21T21:59:36.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21780698685",
+            "timestamp": "2026-09-21T21:59:36.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21785940951",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T21:55:02Z",
+            "timestamp": "2026-09-21T21:55:02.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21785940951",
+            "timestamp": "2026-09-21T21:55:02.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21785912683",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T21:54:31Z",
+            "timestamp": "2026-09-21T21:54:31.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21785912683",
+            "timestamp": "2026-09-21T21:54:31.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21788608888",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T21:20:17Z",
+            "timestamp": "2026-09-21T21:20:17.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21788608888",
+            "timestamp": "2026-09-21T21:20:17.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21779070735",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T21:19:47Z",
+            "timestamp": "2026-09-21T21:19:47.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21779070735",
+            "timestamp": "2026-09-21T21:19:47.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21746247327",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T13:45:03Z",
+            "timestamp": "2026-09-21T13:45:03.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21746247327",
+            "timestamp": "2026-09-21T13:45:03.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21741540086",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T13:03:18Z",
+            "timestamp": "2026-09-21T13:03:18.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21741540086",
+            "timestamp": "2026-09-21T13:03:18.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21777897868",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T13:02:51Z",
+            "timestamp": "2026-09-21T13:02:51.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21777897868",
+            "timestamp": "2026-09-21T13:02:51.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21724919988",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T08:59:10Z",
+            "timestamp": "2026-09-21T08:59:10.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21724919988",
+            "timestamp": "2026-09-21T08:59:10.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21724597070",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-21T08:58:26Z",
+            "timestamp": "2026-09-21T08:58:26.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21724597070",
+            "timestamp": "2026-09-21T08:58:26.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21673766257",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-20T00:42:17Z",
+            "timestamp": "2026-09-20T00:42:17.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21673766257",
+            "timestamp": "2026-09-20T00:42:17.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21620297686",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-20T00:41:52Z",
+            "timestamp": "2026-09-20T00:41:52.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21620297686",
+            "timestamp": "2026-09-20T00:41:52.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21609482336",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-19T21:01:44Z",
+            "timestamp": "2026-09-19T21:01:44.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21609482336",
+            "timestamp": "2026-09-19T21:01:44.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21666578346",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-19T21:00:16Z",
+            "timestamp": "2026-09-19T21:00:16.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21666578346",
+            "timestamp": "2026-09-19T21:00:16.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538204344",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T21:31:12Z",
+            "timestamp": "2026-09-18T21:31:12.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21538204344",
+            "timestamp": "2026-09-18T21:31:12.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538133756",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T21:30:06Z",
+            "timestamp": "2026-09-18T21:30:06.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21538133756",
+            "timestamp": "2026-09-18T21:30:06.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21607111712",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T21:29:38Z",
+            "timestamp": "2026-09-18T21:29:38.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21607111712",
+            "timestamp": "2026-09-18T21:29:38.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538552475",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T21:28:18Z",
+            "timestamp": "2026-09-18T21:28:18.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21538552475",
+            "timestamp": "2026-09-18T21:28:18.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21622462909",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T21:27:54Z",
+            "timestamp": "2026-09-18T21:27:54.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21622462909",
+            "timestamp": "2026-09-18T21:27:54.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538073872",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T21:26:46Z",
+            "timestamp": "2026-09-18T21:26:46.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21538073872",
+            "timestamp": "2026-09-18T21:26:46.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21482218615",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T08:59:38Z",
+            "timestamp": "2026-09-18T08:59:38.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21482218615",
+            "timestamp": "2026-09-18T08:59:38.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21482125156",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T08:57:52Z",
+            "timestamp": "2026-09-18T08:57:52.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21482125156",
+            "timestamp": "2026-09-18T08:57:52.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21585485256",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T08:55:06Z",
+            "timestamp": "2026-09-18T08:55:06.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21585485256",
+            "timestamp": "2026-09-18T08:55:06.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21482473704",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-18T08:53:29Z",
+            "timestamp": "2026-09-18T08:53:29.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21482473704",
+            "timestamp": "2026-09-18T08:53:29.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21413993855",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-15T21:29:44Z",
+            "timestamp": "2026-09-15T21:29:44.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21413993855",
+            "timestamp": "2026-09-15T21:29:44.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21249501960",
             "network": "github",
             "type": "PushEvent",
             "title": "PushEvent — xprcore/XPR-block-producer",
-            "timestamp": "2026-09-15T21:18:51Z",
+            "timestamp": "2026-09-15T21:18:51.000Z",
             "url": "https://github.com/xprcore/XPR-block-producer",
             "source": "https://github.com/xprcore",
             "actor": "xprcore"
+          },
+          {
+            "id": "21249501960",
+            "timestamp": "2026-09-15T21:18:51.000Z",
+            "type": "PushEvent",
+            "actor": "xprcore",
+            "repo": "xprcore/XPR-block-producer",
+            "title": "PushEvent — xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           }
         ],
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "OK",
-          "detail": "48 public events",
-          "source": "https://github.com/xprcore",
-          "fetchedAt": "2026-09-24T17:31:54.233Z",
-          "discovered": 48,
-          "stored": 48
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for xprcore",
-          "source": "https://t.me/xprcore",
-          "fetchedAt": "2026-09-24T17:31:54.424Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:34.983Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/xprcore",
+            "status": "OK",
+            "detail": "48 public events",
+            "fetchedEvents": 48,
+            "storedEvents": 96,
+            "checkedAt": "2026-09-24T17:38:35.100Z"
+          },
+          "telegram": {
+            "source": "https://t.me/xprcore",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:35.437Z"
+          }
         }
       }
     },
@@ -3019,8 +3862,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for Mirsad_XPRdata",
-          "source": "https://t.me/Mirsad_XPRdata"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:35.876Z"
         }
       },
       "lastSocialActivity": null,
@@ -3028,13 +3871,16 @@
         "telegram": []
       },
       "diagnostics": {
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for Mirsad_XPRdata",
-          "source": "https://t.me/Mirsad_XPRdata",
-          "fetchedAt": "2026-09-24T17:31:54.614Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:35.688Z",
+        "networks": {
+          "telegram": {
+            "source": "https://t.me/Mirsad_XPRdata",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:35.876Z"
+          }
         }
       }
     },
@@ -3054,8 +3900,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No public events returned for nodeoneio",
-          "source": "https://github.com/nodeoneio"
+          "detail": "No public GitHub events returned",
+          "checkedAt": "2026-09-24T17:38:36.227Z"
         },
         "telegram": {
           "count": {
@@ -3065,8 +3911,8 @@
           },
           "lastActivity": null,
           "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for nodeoneio",
-          "source": "https://t.me/nodeoneio"
+          "detail": "No public Telegram posts found in current feed",
+          "checkedAt": "2026-09-24T17:38:36.565Z"
         }
       },
       "lastSocialActivity": null,
@@ -3075,63 +3921,25 @@
         "telegram": []
       },
       "diagnostics": {
-        "github": {
-          "status": "NO_ACTIVITY",
-          "detail": "No public events returned for nodeoneio",
-          "source": "https://github.com/nodeoneio",
-          "fetchedAt": "2026-09-24T17:31:54.688Z",
-          "discovered": 0,
-          "stored": 0
-        },
-        "telegram": {
-          "status": "NO_ACTIVITY",
-          "detail": "No recent public posts found for nodeoneio",
-          "source": "https://t.me/nodeoneio",
-          "fetchedAt": "2026-09-24T17:31:54.876Z",
-          "discovered": 0,
-          "stored": 0
+        "checkedAt": "2026-09-24T17:38:36.126Z",
+        "networks": {
+          "github": {
+            "source": "https://github.com/nodeoneio",
+            "status": "NO_ACTIVITY",
+            "detail": "No public GitHub events returned",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:36.227Z"
+          },
+          "telegram": {
+            "source": "https://t.me/nodeoneio",
+            "status": "NO_ACTIVITY",
+            "detail": "No public Telegram posts found in current feed",
+            "fetchedEvents": 0,
+            "storedEvents": 0,
+            "checkedAt": "2026-09-24T17:38:36.565Z"
+          }
         }
-      }
-    }
-  },
-  "diagnostics": {
-    "generatedAt": "2026-09-24T17:31:54.877Z",
-    "maxDays": 365,
-    "networkSummary": {
-      "github": {
-        "OK": 4,
-        "NO_ACTIVITY": 17,
-        "NOT_FOUND": 2,
-        "UNSUPPORTED": 0,
-        "ERROR": 0
-      },
-      "telegram": {
-        "OK": 0,
-        "NO_ACTIVITY": 35,
-        "NOT_FOUND": 0,
-        "UNSUPPORTED": 2,
-        "ERROR": 0
-      },
-      "youtube": {
-        "OK": 0,
-        "NO_ACTIVITY": 6,
-        "NOT_FOUND": 0,
-        "UNSUPPORTED": 6,
-        "ERROR": 0
-      },
-      "reddit": {
-        "OK": 1,
-        "NO_ACTIVITY": 0,
-        "NOT_FOUND": 0,
-        "UNSUPPORTED": 0,
-        "ERROR": 9
-      },
-      "medium": {
-        "OK": 0,
-        "NO_ACTIVITY": 2,
-        "NOT_FOUND": 1,
-        "UNSUPPORTED": 0,
-        "ERROR": 0
       }
     }
   }
