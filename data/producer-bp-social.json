@@ -103,19 +103,26 @@
       "owner": "catsvote",
       "rank": null,
       "website": "https://cats.vote",
-      "bpUrl": null,
-      "social": {},
+      "bpUrl": "https://cats.vote/bp.json",
+      "social": {
+        "twitter": "https://x.com/catsvoteXPR",
+        "telegram": "https://t.me/catsvote"
+      },
       "fetchedAt": "2026-09-24T15:51:28.932Z",
-      "error": "bp.json unavailable"
+      "error": null
     },
     "cerebroai": {
       "owner": "cerebroai",
       "rank": null,
       "website": "https://cerebro.host/",
-      "bpUrl": null,
-      "social": {},
+      "bpUrl": "https://cerebro.host/bp.json",
+      "social": {
+        "twitter": "https://x.com/Cerebro_Agent",
+        "telegram": "https://t.me/CerebroAgentBot",
+        "github": "https://github.com/VirgilBB"
+      },
       "fetchedAt": "2026-09-24T15:51:30.791Z",
-      "error": "bp.json unavailable"
+      "error": null
     },
     "chaininfra": {
       "owner": "chaininfra",
@@ -274,10 +281,20 @@
       "owner": "genereos",
       "rank": null,
       "website": "https://genereos.io",
-      "bpUrl": null,
-      "social": {},
+      "bpUrl": "https://genereos.io/proton/bp.json",
+      "social": {
+        "steemit": "https://steemit.com/@genereos",
+        "twitter": "https://x.com/GenerEOSAus",
+        "youtube": "https://www.youtube.com/channel/UC7TN0V2KCVTYvIHbtj_9Dvw",
+        "facebook": "https://www.facebook.com/generEOS",
+        "github": "https://github.com/generEOS",
+        "reddit": "https://www.reddit.com/user/generEOS",
+        "keybase": "https://keybase.io/genereos1",
+        "telegram": "https://t.me/generEOS",
+        "wechat": "https://www.wechat.com/ralf-genereos"
+      },
       "fetchedAt": "2026-09-24T15:51:49.769Z",
-      "error": "bp.json unavailable"
+      "error": null
     },
     "homebloksbp": {
       "owner": "homebloksbp",
@@ -394,10 +411,18 @@
       "owner": "rockeronebp",
       "rank": null,
       "website": "https://bp.rockerone.io",
-      "bpUrl": null,
-      "social": {},
+      "bpUrl": "https://bp.rockerone.io/bp.json",
+      "social": {
+        "twitter": "https://x.com/rockeronebp",
+        "youtube": "https://www.youtube.com/@rokeronebp",
+        "telegram": "https://t.me/rockerzOne",
+        "github": "https://github.com/rokeronebp",
+        "keybase": "https://keybase.io/rokeronebp",
+        "reddit": "https://www.reddit.com/user/rokeronebp",
+        "facebook": "https://www.facebook.com/rokeronebp"
+      },
       "fetchedAt": "2026-09-24T15:52:01.513Z",
-      "error": "bp.json unavailable"
+      "error": null
     },
     "saltant": {
       "owner": "saltant",
@@ -443,10 +468,14 @@
       "owner": "totalproton",
       "rank": null,
       "website": "https://totalproton.tech",
-      "bpUrl": null,
-      "social": {},
+      "bpUrl": "https://totalproton.tech/bp.json",
+      "social": {
+        "twitter": "https://x.com/protontotal",
+        "github": "https://github.com/totalprotondev",
+        "telegram": "https://t.me/totalproton"
+      },
       "fetchedAt": "2026-09-24T15:52:07.634Z",
-      "error": "bp.json unavailable"
+      "error": null
     },
     "turtlebp": {
       "owner": "turtlebp",
@@ -490,10 +519,14 @@
       "owner": "xprnodeonebp",
       "rank": null,
       "website": "https://www.nodeone.io",
-      "bpUrl": null,
-      "social": {},
+      "bpUrl": "https://www.nodeone.io/xpr.json",
+      "social": {
+        "telegram": "https://t.me/nodeoneio",
+        "twitter": "https://x.com/eosnodeoneio",
+        "github": "https://github.com/nodeoneio"
+      },
       "fetchedAt": "2026-09-24T15:52:15.304Z",
-      "error": "bp.json unavailable"
+      "error": null
     }
   }
 }
