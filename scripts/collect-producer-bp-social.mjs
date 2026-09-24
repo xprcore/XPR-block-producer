@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 const OUT = new URL('../data/producer-bp-social.json', import.meta.url);
+const OVERRIDES = new URL('../data/bp-url-overrides.json', import.meta.url);
 const RPCS = [
   'https://proton.eosusa.io',
   'https://api.protonnz.com',
@@ -20,7 +21,7 @@ const NETWORKS = [
 const aliases = {
   telegram:'telegram', telegramurl:'telegram', telegramusername:'telegram', telegramchannel:'telegram',
   twitter:'twitter', twitterurl:'twitter', twitterusername:'twitter', x:'twitter', xurl:'twitter', xusername:'twitter',
-  github:'github', githuburl:'github', githubusername:'github',
+  github:'github', githuburl:'github', githubusername:'github', githubuser:'github',
   youtube:'youtube', youtubeurl:'youtube', youtubechannel:'youtube', youtubeusername:'youtube',
   facebook:'facebook', facebookurl:'facebook', facebookpage:'facebook', facebookusername:'facebook',
   keybase:'keybase', keybaseurl:'keybase', keybaseusername:'keybase',
@@ -40,6 +41,19 @@ function timeoutSignal(ms = FETCH_TIMEOUT) {
   const c = new AbortController();
   const t = setTimeout(() => c.abort(), ms);
   return { signal: c.signal, done: () => clearTimeout(t) };
+}
+
+async function fetchText(url, options = {}) {
+  const { signal, done } = timeoutSignal();
+  try {
+    const r = await fetch(url, {
+      ...options,
+      signal,
+      headers: { 'user-agent': 'XPRCORE producer-bp-social/1.1', 'accept': 'text/html,application/json,*/*', ...(options.headers || {}) }
+    });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return await r.text();
+  } finally { done(); }
 }
 
 async function fetchJson(url, options = {}) {
@@ -126,29 +140,131 @@ function socialFromBP(bp) {
     for (const [key, val] of Object.entries(value)) {
       const nk = String(key).toLowerCase().replace(/[^a-z0-9]/g, '');
       const network = aliases[nk];
-      if (network && typeof val === 'string' && !out[network]) {
-        const u = makeSocial(network, val);
-        if (u) out[network] = u;
+      if (network && !out[network]) {
+        const values = Array.isArray(val) ? val : [val];
+        for (const item of values) {
+          if (typeof item !== 'string') continue;
+          const u = makeSocial(network, item);
+          if (u) { out[network] = u; break; }
+        }
       }
       if (val && typeof val === 'object') walk(val);
     }
   }
   walk(bp?.org?.social || bp?.org?.socials || bp?.social || bp?.socials || bp);
+
+  // The BP standard defines org.github_user separately from org.social.
+  // Treat it as the producer's GitHub profile so producers such as EOSUSA
+  // are not shown as having no social presence.
+  if (!out.github) {
+    const githubValue = bp?.org?.github_user ?? bp?.github_user;
+    const values = Array.isArray(githubValue) ? githubValue : [githubValue];
+    for (const item of values) {
+      if (typeof item !== 'string' || !item.trim()) continue;
+      const u = makeSocial('github', item);
+      if (u) { out.github = u; break; }
+    }
+  }
+
   return out;
 }
 
-async function readBP(producer) {
+function addCandidate(list, value, base) {
+  try {
+    const u = new URL(String(value || '').trim(), base);
+    if (!/^https?:$/i.test(u.protocol)) return;
+    list.push(u.href);
+  } catch {}
+}
+
+function pathCandidates(website, owner) {
+  const out = [];
+  try {
+    const u = new URL(website);
+    const path = u.pathname.replace(/\/+$/, '');
+    const parts = path.split('/').filter(Boolean);
+    const last = parts.at(-1) || '';
+
+    // If the registered URL already points to a JSON file, try it directly.
+    if (/\.json$/i.test(path)) out.push(u.href);
+
+    // Standard and common XPR/Antelope variants.
+    out.push(new URL('/bp.json', u.origin).href);
+    out.push(new URL('/.well-known/bp.json', u.origin).href);
+    out.push(new URL('/proton.json', u.origin).href);
+    out.push(new URL('/xpr.json', u.origin).href);
+
+    // Preserve the producer's registered path. This catches e.g. /cafe/bp.json,
+    // /proton/bp.json and /bp/proton/bp.json without a per-producer rule.
+    if (path) {
+      out.push(new URL(path + (path.endsWith('.json') ? '' : '/bp.json'), u.origin).href);
+      out.push(new URL(path + (path.endsWith('.json') ? '' : '/proton.json'), u.origin).href);
+      out.push(new URL(path + (path.endsWith('.json') ? '' : '/xpr.json'), u.origin).href);
+      if (last) {
+        out.push(new URL(`/${last}.json`, u.origin).href);
+        out.push(new URL(`/${last}/bp.json`, u.origin).href);
+      }
+    }
+
+    // A few safe account-derived filenames help with new producers using
+    // account-specific JSON files.
+    const account = normalizeAccount(owner);
+    if (account) {
+      out.push(new URL(`/${account}.json`, u.origin).href);
+      out.push(new URL(`/${account}/bp.json`, u.origin).href);
+    }
+  } catch {}
+  return out;
+}
+
+async function discoverFromHtml(website) {
+  try {
+    const html = await fetchText(website);
+    const urls = [];
+    const re = /(?:href|src)=[\"']([^\"']+)[\"']/gi;
+    let m;
+    while ((m = re.exec(html)) && urls.length < 40) {
+      const raw = m[1];
+      if (!/\.json(?:[?#]|$)/i.test(raw)) continue;
+      if (!/(bp|proton|xpr|producer|chain)/i.test(raw)) continue;
+      addCandidate(urls, raw, website);
+    }
+    return urls;
+  } catch { return []; }
+}
+
+async function loadOverrides() {
+  try {
+    const raw = await fs.readFile(OVERRIDES, 'utf8');
+    const data = JSON.parse(raw);
+    return data && typeof data === 'object' ? data : {};
+  } catch { return {}; }
+}
+
+async function readBP(producer, overrides = {}) {
   const website = normalizeUrl(producer.url);
   const origin = originOf(website);
   if (!origin) return { social: {}, bpUrl: null, error: 'invalid producer url' };
 
   const urls = [];
-  try {
-    const chains = await fetchJson(origin + '/chains.json');
-    const chainBP = extractBPJsonURL(chains, origin);
-    if (chainBP) urls.push(chainBP);
-  } catch {}
-  urls.push(origin + '/bp.json', origin + '/.well-known/bp.json');
+  const known = overrides[normalizeAccount(producer.owner)];
+  if (typeof known === 'string' && known.trim()) urls.push(known.trim());
+  else if (Array.isArray(known)) urls.push(...known.filter(x => typeof x === 'string' && x.trim()));
+
+  // First use the registered URL itself/path and the standard root locations.
+  urls.push(...pathCandidates(website, producer.owner));
+
+  // Standard chains.json can explicitly map the XPR chain to a producer JSON.
+  for (const base of [origin, website.replace(/\/+$/, '')]) {
+    try {
+      const chains = await fetchJson(base + '/chains.json');
+      const chainBP = extractBPJsonURL(chains, base);
+      if (chainBP) urls.unshift(chainBP);
+    } catch {}
+  }
+
+  // Last discovery step: inspect the producer website for linked JSON files.
+  urls.push(...await discoverFromHtml(website));
 
   for (const bpUrl of [...new Set(urls)]) {
     try {
@@ -171,9 +287,10 @@ async function main() {
     .filter(p => Boolean(p.is_active))
     .sort((a,b) => Number(a.rank || 999999) - Number(b.rank || 999999));
 
+  const overrides = await loadOverrides();
   const records = {};
   for (const p of active) {
-    const bp = await readBP(p);
+    const bp = await readBP(p, overrides);
     records[p.owner] = {
       owner: p.owner,
       rank: Number.isFinite(Number(p.rank)) ? Number(p.rank) : null,
