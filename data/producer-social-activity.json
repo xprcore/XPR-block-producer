@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-24T16:32:50.669Z",
+  "updatedAt": "2026-09-24T17:16:02.411Z",
   "coverageStart": "2026-09-24T16:27:38.269Z",
   "producerCount": 37,
   "producers": {
@@ -60,6 +60,32 @@
         "github": [],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "artwebin": {
@@ -86,6 +112,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "blocksforge": {
@@ -112,6 +146,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "bloxprod": {
@@ -148,6 +190,20 @@
       "events": {
         "telegram": [],
         "github": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "bpadex": {
@@ -195,6 +251,26 @@
         "telegram": [],
         "github": [],
         "medium": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "medium": {
+          "status": "ERROR",
+          "detail": "HTTP 404",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "brotonbp": {
@@ -221,6 +297,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "cafe": {
@@ -267,6 +351,26 @@
         "telegram": [],
         "github": [],
         "youtube": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "catsvote": {
@@ -293,6 +397,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "cerebroai": {
@@ -331,69 +443,147 @@
         "github": [
           {
             "id": "github:18882578235",
-            "ts": 1787692417000
+            "ts": "2026-08-25T21:13:37.000Z",
+            "type": "CreateEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19484531686",
-            "ts": 1788132603000
+            "ts": "2026-08-30T23:30:03.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19491266337",
-            "ts": 1788132688000
+            "ts": "2026-08-30T23:31:28.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19500608216",
-            "ts": 1788133381000
+            "ts": "2026-08-30T23:43:01.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19489339585",
-            "ts": 1788133838000
+            "ts": "2026-08-30T23:50:38.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19493665015",
-            "ts": 1788135172000
+            "ts": "2026-08-31T00:12:52.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19512046704",
-            "ts": 1788135651000
+            "ts": "2026-08-31T00:20:51.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19482928791",
-            "ts": 1788136574000
+            "ts": "2026-08-31T00:36:14.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19502997057",
-            "ts": 1788136855000
+            "ts": "2026-08-31T00:40:55.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19487125231",
-            "ts": 1788139815000
+            "ts": "2026-08-31T01:30:15.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19488291487",
-            "ts": 1788140734000
+            "ts": "2026-08-31T01:45:34.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19488625409",
-            "ts": 1788140998000
+            "ts": "2026-08-31T01:49:58.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19522139687",
-            "ts": 1788144622000
+            "ts": "2026-08-31T02:50:22.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19500205600",
-            "ts": 1788150304000
+            "ts": "2026-08-31T04:25:04.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19531119548",
-            "ts": 1788151287000
+            "ts": "2026-08-31T04:41:27.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           },
           {
             "id": "github:19504420615",
-            "ts": 1788153653000
+            "ts": "2026-08-31T05:20:53.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "VirgilBB/cerebro_ai",
+            "url": "https://github.com/VirgilBB/cerebro_ai"
           }
         ]
+      },
+      "diagnostics": {
+        "github": {
+          "status": "OK",
+          "detail": "16 events",
+          "newEvents": 16,
+          "storedEvents": 16
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "chaininfra": {
@@ -430,6 +620,20 @@
       "events": {
         "telegram": [],
         "github": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "cindronet": {
@@ -456,6 +660,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "cryptolions": {
@@ -504,6 +716,26 @@
         "telegram": [],
         "github": [],
         "youtube": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "danemarkbp": {
@@ -530,6 +762,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "energybp": {
@@ -556,6 +796,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "eosamsterdam": {
@@ -606,6 +854,26 @@
         "telegram": [],
         "github": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "eosarabianet": {
@@ -653,6 +921,26 @@
         "telegram": [],
         "github": [],
         "youtube": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "eosiodetroit": {
@@ -713,6 +1001,32 @@
         "github": [],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "eosrio": {
@@ -773,6 +1087,32 @@
         "github": [],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "eosusa": {
@@ -822,6 +1162,26 @@
         "telegram": [],
         "github": [],
         "youtube": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "genereos": {
@@ -882,6 +1242,32 @@
         "github": [],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "homebloksbp": {
@@ -908,6 +1294,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "ledgerwiseio": {
@@ -945,6 +1339,20 @@
       "events": {
         "telegram": [],
         "github": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "luminaryvisn": {
@@ -991,6 +1399,26 @@
         "telegram": [],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "madblocks": {
@@ -1017,6 +1445,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "protonind": {
@@ -1074,59 +1510,137 @@
         "github": [
           {
             "id": "github:20250043874",
-            "ts": 1788517609000
+            "ts": "2026-09-04T10:26:49.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14424691668",
-            "ts": 1788517934000
+            "ts": "2026-09-04T10:32:14.000Z",
+            "type": "PullRequestEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14424726598",
-            "ts": 1788517974000
+            "ts": "2026-09-04T10:32:54.000Z",
+            "type": "PullRequestEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:20247160663",
-            "ts": 1788517975000
+            "ts": "2026-09-04T10:32:55.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14473300772",
-            "ts": 1788586687000
+            "ts": "2026-09-05T05:38:07.000Z",
+            "type": "ForkEvent",
+            "network": "github",
+            "repo": "elastic/meetups",
+            "url": "https://github.com/elastic/meetups"
           },
           {
             "id": "github:20604305274",
-            "ts": 1788864443000
+            "ts": "2026-09-08T10:47:23.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14627352537",
-            "ts": 1788864453000
+            "ts": "2026-09-08T10:47:33.000Z",
+            "type": "PullRequestEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:14627362097",
-            "ts": 1788864462000
+            "ts": "2026-09-08T10:47:42.000Z",
+            "type": "PullRequestEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:20597801139",
-            "ts": 1788864463000
+            "ts": "2026-09-08T10:47:43.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "BlockIndia-LLC/bi_website",
+            "url": "https://github.com/BlockIndia-LLC/bi_website"
           },
           {
             "id": "github:15493494084",
-            "ts": 1789034858000
+            "ts": "2026-09-10T10:07:38.000Z",
+            "type": "PublicEvent",
+            "network": "github",
+            "repo": "thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           },
           {
             "id": "github:21870291631",
-            "ts": 1790072689000
+            "ts": "2026-09-22T10:24:49.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           },
           {
             "id": "github:21829081640",
-            "ts": 1790073732000
+            "ts": "2026-09-22T10:42:12.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           },
           {
             "id": "github:21832151833",
-            "ts": 1790074495000
+            "ts": "2026-09-22T10:54:55.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "thatzprem/relayjoin",
+            "url": "https://github.com/thatzprem/relayjoin"
           }
         ],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "OK",
+          "detail": "13 events",
+          "newEvents": 13,
+          "storedEvents": 13
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "protonmadrid": {
@@ -1164,6 +1678,20 @@
       "events": {
         "telegram": [],
         "github": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "ERROR",
+          "detail": "HTTP 404",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "protonnz": {
@@ -1221,6 +1749,32 @@
         "github": [],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "protonuk": {
@@ -1257,6 +1811,20 @@
       "events": {
         "telegram": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "rockeronebp": {
@@ -1315,6 +1883,32 @@
         "github": [],
         "youtube": [],
         "reddit": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "ERROR",
+          "detail": "HTTP 404",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "youtube": {
+          "status": "EMPTY",
+          "detail": "YouTube handle requires channel ID for RSS",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "reddit": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "saltant": {
@@ -1354,7 +1948,7 @@
             "30D": 0,
             "1Y": 0
           },
-          "lastActivity": null
+          "lastActivity": "2025-03-07T18:42:40.000Z"
         }
       },
       "lastSocialActivity": "2026-09-07T22:03:42.000Z",
@@ -1363,26 +1957,91 @@
         "github": [
           {
             "id": "github:14591747779",
-            "ts": 1788810819000
+            "ts": "2026-09-07T19:53:39.000Z",
+            "type": "PublicEvent",
+            "network": "github",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:20534392525",
-            "ts": 1788813888000
+            "ts": "2026-09-07T20:44:48.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:20551475421",
-            "ts": 1788817814000
+            "ts": "2026-09-07T21:50:14.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:20374911010",
-            "ts": 1788817866000
+            "ts": "2026-09-07T21:51:06.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           },
           {
             "id": "github:20552568050",
-            "ts": 1788818622000
+            "ts": "2026-09-07T22:03:42.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "Saltant/XPR-Peer-Probe",
+            "url": "https://github.com/Saltant/XPR-Peer-Probe"
           }
         ],
-        "medium": []
+        "medium": [
+          {
+            "id": "medium:https://medium.com/p/877079ebd534",
+            "ts": "2021-11-02T21:15:12.000Z",
+            "network": "medium",
+            "url": "https://medium.com/@saltantxpr/proton-eosio-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD-%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BA-%D0%BD%D0%B0-%D1%8D%D1%82%D0%BE%D0%BC-%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%87%D0%B5%D0%B3%D0%BE-%D0%B2%D0%BE%D0%BE%D0%B1%D1%89%D0%B5-%D1%8D%D1%82%D0%BE-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-877079ebd534?source=rss-7b3d0d868000------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/a17a944b6918",
+            "ts": "2022-01-17T11:46:17.000Z",
+            "network": "medium",
+            "url": "https://medium.com/@saltantxpr/proton-eosio-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD-%D0%BF%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%BA-xpr-%D0%BD%D0%B0-yield-farming-a17a944b6918?source=rss-7b3d0d868000------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/857c1e5a8b45",
+            "ts": "2022-08-17T12:43:32.000Z",
+            "network": "medium",
+            "url": "https://medium.com/@saltantxpr/proton-nft-event-protorobots-857c1e5a8b45?source=rss-7b3d0d868000------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/d165b4a5d5c1",
+            "ts": "2025-03-07T18:42:40.000Z",
+            "network": "medium",
+            "url": "https://medium.com/@saltantxpr/xpr-network-ship-data-d165b4a5d5c1?source=rss-7b3d0d868000------2"
+          }
+        ]
+      },
+      "diagnostics": {
+        "github": {
+          "status": "OK",
+          "detail": "5 events",
+          "newEvents": 5,
+          "storedEvents": 5
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "medium": {
+          "status": "OK",
+          "detail": "4 posts",
+          "newEvents": 4,
+          "storedEvents": 4
+        }
       }
     },
     "snipverse": {
@@ -1409,6 +2068,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "storexbp": {
@@ -1438,13 +2105,88 @@
             "30D": 0,
             "1Y": 0
           },
-          "lastActivity": null
+          "lastActivity": "2025-01-31T23:30:29.000Z"
         }
       },
-      "lastSocialActivity": null,
+      "lastSocialActivity": "2025-01-31T23:30:29.000Z",
       "events": {
         "telegram": [],
-        "medium": []
+        "medium": [
+          {
+            "id": "medium:https://medium.com/p/131f226556a",
+            "ts": "2022-08-10T16:36:27.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/storex-deep-dive-1-the-utility-of-the-strx-token-131f226556a?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/927218cc42c1",
+            "ts": "2022-09-26T21:17:49.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/storex-deep-dive-2-storex-governance-council-927218cc42c1?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/77d21017cdcd",
+            "ts": "2022-10-28T12:58:52.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/storex-deep-dive-3-arbitration-panel-77d21017cdcd?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/b5fd01b804df",
+            "ts": "2022-11-23T14:17:38.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/storex-deep-dive-4-integrating-the-proton-ecosystem-b5fd01b804df?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/c6a39a5a252",
+            "ts": "2023-10-03T10:16:22.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/development-update-proton-bridge-integration-c6a39a5a252?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/200834713125",
+            "ts": "2023-12-29T23:14:35.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/storex-year-in-review-2023-a-year-of-innovation-and-milestones-200834713125?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/43f1be6ede87",
+            "ts": "2024-01-15T22:58:24.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/storex-roadmap-2024-the-year-of-release-43f1be6ede87?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/16a79d646731",
+            "ts": "2024-11-26T17:42:31.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/announcement-cross-chain-token-bridge-16a79d646731?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/d6cfd67cb527",
+            "ts": "2024-12-29T20:12:09.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/announcement-bridge-is-live-d6cfd67cb527?source=rss-172ebb5e508b------2"
+          },
+          {
+            "id": "medium:https://medium.com/p/617a333bffc4",
+            "ts": "2025-01-31T23:30:29.000Z",
+            "network": "medium",
+            "url": "https://storex.medium.com/roadmap-2025-e-commerce-on-solana-617a333bffc4?source=rss-172ebb5e508b------2"
+          }
+        ]
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "medium": {
+          "status": "OK",
+          "detail": "10 posts",
+          "newEvents": 10,
+          "storedEvents": 10
+        }
       }
     },
     "totalproton": {
@@ -1481,6 +2223,20 @@
       "events": {
         "telegram": [],
         "github": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "turtlebp": {
@@ -1517,6 +2273,20 @@
       "events": {
         "telegram": [],
         "github": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "xprcore": {
@@ -1527,9 +2297,9 @@
         "github": "https://github.com/xprcore"
       },
       "activity": {
-        "7D": 45,
-        "30D": 47,
-        "1Y": 47
+        "7D": 46,
+        "30D": 48,
+        "1Y": 48
       },
       "networkActivity": {
         "telegram": {
@@ -1542,206 +2312,416 @@
         },
         "github": {
           "count": {
-            "7D": 45,
-            "30D": 47,
-            "1Y": 47
+            "7D": 46,
+            "30D": 48,
+            "1Y": 48
           },
-          "lastActivity": "2026-09-24T16:18:27.000Z"
+          "lastActivity": "2026-09-24T17:14:17.000Z"
         }
       },
-      "lastSocialActivity": "2026-09-24T16:18:27.000Z",
+      "lastSocialActivity": "2026-09-24T17:14:17.000Z",
       "events": {
         "telegram": [],
         "github": [
           {
             "id": "github:21249501960",
-            "ts": 1789507131000
+            "ts": "2026-09-15T21:18:51.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21413993855",
-            "ts": 1789507784000
+            "ts": "2026-09-15T21:29:44.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21482473704",
-            "ts": 1789721609000
+            "ts": "2026-09-18T08:53:29.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21585485256",
-            "ts": 1789721706000
+            "ts": "2026-09-18T08:55:06.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21482125156",
-            "ts": 1789721872000
+            "ts": "2026-09-18T08:57:52.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21482218615",
-            "ts": 1789721978000
+            "ts": "2026-09-18T08:59:38.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538073872",
-            "ts": 1789766806000
+            "ts": "2026-09-18T21:26:46.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21622462909",
-            "ts": 1789766874000
+            "ts": "2026-09-18T21:27:54.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538552475",
-            "ts": 1789766898000
+            "ts": "2026-09-18T21:28:18.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21607111712",
-            "ts": 1789766978000
+            "ts": "2026-09-18T21:29:38.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538133756",
-            "ts": 1789767006000
+            "ts": "2026-09-18T21:30:06.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21538204344",
-            "ts": 1789767072000
+            "ts": "2026-09-18T21:31:12.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21666578346",
-            "ts": 1789851616000
+            "ts": "2026-09-19T21:00:16.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21609482336",
-            "ts": 1789851704000
+            "ts": "2026-09-19T21:01:44.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21620297686",
-            "ts": 1789864912000
+            "ts": "2026-09-20T00:41:52.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21673766257",
-            "ts": 1789864937000
+            "ts": "2026-09-20T00:42:17.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21724597070",
-            "ts": 1789981106000
+            "ts": "2026-09-21T08:58:26.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21724919988",
-            "ts": 1789981150000
+            "ts": "2026-09-21T08:59:10.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21777897868",
-            "ts": 1789995771000
+            "ts": "2026-09-21T13:02:51.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21741540086",
-            "ts": 1789995798000
+            "ts": "2026-09-21T13:03:18.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21746247327",
-            "ts": 1789998303000
+            "ts": "2026-09-21T13:45:03.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21779070735",
-            "ts": 1790025587000
+            "ts": "2026-09-21T21:19:47.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21788608888",
-            "ts": 1790025617000
+            "ts": "2026-09-21T21:20:17.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21785912683",
-            "ts": 1790027671000
+            "ts": "2026-09-21T21:54:31.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21785940951",
-            "ts": 1790027702000
+            "ts": "2026-09-21T21:55:02.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780698685",
-            "ts": 1790027976000
+            "ts": "2026-09-21T21:59:36.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787362100",
-            "ts": 1790028003000
+            "ts": "2026-09-21T22:00:03.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780264384",
-            "ts": 1790028039000
+            "ts": "2026-09-21T22:00:39.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21790839940",
-            "ts": 1790028056000
+            "ts": "2026-09-21T22:00:56.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21790860311",
-            "ts": 1790028076000
+            "ts": "2026-09-21T22:01:16.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21790813367",
-            "ts": 1790028093000
+            "ts": "2026-09-21T22:01:33.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21823416113",
-            "ts": 1790028108000
+            "ts": "2026-09-21T22:01:48.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780334984",
-            "ts": 1790028122000
+            "ts": "2026-09-21T22:02:02.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21780977838",
-            "ts": 1790028326000
+            "ts": "2026-09-21T22:05:26.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21791365488",
-            "ts": 1790028346000
+            "ts": "2026-09-21T22:05:46.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21786803338",
-            "ts": 1790028598000
+            "ts": "2026-09-21T22:09:58.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21791704520",
-            "ts": 1790028705000
+            "ts": "2026-09-21T22:11:45.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787487890",
-            "ts": 1790028722000
+            "ts": "2026-09-21T22:12:02.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21781282619",
-            "ts": 1790028747000
+            "ts": "2026-09-21T22:12:27.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787934913",
-            "ts": 1790028760000
+            "ts": "2026-09-21T22:12:40.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21787538088",
-            "ts": 1790028780000
+            "ts": "2026-09-21T22:13:00.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21791422843",
-            "ts": 1790028797000
+            "ts": "2026-09-21T22:13:17.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:21793208252",
-            "ts": 1790030308000
+            "ts": "2026-09-21T22:38:28.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:22055693569",
-            "ts": 1790260577000
+            "ts": "2026-09-24T14:36:17.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:22048506212",
-            "ts": 1790260577000
+            "ts": "2026-09-24T14:36:17.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:22056392326",
-            "ts": 1790261029000
+            "ts": "2026-09-24T14:43:49.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           },
           {
             "id": "github:22055793116",
-            "ts": 1790266707000
+            "ts": "2026-09-24T16:18:27.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
+          },
+          {
+            "id": "github:22059719298",
+            "ts": "2026-09-24T17:14:17.000Z",
+            "type": "PushEvent",
+            "network": "github",
+            "repo": "xprcore/XPR-block-producer",
+            "url": "https://github.com/xprcore/XPR-block-producer"
           }
         ]
+      },
+      "diagnostics": {
+        "github": {
+          "status": "OK",
+          "detail": "48 events",
+          "newEvents": 48,
+          "storedEvents": 48
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "xprdata": {
@@ -1768,6 +2748,14 @@
       "lastSocialActivity": null,
       "events": {
         "telegram": []
+      },
+      "diagnostics": {
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     },
     "xprnodeonebp": {
@@ -1804,6 +2792,20 @@
       "events": {
         "telegram": [],
         "github": []
+      },
+      "diagnostics": {
+        "github": {
+          "status": "EMPTY",
+          "detail": "0 events",
+          "newEvents": 0,
+          "storedEvents": 0
+        },
+        "telegram": {
+          "status": "EMPTY",
+          "detail": "0 posts",
+          "newEvents": 0,
+          "storedEvents": 0
+        }
       }
     }
   }
