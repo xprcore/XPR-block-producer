@@ -2,258 +2,946 @@ import fs from 'node:fs/promises';
 
 const BP_FILE = new URL('../data/producer-bp-social.json', import.meta.url);
 const OUT = new URL('../data/producer-social-activity.json', import.meta.url);
+
 const MAX_DAYS = 365;
+const MAX_EVENTS_PER_NETWORK = 5000;
 
 async function readJson(url, fallback) {
-  try { return JSON.parse(await fs.readFile(url, 'utf8')); }
-  catch { return fallback; }
+  try {
+    const text = await fs.readFile(url, 'utf8');
+    return JSON.parse(text);
+  } catch (error) {
+    console.warn(`JSON read failed: ${url.pathname}`);
+    console.warn(error.message);
+    return fallback;
+  }
 }
 
 function cleanHandle(value) {
-  if (!value) return '';
-  const raw = String(value).trim();
-  if (!raw) return '';
+  if (!value) return null;
 
-  // Accept both a plain username and the full social URL stored in bp.json.
-  try {
-    const u = new URL(raw);
+  let s = String(value).trim();
 
-    // Telegram: https://t.me/name or https://telegram.me/name
-    if (/^(www\.)?(t\.me|telegram\.me)$/i.test(u.hostname)) {
-      return decodeURIComponent(u.pathname.split('/').filter(Boolean)[0] || '').replace(/^@/, '');
-    }
+  if (!s) return null;
 
-    // GitHub: https://github.com/name
-    if (/^(www\.)?github\.com$/i.test(u.hostname)) {
-      return decodeURIComponent(u.pathname.split('/').filter(Boolean)[0] || '').replace(/^@/, '');
-    }
-
-    // Reddit: https://reddit.com/user/name
-    if (/^(www\.)?reddit\.com$/i.test(u.hostname)) {
-      const parts = u.pathname.split('/').filter(Boolean);
-      const i = parts.findIndex(x => /^user$/i.test(x));
-      return i >= 0 ? decodeURIComponent(parts[i + 1] || '').replace(/^@/, '') : '';
-    }
-
-    // Medium: https://medium.com/@name
-    if (/^(www\.)?medium\.com$/i.test(u.hostname)) {
-      const parts = u.pathname.split('/').filter(Boolean);
-      return (parts[0] || '').replace(/^@/, '');
-    }
-
-    // X/Twitter: https://x.com/name or https://twitter.com/name
-    if (/^(www\.)?(x\.com|twitter\.com)$/i.test(u.hostname)) {
-      return decodeURIComponent(u.pathname.split('/').filter(Boolean)[0] || '').replace(/^@/, '');
-    }
-
-    // YouTube is handled separately because channel URLs are not usernames.
-  } catch {}
-
-  return raw.replace(/^@/, '').replace(/^https?:\/\//i, '').replace(/^www\./i, '').replace(/\/$/, '');
-}
-
-function toDateMs(v) {
-  const t = Date.parse(v || '');
-  return Number.isFinite(t) ? t : null;
-}
-
-function cutoffMs(days) {
-  return Date.now() - days * 24 * 60 * 60 * 1000;
-}
-
-async function fetchJson(url, options = {}) {
-  const res = await fetch(url, {
-    ...options,
-    headers: {
-      'accept': 'application/json',
-      'user-agent': 'XPRCORE-social-activity/1.0',
-      ...(options.headers || {})
-    }
-  });
-  if (!res.ok) return null;
-  return await res.json();
-}
-
-async function githubEvents(handle) {
-  const user = cleanHandle(handle);
-  if (!user) return [];
-  const out = [];
-  for (let page = 1; page <= 3; page++) {
-    const data = await fetchJson(`https://api.github.com/users/${encodeURIComponent(user)}/events/public?per_page=100&page=${page}`);
-    // A missing/deleted/private GitHub account must not stop the whole collector.
-    if (!Array.isArray(data) || !data.length) break;
-    for (const e of data) {
-      const ts = toDateMs(e.created_at);
-      if (ts && ts >= cutoffMs(MAX_DAYS)) out.push({ id: `github:${e.id}`, ts });
-    }
-    if (data.length < 100) break;
-    if (out.length && Math.min(...out.map(x => x.ts)) < cutoffMs(MAX_DAYS)) break;
-  }
-  return out;
-}
-
-async function telegramEvents(handle) {
-  const user = cleanHandle(handle);
-  if (!user) return [];
-  const out = [];
-  let before = '';
-  for (let page = 0; page < 8; page++) {
-    const url = `https://t.me/s/${encodeURIComponent(user)}${before ? `?before=${encodeURIComponent(before)}` : ''}`;
-    const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 XPRCORE-social-activity/1.0' }});
-    if (!res.ok) break;
-    const html = await res.text();
-    const re = /data-post=["'][^/"']+\/(\d+)["'][\s\S]*?<time[^>]+datetime=["']([^"']+)["']/gi;
-    let m, found = 0, minId = Infinity;
-    while ((m = re.exec(html))) {
-      const ts = toDateMs(m[2]);
-      const id = Number(m[1]);
-      if (ts) out.push({ id: `telegram:${user}:${id}`, ts });
-      if (Number.isFinite(id)) { minId = Math.min(minId, id); found++; }
-    }
-    if (!found || !Number.isFinite(minId)) break;
-    if (out.length && Math.min(...out.map(x => x.ts)) < cutoffMs(MAX_DAYS)) break;
-    before = String(minId);
-  }
-  return out;
-}
-
-async function redditEvents(urlOrHandle) {
-  let u = String(urlOrHandle || '').trim();
-  if (!u) return [];
-  let user = cleanHandle(u);
-  if (!user) return [];
-  const out = [];
-  for (const kind of ['submitted', 'comments']) {
-    const url = `https://www.reddit.com/user/${encodeURIComponent(user)}/${kind}.json?limit=100`;
+  // GitHub
+  if (/github\.com\//i.test(s)) {
     try {
-      const data = await fetchJson(url, { headers: { 'user-agent': 'XPRCORE-social-activity/1.0' }});
-      const children = data?.data?.children || [];
-      for (const item of children) {
-        const ts = Number(item?.data?.created_utc) * 1000;
-        if (Number.isFinite(ts) && ts >= cutoffMs(MAX_DAYS)) {
-          out.push({ id: `reddit:${kind}:${item.data.id}`, ts });
-        }
-      }
+      const u = new URL(s);
+      return u.pathname
+        .split('/')
+        .filter(Boolean)[0] || null;
     } catch {}
   }
-  return out;
+
+  // Telegram
+  if (/t\.me\//i.test(s)) {
+    try {
+      const u = new URL(s);
+      return u.pathname
+        .split('/')
+        .filter(Boolean)[0] || null;
+    } catch {}
+  }
+
+  // Reddit
+  if (/reddit\.com\//i.test(s)) {
+    try {
+      const u = new URL(s);
+      const parts = u.pathname
+        .split('/')
+        .filter(Boolean);
+
+      const i = parts.findIndex(
+        x => x.toLowerCase() === 'user'
+      );
+
+      if (i >= 0 && parts[i + 1]) {
+        return parts[i + 1];
+      }
+
+      return parts[0] || null;
+    } catch {}
+  }
+
+  // Medium
+  if (/medium\.com\//i.test(s)) {
+    try {
+      const u = new URL(s);
+      const part = u.pathname
+        .split('/')
+        .filter(Boolean)[0];
+
+      return part
+        ? part.replace(/^@/, '')
+        : null;
+    } catch {}
+  }
+
+  // X / Twitter
+  if (/twitter\.com\//i.test(s) || /x\.com\//i.test(s)) {
+    try {
+      const u = new URL(s);
+      return u.pathname
+        .split('/')
+        .filter(Boolean)[0]
+        ?.replace(/^@/, '') || null;
+    } catch {}
+  }
+
+  return s
+    .replace(/^@/, '')
+    .replace(/^https?:\/\//i, '')
+    .replace(/\/+$/, '')
+    .trim();
 }
 
-async function mediumEvents(urlOrHandle) {
-  let u = String(urlOrHandle || '').trim();
-  if (!u) return [];
-  let handle = cleanHandle(u);
-  if (!handle) return [];
-  try {
-    const res = await fetch(`https://medium.com/feed/@${encodeURIComponent(handle)}`, {headers:{'user-agent':'XPRCORE-social-activity/1.0'}});
-    if (!res.ok) return [];
-    const xml = await res.text();
-    const out = [];
-    const re = /<item>[\s\S]*?<guid[^>]*>([\s\S]*?)<\/guid>[\s\S]*?<pubDate>([\s\S]*?)<\/pubDate>[\s\S]*?<\/item>/gi;
-    let m;
-    while ((m = re.exec(xml))) {
-      const ts = toDateMs(m[2]);
-      if (ts && ts >= cutoffMs(MAX_DAYS)) out.push({id:`medium:${m[1].trim()}`, ts});
-    }
-    return out;
-  } catch { return []; }
-}
-
-async function youtubeEvents(value) {
-  const raw = String(value || '').trim();
-  if (!raw) return [];
-  const channelId = (raw.match(/channel\/([A-Za-z0-9_-]+)/) || [])[1] ||
-                    (raw.match(/channel\/?([A-Za-z0-9_-]+)/) || [])[1];
-  if (!channelId) return [];
-  try {
-    const res = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${encodeURIComponent(channelId)}`, {headers:{'user-agent':'XPRCORE-social-activity/1.0'}});
-    if (!res.ok) return [];
-    const xml = await res.text();
-    const out = [];
-    const re = /<entry>[\s\S]*?<yt:videoId>([^<]+)<\/yt:videoId>[\s\S]*?<published>([^<]+)<\/published>[\s\S]*?<\/entry>/gi;
-    let m;
-    while ((m = re.exec(xml))) {
-      const ts = toDateMs(m[2]);
-      if (ts && ts >= cutoffMs(MAX_DAYS)) out.push({id:`youtube:${m[1]}`, ts});
-    }
-    return out;
-  } catch { return []; }
+function event(id, ts, extra = {}) {
+  return {
+    id: String(id),
+    ts: new Date(ts).toISOString(),
+    ...extra
+  };
 }
 
 function addUnique(target, events) {
-  const map = new Map((target || []).map(e => [`${e.id}|${e.ts}`, e]));
-  for (const e of events || []) if (e?.id && Number.isFinite(e.ts)) map.set(`${e.id}|${e.ts}`, e);
-  return [...map.values()].sort((a,b) => a.ts - b.ts).filter(e => e.ts >= cutoffMs(MAX_DAYS));
+  const map = new Map();
+
+  for (const item of target || []) {
+    if (!item?.id || !item?.ts) continue;
+    map.set(String(item.id), item);
+  }
+
+  for (const item of events || []) {
+    if (!item?.id || !item?.ts) continue;
+    map.set(String(item.id), item);
+  }
+
+  return [...map.values()]
+    .sort((a, b) => new Date(a.ts) - new Date(b.ts))
+    .slice(-MAX_EVENTS_PER_NETWORK);
 }
 
 function windows(events) {
   const now = Date.now();
-  const count = days => events.filter(e => e.ts >= now - days*86400000).length;
-  return { "7D": count(7), "30D": count(30), "1Y": count(365) };
+
+  const d7 = now - 7 * 86400000;
+  const d30 = now - 30 * 86400000;
+  const d365 = now - 365 * 86400000;
+
+  let c7 = 0;
+  let c30 = 0;
+  let c365 = 0;
+
+  for (const item of events || []) {
+    const t = new Date(item.ts).getTime();
+
+    if (!Number.isFinite(t)) continue;
+
+    if (t >= d365) {
+      c365++;
+
+      if (t >= d30) {
+        c30++;
+
+        if (t >= d7) {
+          c7++;
+        }
+      }
+    }
+  }
+
+  return {
+    "7D": c7,
+    "30D": c30,
+    "1Y": c365
+  };
 }
 
-async function main() {
-  const bp = await readJson(BP_FILE, { producers: {} });
-  const old = await readJson(OUT, { version: 1, producers: {} });
-  const result = {
-    version: 2,
-    updatedAt: new Date().toISOString(),
-    coverageStart: old.coverageStart || new Date().toISOString(),
-    producerCount: 0,
-    producers: {}
+async function fetchJson(url, options = {}) {
+  const response = await fetch(url, {
+    redirect: 'follow',
+    ...options
+  });
+
+  const text = await response.text();
+
+  let data = null;
+
+  try {
+    data = text ? JSON.parse(text) : null;
+  } catch {
+    data = null;
+  }
+
+  return {
+    response,
+    data,
+    text
   };
+}
 
-  const producers = bp?.producers || {};
-  for (const [owner, record] of Object.entries(producers)) {
-    const existing = old.producers?.[owner] || { events: {} };
-    const social = record?.social || {};
-    const events = existing.events || {};
+/* =========================================================
+   GITHUB
+   ========================================================= */
 
-    const tasks = [];
-    if (social.telegram) tasks.push(['telegram', telegramEvents(social.telegram)]);
-    if (social.github) tasks.push(['github', githubEvents(social.github)]);
-    if (social.youtube) tasks.push(['youtube', youtubeEvents(social.youtube)]);
-    if (social.reddit) tasks.push(['reddit', redditEvents(social.reddit)]);
-    if (social.medium) tasks.push(['medium', mediumEvents(social.medium)]);
+async function githubEvents(handle) {
+  const username = cleanHandle(handle);
 
-    for (const [network, promise] of tasks) {
+  if (!username) {
+    return {
+      events: [],
+      status: 'EMPTY',
+      detail: 'No GitHub handle'
+    };
+  }
+
+  const url =
+    `https://api.github.com/users/${encodeURIComponent(username)}/events/public?per_page=100`;
+
+  try {
+    const { response, data } = await fetchJson(url, {
+      headers: {
+        Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2026-03-10',
+        'User-Agent': 'XPRCore-social-activity'
+      }
+    });
+
+    if (!response.ok) {
+      return {
+        events: [],
+        status: 'ERROR',
+        detail: `HTTP ${response.status}`
+      };
+    }
+
+    if (!Array.isArray(data)) {
+      return {
+        events: [],
+        status: 'ERROR',
+        detail: 'Invalid GitHub response'
+      };
+    }
+
+    const events = data
+      .filter(item => item?.id && item?.created_at)
+      .map(item =>
+        event(
+          `github:${item.id}`,
+          item.created_at,
+          {
+            type: item.type,
+            network: 'github',
+            repo: item.repo?.name || null,
+            url:
+              item.repo?.html_url ||
+              (
+                item.repo?.name
+                  ? `https://github.com/${item.repo.name}`
+                  : null
+              )
+          }
+        )
+      );
+
+    return {
+      events,
+      status: events.length ? 'OK' : 'EMPTY',
+      detail: `${events.length} events`
+    };
+
+  } catch (error) {
+    return {
+      events: [],
+      status: 'ERROR',
+      detail: error.message
+    };
+  }
+}
+
+/* =========================================================
+   TELEGRAM
+   ========================================================= */
+
+async function telegramEvents(handle) {
+  const username = cleanHandle(handle);
+
+  if (!username) {
+    return {
+      events: [],
+      status: 'EMPTY',
+      detail: 'No Telegram handle'
+    };
+  }
+
+  const url =
+    `https://t.me/s/${encodeURIComponent(username)}`;
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 XPRCore-social-activity'
+      }
+    });
+
+    const html = await response.text();
+
+    if (!response.ok) {
+      return {
+        events: [],
+        status: 'ERROR',
+        detail: `HTTP ${response.status}`
+      };
+    }
+
+    const events = [];
+
+    const regex =
+      /data-post="([^"]+)"[\s\S]{0,500}?datetime="([^"]+)"/gi;
+
+    let match;
+
+    while ((match = regex.exec(html)) !== null) {
+      const postId = match[1];
+      const timestamp = match[2];
+
+      if (!postId || !timestamp) continue;
+
+      const d = new Date(timestamp);
+
+      if (Number.isNaN(d.getTime())) continue;
+
+      events.push(
+        event(
+          `telegram:${postId}`,
+          d.toISOString(),
+          {
+            network: 'telegram',
+            url: `https://t.me/${postId}`
+          }
+        )
+      );
+    }
+
+    return {
+      events,
+      status: events.length ? 'OK' : 'EMPTY',
+      detail: `${events.length} posts`
+    };
+
+  } catch (error) {
+    return {
+      events: [],
+      status: 'ERROR',
+      detail: error.message
+    };
+  }
+}
+
+/* =========================================================
+   REDDIT
+   ========================================================= */
+
+async function redditEvents(value) {
+  const username = cleanHandle(value);
+
+  if (!username) {
+    return {
+      events: [],
+      status: 'EMPTY',
+      detail: 'No Reddit handle'
+    };
+  }
+
+  const events = [];
+
+  try {
+    const endpoints = [
+      `https://www.reddit.com/user/${encodeURIComponent(username)}/submitted.json?limit=100`,
+      `https://www.reddit.com/user/${encodeURIComponent(username)}/comments.json?limit=100`
+    ];
+
+    for (const url of endpoints) {
       try {
-        const collected = await promise;
-        if (Array.isArray(collected)) {
-          events[network] = addUnique(events[network], collected);
+        const response = await fetch(url, {
+          headers: {
+            Accept: 'application/json',
+            'User-Agent': 'XPRCore-social-activity/1.0'
+          }
+        });
+
+        if (!response.ok) {
+          continue;
         }
-      } catch (err) {
-        // Never let one broken/unavailable social profile stop all producers.
-        console.warn(`${owner}: ${network} skipped: ${err?.message || err}`);
+
+        const data = await response.json();
+
+        const children =
+          data?.data?.children || [];
+
+        for (const child of children) {
+          const item = child?.data;
+
+          if (!item?.id || !item?.created_utc) {
+            continue;
+          }
+
+          events.push(
+            event(
+              `reddit:${item.id}`,
+              new Date(
+                item.created_utc * 1000
+              ).toISOString(),
+              {
+                network: 'reddit',
+                kind: child.kind || null,
+                subreddit: item.subreddit || null,
+                url: item.permalink
+                  ? `https://www.reddit.com${item.permalink}`
+                  : null
+              }
+            )
+          );
+        }
+
+      } catch (error) {
+        console.warn(
+          `Reddit endpoint failed for ${username}:`,
+          error.message
+        );
       }
     }
 
+    const unique = addUnique([], events);
+
+    return {
+      events: unique,
+      status: unique.length ? 'OK' : 'EMPTY',
+      detail: `${unique.length} events`
+    };
+
+  } catch (error) {
+    return {
+      events: [],
+      status: 'ERROR',
+      detail: error.message
+    };
+  }
+}
+
+/* =========================================================
+   MEDIUM
+   ========================================================= */
+
+async function mediumEvents(value) {
+  const username = cleanHandle(value);
+
+  if (!username) {
+    return {
+      events: [],
+      status: 'EMPTY',
+      detail: 'No Medium handle'
+    };
+  }
+
+  const url =
+    `https://medium.com/feed/@${encodeURIComponent(username)}`;
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'XPRCore-social-activity/1.0'
+      }
+    });
+
+    const xml = await response.text();
+
+    if (!response.ok) {
+      return {
+        events: [],
+        status: 'ERROR',
+        detail: `HTTP ${response.status}`
+      };
+    }
+
+    const events = [];
+
+    const itemRegex =
+      /<item>([\s\S]*?)<\/item>/gi;
+
+    let itemMatch;
+
+    while ((itemMatch = itemRegex.exec(xml)) !== null) {
+      const item = itemMatch[1];
+
+      const guid =
+        item.match(/<guid[^>]*>([\s\S]*?)<\/guid>/i)?.[1]
+          ?.trim();
+
+      const pubDate =
+        item.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i)?.[1]
+          ?.trim();
+
+      const link =
+        item.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1]
+          ?.trim();
+
+      if (!guid || !pubDate) continue;
+
+      const d = new Date(pubDate);
+
+      if (Number.isNaN(d.getTime())) continue;
+
+      events.push(
+        event(
+          `medium:${guid}`,
+          d.toISOString(),
+          {
+            network: 'medium',
+            url: link || null
+          }
+        )
+      );
+    }
+
+    return {
+      events,
+      status: events.length ? 'OK' : 'EMPTY',
+      detail: `${events.length} posts`
+    };
+
+  } catch (error) {
+    return {
+      events: [],
+      status: 'ERROR',
+      detail: error.message
+    };
+  }
+}
+
+/* =========================================================
+   YOUTUBE
+   ========================================================= */
+
+async function youtubeEvents(value) {
+  const username = cleanHandle(value);
+
+  if (!username) {
+    return {
+      events: [],
+      status: 'EMPTY',
+      detail: 'No YouTube handle'
+    };
+  }
+
+  /*
+   * YouTube RSS requires a channel ID.
+   * @handle cannot reliably be converted to a channel
+   * without YouTube's API/search layer.
+   *
+   * Therefore don't pretend that an @handle was found.
+   */
+  if (username.startsWith('UC')) {
+    const url =
+      `https://www.youtube.com/feeds/videos.xml?channel_id=${encodeURIComponent(username)}`;
+
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'User-Agent': 'XPRCore-social-activity/1.0'
+        }
+      });
+
+      const xml = await response.text();
+
+      if (!response.ok) {
+        return {
+          events: [],
+          status: 'ERROR',
+          detail: `HTTP ${response.status}`
+        };
+      }
+
+      const events = [];
+
+      const entryRegex =
+        /<entry>([\s\S]*?)<\/entry>/gi;
+
+      let match;
+
+      while ((match = entryRegex.exec(xml)) !== null) {
+        const entry = match[1];
+
+        const id =
+          entry.match(/<yt:videoId>(.*?)<\/yt:videoId>/i)?.[1];
+
+        const published =
+          entry.match(/<published>(.*?)<\/published>/i)?.[1];
+
+        if (!id || !published) continue;
+
+        const d = new Date(published);
+
+        if (Number.isNaN(d.getTime())) continue;
+
+        events.push(
+          event(
+            `youtube:${id}`,
+            d.toISOString(),
+            {
+              network: 'youtube',
+              url: `https://www.youtube.com/watch?v=${id}`
+            }
+          )
+        );
+      }
+
+      return {
+        events,
+        status: events.length ? 'OK' : 'EMPTY',
+        detail: `${events.length} videos`
+      };
+
+    } catch (error) {
+      return {
+        events: [],
+        status: 'ERROR',
+        detail: error.message
+      };
+    }
+  }
+
+  return {
+    events: [],
+    status: 'EMPTY',
+    detail: 'YouTube handle requires channel ID for RSS'
+  };
+}
+
+/* =========================================================
+   MAIN
+   ========================================================= */
+
+async function main() {
+  const bp = await readJson(
+    BP_FILE,
+    { producers: {} }
+  );
+
+  const old = await readJson(
+    OUT,
+    {
+      version: 2,
+      coverageStart: new Date().toISOString(),
+      producers: {}
+    }
+  );
+
+  const producers =
+    bp?.producers || {};
+
+  const result = {
+    version: 2,
+    updatedAt: new Date().toISOString(),
+
+    /*
+     * Keep original coverage start so 1Y grows
+     * over time instead of resetting every run.
+     */
+    coverageStart:
+      old.coverageStart ||
+      new Date().toISOString(),
+
+    producerCount:
+      Object.keys(producers).length,
+
+    producers: {}
+  };
+
+  let producersWithActivity = 0;
+  let producersWithoutActivity = 0;
+  let totalNetworkErrors = 0;
+
+  console.log('');
+  console.log('========================================');
+  console.log(' XPR Producer Social Activity Collector');
+  console.log('========================================');
+  console.log(
+    `Producers: ${Object.keys(producers).length}`
+  );
+  console.log('');
+
+  for (const [owner, record] of Object.entries(producers)) {
+    const existing =
+      old.producers?.[owner] || {
+        events: {}
+      };
+
+    const social =
+      record?.social || {};
+
+    const events = {
+      ...(existing.events || {})
+    };
+
+    const diagnostics = {};
+
+    console.log(`\n[${owner}]`);
+
+    const tasks = [];
+
+    /*
+     * GITHUB
+     */
+    if (social.github) {
+      tasks.push({
+        network: 'github',
+        value: social.github,
+        fn: () => githubEvents(social.github)
+      });
+    }
+
+    /*
+     * TELEGRAM
+     */
+    if (social.telegram) {
+      tasks.push({
+        network: 'telegram',
+        value: social.telegram,
+        fn: () => telegramEvents(social.telegram)
+      });
+    }
+
+    /*
+     * YOUTUBE
+     */
+    if (social.youtube) {
+      tasks.push({
+        network: 'youtube',
+        value: social.youtube,
+        fn: () => youtubeEvents(social.youtube)
+      });
+    }
+
+    /*
+     * REDDIT
+     */
+    if (social.reddit) {
+      tasks.push({
+        network: 'reddit',
+        value: social.reddit,
+        fn: () => redditEvents(social.reddit)
+      });
+    }
+
+    /*
+     * MEDIUM
+     */
+    if (social.medium) {
+      tasks.push({
+        network: 'medium',
+        value: social.medium,
+        fn: () => mediumEvents(social.medium)
+      });
+    }
+
+    if (!tasks.length) {
+      console.log('  NO SOCIAL PROFILES');
+
+      diagnostics.status = 'NO_SOCIAL_PROFILES';
+
+      result.producers[owner] = {
+        owner,
+        social,
+        activity: {
+          "7D": 0,
+          "30D": 0,
+          "1Y": 0
+        },
+        networkActivity: {},
+        lastSocialActivity: null,
+        events,
+        diagnostics
+      };
+
+      producersWithoutActivity++;
+      continue;
+    }
+
+    /*
+     * Run networks sequentially.
+     *
+     * This is slower than Promise.all(), but avoids
+     * hammering Reddit/GitHub/etc. simultaneously
+     * and makes diagnostics much easier.
+     */
+    for (const task of tasks) {
+      try {
+        const resultData =
+          await task.fn();
+
+        const incoming =
+          resultData?.events || [];
+
+        const previous =
+          events[task.network] || [];
+
+        events[task.network] =
+          addUnique(
+            previous,
+            incoming
+          );
+
+        diagnostics[task.network] = {
+          status:
+            resultData.status || 'UNKNOWN',
+
+          detail:
+            resultData.detail || '',
+
+          newEvents:
+            incoming.length,
+
+          storedEvents:
+            events[task.network].length
+        };
+
+        if (resultData.status === 'ERROR') {
+          totalNetworkErrors++;
+        }
+
+        console.log(
+          `  ${task.network.padEnd(9)} ` +
+          `${resultData.status.padEnd(6)} ` +
+          `${resultData.detail || ''} ` +
+          `(stored ${events[task.network].length})`
+        );
+
+      } catch (error) {
+        diagnostics[task.network] = {
+          status: 'ERROR',
+          detail: error.message,
+          newEvents: 0,
+          storedEvents:
+            (events[task.network] || []).length
+        };
+
+        totalNetworkErrors++;
+
+        console.log(
+          `  ${task.network.padEnd(9)} ERROR  ${error.message}`
+        );
+      }
+    }
+
+    /*
+     * Calculate per-network statistics.
+     */
     const networkActivity = {};
     const all = [];
-    for (const [network, ev] of Object.entries(events)) {
-      if (!Array.isArray(ev)) continue;
-      const w = windows(ev);
-      const last = ev.length ? ev[ev.length - 1].ts : null;
-      networkActivity[network] = { count: w, lastActivity: last ? new Date(last).toISOString() : null };
-      all.push(...ev);
+
+    for (const [network, networkEvents] of Object.entries(events)) {
+      const cleaned =
+        addUnique([], networkEvents);
+
+      events[network] = cleaned;
+
+      const count =
+        windows(cleaned);
+
+      const last =
+        cleaned.length
+          ? cleaned[cleaned.length - 1].ts
+          : null;
+
+      networkActivity[network] = {
+        count,
+        lastActivity:
+          last
+            ? new Date(last).toISOString()
+            : null
+      };
+
+      all.push(...cleaned);
     }
-    const uniqueAll = addUnique([], all);
-    const w = windows(uniqueAll);
-    const last = uniqueAll.length ? uniqueAll[uniqueAll.length - 1].ts : null;
+
+    /*
+     * Overall activity.
+     */
+    const uniqueAll =
+      addUnique([], all);
+
+    const activity =
+      windows(uniqueAll);
+
+    const last =
+      uniqueAll.length
+        ? uniqueAll[uniqueAll.length - 1].ts
+        : null;
+
+    const hasActivity =
+      uniqueAll.length > 0;
+
+    if (hasActivity) {
+      producersWithActivity++;
+    } else {
+      producersWithoutActivity++;
+    }
 
     result.producers[owner] = {
       owner,
       social,
-      activity: w,
+      activity,
       networkActivity,
-      lastSocialActivity: last ? new Date(last).toISOString() : null,
-      events
+      lastSocialActivity:
+        last
+          ? new Date(last).toISOString()
+          : null,
+      events,
+      diagnostics
     };
+
+    console.log(
+      `  TOTAL     ` +
+      `7D=${activity["7D"]} ` +
+      `30D=${activity["30D"]} ` +
+      `1Y=${activity["1Y"]}`
+    );
   }
 
-  result.producerCount = Object.keys(result.producers).length;
-  await fs.writeFile(OUT, JSON.stringify(result, null, 2) + '\n');
-  console.log(`saved social activity for ${result.producerCount} producers`);
+  await fs.writeFile(
+    OUT,
+    JSON.stringify(result, null, 2) + '\n'
+  );
+
+  console.log('');
+  console.log('========================================');
+  console.log(' SUMMARY');
+  console.log('========================================');
+  console.log(
+    `Producers checked:      ${result.producerCount}`
+  );
+  console.log(
+    `With activity:          ${producersWithActivity}`
+  );
+  console.log(
+    `Without activity:       ${producersWithoutActivity}`
+  );
+  console.log(
+    `Network errors:         ${totalNetworkErrors}`
+  );
+  console.log(
+    `Output:                 ${OUT.pathname}`
+  );
+  console.log('========================================');
+  console.log('');
 }
 
-main().catch(err => { console.error(err); process.exit(1); });
+main().catch(error => {
+  console.error('');
+  console.error('FATAL COLLECTOR ERROR');
+  console.error(error);
+  console.error('');
+  process.exit(1);
+});
