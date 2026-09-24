@@ -106,7 +106,7 @@ async function load(){
     $("status").textContent=`${data.producerCount||Object.keys(data.producers||{}).length} active producers · BP data updated ${data.updatedAt ? new Date(data.updatedAt).toLocaleString() : '—'}`;
   }catch(e){
     $("status").textContent="Producer BP data is not available yet";
-    $("producers").innerHTML='<div class="empty">Run the GitHub Action once to generate data/producer-bp-social.json.</div>';
+    $("producers").innerHTML='<div class="empty">Run the GitHub Action once to generate the producer BP social data.</div>';
   }
 }
 load();
