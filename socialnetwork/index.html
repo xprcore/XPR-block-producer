@@ -34,6 +34,20 @@
 .title .online-dot { display:none !important; }
 
 .text-icon{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;font-size:10px;font-weight:800;letter-spacing:-.3px;border:1px solid currentColor;border-radius:5px;line-height:1;}
+
+/* Producer ranking + expandable activity */
+.grid{grid-template-columns:1fr}
+.producer{cursor:pointer;transition:border-color .18s ease,background .18s ease,transform .18s ease}
+.producer:hover{border-color:rgba(90,169,248,.32);background:rgba(5,28,58,.72)}
+.producer.open{border-color:rgba(90,169,248,.4)}
+.ranknum{font-size:15px;font-weight:900;color:var(--blue);min-width:36px}
+.activity{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:13px}
+.metric{border:1px solid rgba(90,169,248,.12);border-radius:9px;background:rgba(8,35,70,.42);padding:9px 8px;text-align:center}
+.metric span{display:block;color:var(--muted);font-size:7px;text-transform:uppercase;letter-spacing:.08em}.metric strong{display:block;margin-top:4px;color:#fff;font-size:14px}
+.details{display:none;margin-top:13px;padding-top:13px;border-top:1px solid rgba(90,169,248,.12)}.producer.open .details{display:block}
+.details-title{font-size:8px;color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:.12em;margin-bottom:8px}
+.detail-socials{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:6px}.detail-social{display:flex;align-items:center;gap:7px;padding:7px 8px;border:1px solid rgba(90,169,248,.12);border-radius:8px;color:#dceeff;font-size:8px}.detail-social .icon{width:18px;height:18px;flex:0 0 18px}.detail-count{margin-left:auto;color:#fff;font-weight:800}
+@media(max-width:720px){.activity{gap:5px}.metric{padding:8px 4px}.detail-socials{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 </head>
 <body>
@@ -85,30 +99,78 @@ function socialIcon(name){
   const labels={keybase:'KB',reddit:'R',discord:'DC',wechat:'WC',medium:'M',steemit:'S',hive:'H',instagram:'IG',linkedin:'in',tiktok:'TK',mastodon:'M'};
   return `<span class="text-icon">${labels[name]||'•'}</span>`;
 }
-function render(data){
-  const records=data?.producers||{};
-  const producers=Object.values(records).sort((a,b)=>(a.rank??999999)-(b.rank??999999));
-  const root=$("producers");
-  if(!producers.length){root.innerHTML='<div class="empty">No producer BP social data available yet.</div>';return;}
-  root.innerHTML=producers.map(p=>{
-    const social=p.social||{};
-    const cards=SOCIALS.filter(([key])=>social[key]).map(([key,label,icon])=>`<a class="social available" href="${esc(social[key])}" target="_blank" rel="noopener noreferrer" title="${esc(label)}"><span class="icon">${socialIcon(icon)}</span><span class="label">${label}</span></a>`).join('');
-    return `<article class="producer"><div class="ptop"><div class="identity"><div class="avatar">${esc(String(p.owner||'').slice(0,2).toUpperCase())}</div><div><div class="name">${esc(p.owner)}</div><div class="rank">Active producer · #${esc(p.rank ?? '—')}</div></div></div><span class="badge">ACTIVE</span></div><div class="socials">${cards || '<div class="empty" style="padding:16px">No social networks listed in bp.json</div>'}</div></article>`;
-  }).join('');
+const RPCS=[
+  'https://proton.eosusa.io',
+  'https://api.protonnz.com',
+  'https://proton.protonuk.io',
+  'https://proton.cryptolions.io',
+  'https://proton.eoscafeblock.com',
+  'https://api.totalproton.tech'
+];
+async function fetchLiveProducers(){
+  const body={json:true,code:'eosio',scope:'eosio',table:'producers',limit:1000};
+  for(const base of RPCS){
+    try{
+      const r=await fetch(base+'/v1/chain/get_table_rows',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body),cache:'no-store'});
+      if(!r.ok) continue;
+      const d=await r.json();
+      if(Array.isArray(d.rows)) return d.rows.filter(p=>Boolean(p.is_active));
+    }catch{}
+  }
+  throw new Error('No live XPR RPC available');
 }
+function sortProducers(producers){
+  return [...producers].sort((a,b)=>{
+    const ar=Number(a.rank), br=Number(b.rank);
+    const aHas=Number.isFinite(ar), bHas=Number.isFinite(br);
+    if(aHas && bHas && ar!==br) return ar-br;
+    if(aHas!==bHas) return aHas ? -1 : 1;
+    const av=Number(a.total_votes)||0, bv=Number(b.total_votes)||0;
+    if(av!==bv) return bv-av;
+    return String(a.owner||'').localeCompare(String(b.owner||''));
+  });
+}
+function num(v){const n=Number(v);return Number.isFinite(n)?n:0}
+function activityFor(record,period){const a=record?.activity?.[period]||record?.[period]||{};if(typeof a==='number')return {total:a,social:{}};const social=a.social||{};const total=Number.isFinite(Number(a.total))?Number(a.total):Object.values(social).reduce((s,v)=>s+num(v),0);return {total,social}}
+function socialCount(record,key,period){return num(activityFor(record,period).social[key])}
+function render(producers,socialRecords){
+ const root=$("producers"); if(!producers.length){root.innerHTML='<div class="empty">No active producers found on the XPR blockchain.</div>';return;}
+ root.innerHTML=producers.map((p,index)=>{
+  const record=socialRecords[p.owner]||socialRecords[String(p.owner||'').toLowerCase()]||{}; const lastSocial=findLastSocial(record); const social=record.social||{};
+  const a7=activityFor(record,'7D'),a30=activityFor(record,'30D'),a1y=activityFor(record,'1Y');
+  const cards=SOCIALS.filter(([key])=>social[key]).map(([key,label,icon])=>`<div class="detail-social"><span class="icon">${socialIcon(icon)}</span><span>${label}</span><span class="detail-count">${socialCount(record,key,'7D')}/${socialCount(record,key,'30D')}/${socialCount(record,key,'1Y')}</span></div>`).join('');
+  const rank=Number.isFinite(Number(p.rank))?p.rank:index+1;
+  return `<article class="producer" tabindex="0"><div class="ptop"><div class="identity"><div class="ranknum">#${esc(rank)}</div><div class="avatar">${esc(String(p.owner||'').slice(0,2).toUpperCase())}</div><div><div class="name">${esc(p.owner)}</div><div class="rank">Active producer · blockchain rank</div></div></div><span class="badge">${formatLastSocial(lastSocial)}</span></div><div class="activity"><div class="metric"><span>7D</span><strong>${a7.total.toLocaleString()}</strong></div><div class="metric"><span>30D</span><strong>${a30.total.toLocaleString()}</strong></div><div class="metric"><span>1Y</span><strong>${a1y.total.toLocaleString()}</strong></div></div><div class="details"><div class="details-title">Social networks · 7D / 30D / 1Y</div><div class="detail-socials">${cards||'<div class="empty" style="padding:16px;grid-column:1/-1">No social networks listed in bp.json</div>'}</div></div></article>`;
+ }).join('');
+ root.querySelectorAll('.producer').forEach(card=>{const toggle=()=>card.classList.toggle('open');card.addEventListener('click',e=>{if(e.target.closest('a'))return;toggle()});card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}})});
+}
+
 async function load(){
-  $("status").textContent="Updating…";
+  $("status").textContent="Updating live producer ranking…";
   try{
     const r=await fetch('../data/producer-bp-social.json?ts='+Date.now(),{cache:'no-store'});
     if(!r.ok) throw new Error('HTTP '+r.status);
     const data=await r.json();
-    render(data);
-    $("status").textContent=`${data.producerCount||Object.keys(data.producers||{}).length} active producers · BP data updated ${data.updatedAt ? new Date(data.updatedAt).toLocaleString() : '—'}`;
+    const records=data?.producers||{};
+    const live=sortProducers(await fetchLiveProducers());
+    render(live,records);
+    $("status").textContent=`${live.length} active producers · ranking from XPR blockchain · BP data updated ${data.updatedAt ? new Date(data.updatedAt).toLocaleString() : '—'}`;
   }catch(e){
-    $("status").textContent="Producer BP data is not available yet";
-    $("producers").innerHTML='<div class="empty">Run the GitHub Action once to generate the producer BP social data.</div>';
+    try{
+      const r=await fetch('../data/producer-bp-social.json?ts='+Date.now(),{cache:'no-store'});
+      if(!r.ok) throw e;
+      const data=await r.json();
+      const records=data?.producers||{};
+      const fallback=sortProducers(Object.values(records));
+      render(fallback,records);
+      $("status").textContent=`${fallback.length} active producers · cached blockchain ranking · BP data updated ${data.updatedAt ? new Date(data.updatedAt).toLocaleString() : '—'}`;
+    }catch{
+      $("status").textContent="Producer BP data is not available yet";
+      $("producers").innerHTML='<div class="empty">Run the GitHub Action once to generate the producer BP social data.</div>';
+    }
   }
 }
+document.querySelectorAll('.period').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.period').forEach(b=>b.classList.remove('active'));btn.classList.add('active');load()}));
 load();
 setInterval(load,60000);
 </script>
