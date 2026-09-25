@@ -2306,6 +2306,42 @@
         "saltant",
         "saltant"
       ]
+    },
+    {
+      "ts": 1790347665139,
+      "block": 405315007,
+      "producer": "alvosec",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.473684210526316,
+      "utilization": 0.03204345703125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.6,
+      "finality": 164.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }
