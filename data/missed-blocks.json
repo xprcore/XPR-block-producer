@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1787756520000,
+  "oldestTs": 1787771994500,
   "newestTs": 1790259906500,
-  "pages": 18,
+  "pages": 17,
   "events": [
-    {
-      "producer": "cryptolions",
-      "round": 1,
-      "block": 400135996,
-      "ts": 1787756520000,
-      "postId": 9007
-    },
     {
       "producer": "brotonbp",
       "round": 1,
