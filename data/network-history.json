@@ -2270,6 +2270,42 @@
         "protonuk",
         "protonuk"
       ]
+    },
+    {
+      "ts": 1790329881120,
+      "block": 405279439,
+      "producer": "storexbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.9473684210526314,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.4,
+      "finality": 164.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "saltant",
+        "saltant",
+        "saltant"
+      ]
     }
   ]
 }
