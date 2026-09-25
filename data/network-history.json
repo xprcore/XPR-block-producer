@@ -2378,6 +2378,42 @@
         "protonnz",
         "protonnz"
       ]
+    },
+    {
+      "ts": 1790373551800,
+      "block": 405366780,
+      "producer": "eosiodetroit",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.210526315789474,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.05,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions"
+      ]
     }
   ]
 }

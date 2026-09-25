@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1787771994500,
+  "oldestTs": 1787933941000,
   "newestTs": 1790259906500,
   "pages": 17,
   "events": [
-    {
-      "producer": "brotonbp",
-      "round": 1,
-      "block": 400166933,
-      "ts": 1787771994500,
-      "postId": 9009
-    },
     {
       "producer": "eosusa",
       "round": 1,
