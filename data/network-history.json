@@ -2234,6 +2234,42 @@
         "protonuk",
         "protonuk"
       ]
+    },
+    {
+      "ts": 1790311730033,
+      "block": 405243137,
+      "producer": "snipverse",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.5789473684210527,
+      "utilization": 0.034332275390625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.7,
+      "finality": 163.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk"
+      ]
     }
   ]
 }
