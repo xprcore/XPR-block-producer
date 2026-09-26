@@ -2594,6 +2594,42 @@
         "snipverse",
         "snipverse"
       ]
+    },
+    {
+      "ts": 1790453421510,
+      "block": 405526507,
+      "producer": "chaininfra",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.631578947368421,
+      "utilization": 0.02288818359375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.2,
+      "finality": 165,
+      "validatorCounts": {},
+      "activeProducers": [
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote"
+      ]
     }
   ]
 }
