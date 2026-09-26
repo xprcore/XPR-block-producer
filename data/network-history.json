@@ -2558,6 +2558,42 @@
         "blocksforge",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1790444672405,
+      "block": 405509009,
+      "producer": "totalproton",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.1578947368421053,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.5,
+      "finality": 163.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse"
+      ]
     }
   ]
 }
