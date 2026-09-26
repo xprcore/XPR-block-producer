@@ -2450,6 +2450,42 @@
         "alvosec",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1790399892650,
+      "block": 405419450,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.210526315789474,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.05,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit",
+        "eosiodetroit"
+      ]
     }
   ]
 }
