@@ -2486,6 +2486,42 @@
         "eosiodetroit",
         "eosiodetroit"
       ]
+    },
+    {
+      "ts": 1790416615525,
+      "block": 405452895,
+      "producer": "catsvote",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.3684210526315788,
+      "utilization": 0.02288818359375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.6,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "catsvote",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp"
+      ]
     }
   ]
 }
