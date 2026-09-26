@@ -2522,6 +2522,42 @@
         "brotonbp",
         "brotonbp"
       ]
+    },
+    {
+      "ts": 1790431720233,
+      "block": 405483105,
+      "producer": "bloxprod",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.6842105263157894,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.8,
+      "finality": 165.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "alvosec"
+      ]
     }
   ]
 }
