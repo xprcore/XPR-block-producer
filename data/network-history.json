@@ -2630,6 +2630,42 @@
         "catsvote",
         "catsvote"
       ]
+    },
+    {
+      "ts": 1790462879789,
+      "block": 405545424,
+      "producer": "cryptolions",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.5789473684210527,
+      "utilization": 0.009918212890625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.75,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra"
+      ]
     }
   ]
 }
