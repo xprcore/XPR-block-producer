@@ -2702,6 +2702,42 @@
         "alvosec",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1790490041133,
+      "block": 405599746,
+      "producer": "xprnodeonebp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.3157894736842106,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.1,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata"
+      ]
     }
   ]
 }
