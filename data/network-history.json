@@ -2738,6 +2738,42 @@
         "xprdata",
         "xprdata"
       ]
+    },
+    {
+      "ts": 1790511218094,
+      "block": 405642101,
+      "producer": "blocksforge",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.3684210526315788,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.6,
+      "finality": 170,
+      "validatorCounts": {},
+      "activeProducers": [
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp"
+      ]
     }
   ]
 }
