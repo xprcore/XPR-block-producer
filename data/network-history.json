@@ -2774,6 +2774,42 @@
         "xprnodeonebp",
         "xprnodeonebp"
       ]
+    },
+    {
+      "ts": 1790528371081,
+      "block": 405676406,
+      "producer": "cafe",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.473684210526316,
+      "utilization": 0.04730224609375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.65,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod"
+      ]
     }
   ]
 }
