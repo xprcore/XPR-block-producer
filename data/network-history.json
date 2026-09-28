@@ -2990,6 +2990,42 @@
         "catsvote",
         "catsvote"
       ]
+    },
+    {
+      "ts": 1790630409379,
+      "block": 405880421,
+      "producer": "alvosec",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 13.263157894736842,
+      "utilization": 0.032806396484375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 6.3,
+      "finality": 164.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprdata",
+        "xprdata",
+        "xprdata"
+      ]
     }
   ]
 }
