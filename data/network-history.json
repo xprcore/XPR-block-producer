@@ -2954,6 +2954,42 @@
         "bloxprod",
         "bloxprod"
       ]
+    },
+    {
+      "ts": 1790609282581,
+      "block": 405838168,
+      "producer": "chaininfra",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.473684210526316,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.65,
+      "finality": 164,
+      "validatorCounts": {},
+      "activeProducers": [
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote"
+      ]
     }
   ]
 }
