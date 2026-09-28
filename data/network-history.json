@@ -2918,6 +2918,42 @@
         "protonuk",
         "protonuk"
       ]
+    },
+    {
+      "ts": 1790579524124,
+      "block": 405778653,
+      "producer": "brotonbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2,
+      "utilization": 0.029754638671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.95,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod"
+      ]
     }
   ]
 }
