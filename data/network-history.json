@@ -2882,6 +2882,42 @@
         "catsvote",
         "catsvote"
       ]
+    },
+    {
+      "ts": 1790558682998,
+      "block": 405736969,
+      "producer": "saltant",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.473684210526316,
+      "utilization": 0.03814697265625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.6,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk"
+      ]
     }
   ]
 }
