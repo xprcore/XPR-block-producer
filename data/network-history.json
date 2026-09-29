@@ -3098,6 +3098,42 @@
         "protonind",
         "protonind"
       ]
+    },
+    {
+      "ts": 1790688232241,
+      "block": 405995947,
+      "producer": "xprdata",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.052631578947368,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.4,
+      "finality": 165.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "storexbp"
+      ]
     }
   ]
 }
