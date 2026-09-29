@@ -3026,6 +3026,42 @@
         "xprdata",
         "xprdata"
       ]
+    },
+    {
+      "ts": 1790643830366,
+      "block": 405907264,
+      "producer": "protonind",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.5789473684210527,
+      "utilization": 0.009918212890625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.75,
+      "finality": 164,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa"
+      ]
     }
   ]
 }
