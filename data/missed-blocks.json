@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1788127530000,
-  "newestTs": 1790539495000,
+  "newestTs": 1790654712500,
   "pages": 18,
   "events": [
     {
@@ -1986,6 +1986,13 @@
       "block": 405698596,
       "ts": 1790539495000,
       "postId": 9355
+    },
+    {
+      "producer": "totalproton",
+      "round": 1,
+      "block": 405929018,
+      "ts": 1790654712500,
+      "postId": 9357
     }
   ]
 }
