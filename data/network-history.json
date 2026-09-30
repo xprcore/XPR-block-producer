@@ -3314,6 +3314,42 @@
         "blocksforge",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1790794158749,
+      "block": 406207799,
+      "producer": "protonmadrid",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 8.31578947368421,
+      "utilization": 0.034332275390625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3.95,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind"
+      ]
     }
   ]
 }
