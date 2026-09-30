@@ -3350,6 +3350,42 @@
         "protonind",
         "protonind"
       ]
+    },
+    {
+      "ts": 1790807988273,
+      "block": 406235459,
+      "producer": "chaininfra",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.9,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai"
+      ]
     }
   ]
 }
