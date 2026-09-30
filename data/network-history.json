@@ -3206,6 +3206,42 @@
         "storexbp",
         "storexbp"
       ]
+    },
+    {
+      "ts": 1790732077067,
+      "block": 406083637,
+      "producer": "xprdata",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.315789473684211,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.05,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprdata",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp"
+      ]
     }
   ]
 }
