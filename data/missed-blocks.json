@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788161659500,
+  "oldestTs": 1788235831000,
   "newestTs": 1790667787500,
   "pages": 8,
   "events": [
-    {
-      "producer": "saltant",
-      "round": 1,
-      "block": 400943695,
-      "ts": 1788161659500,
-      "postId": 9231
-    },
     {
       "producer": "eosiodetroit",
       "round": 1,
