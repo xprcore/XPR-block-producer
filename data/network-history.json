@@ -3386,6 +3386,42 @@
         "cerebroai",
         "cerebroai"
       ]
+    },
+    {
+      "ts": 1790818456510,
+      "block": 406256396,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.105263157894737,
+      "utilization": 0.009918212890625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.95,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions"
+      ]
     }
   ]
 }
