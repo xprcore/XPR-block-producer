@@ -2,24 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788298845000,
+  "oldestTs": 1788330289000,
   "newestTs": 1790667787500,
   "pages": 6,
   "events": [
-    {
-      "producer": "madblocks",
-      "round": 1,
-      "block": 401217897,
-      "ts": 1788298845000,
-      "postId": 9265
-    },
-    {
-      "producer": "xprnodeonebp",
-      "round": 1,
-      "block": 401218012,
-      "ts": 1788298902500,
-      "postId": 9266
-    },
     {
       "producer": "blocksforge",
       "round": 1,
