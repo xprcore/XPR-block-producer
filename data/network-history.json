@@ -3422,6 +3422,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1790840635790,
+      "block": 406300754,
+      "producer": "madblocks",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 14.736842105263158,
+      "utilization": 0.484466552734375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 7,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "madblocks",
+        "madblocks",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions"
+      ]
     }
   ]
 }

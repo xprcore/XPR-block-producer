@@ -2,101 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788235831000,
+  "oldestTs": 1788265170500,
   "newestTs": 1790667787500,
-  "pages": 8,
+  "pages": 7,
   "events": [
-    {
-      "producer": "eosiodetroit",
-      "round": 1,
-      "block": 401092037,
-      "ts": 1788235831000,
-      "postId": 9235
-    },
-    {
-      "producer": "catsvote",
-      "round": 1,
-      "block": 401095768,
-      "ts": 1788237702500,
-      "postId": 9239
-    },
-    {
-      "producer": "cryptolions",
-      "round": 1,
-      "block": 401096285,
-      "ts": 1788237961000,
-      "postId": 9243
-    },
-    {
-      "producer": "blocksforge",
-      "round": 1,
-      "block": 401110326,
-      "ts": 1788244987500,
-      "postId": 9247
-    },
-    {
-      "producer": "blocksforge",
-      "round": 2,
-      "block": 401110563,
-      "ts": 1788245112000,
-      "postId": 9248
-    },
-    {
-      "producer": "blocksforge",
-      "round": 3,
-      "block": 401110805,
-      "ts": 1788245239000,
-      "postId": 9249
-    },
-    {
-      "producer": "blocksforge",
-      "round": 4,
-      "block": 401111044,
-      "ts": 1788245364500,
-      "postId": 9250
-    },
-    {
-      "producer": "blocksforge",
-      "round": 5,
-      "block": 401111284,
-      "ts": 1788245490500,
-      "postId": 9251
-    },
-    {
-      "producer": "blocksforge",
-      "round": 6,
-      "block": 401111526,
-      "ts": 1788245617500,
-      "postId": 9252
-    },
-    {
-      "producer": "blocksforge",
-      "round": 7,
-      "block": 401111766,
-      "ts": 1788245743500,
-      "postId": 9253
-    },
-    {
-      "producer": "blocksforge",
-      "round": 8,
-      "block": 401112006,
-      "ts": 1788245869500,
-      "postId": 9254
-    },
-    {
-      "producer": "blocksforge",
-      "round": 9,
-      "block": 401112243,
-      "ts": 1788245994000,
-      "postId": 9255
-    },
-    {
-      "producer": "blocksforge",
-      "round": 10,
-      "block": 401112486,
-      "ts": 1788246121500,
-      "postId": 9256
-    },
     {
       "producer": "catsvote",
       "round": 1,
