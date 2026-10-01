@@ -3494,6 +3494,42 @@
         "alvosec",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1790884416301,
+      "block": 406388316,
+      "producer": "xprdata",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.6842105263157894,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.8,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }
