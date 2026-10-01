@@ -2,38 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788265170500,
+  "oldestTs": 1788298845000,
   "newestTs": 1790667787500,
-  "pages": 7,
+  "pages": 6,
   "events": [
-    {
-      "producer": "catsvote",
-      "round": 1,
-      "block": 401150572,
-      "ts": 1788265170500,
-      "postId": 9258
-    },
-    {
-      "producer": "catsvote",
-      "round": 2,
-      "block": 401150812,
-      "ts": 1788265296500,
-      "postId": 9259
-    },
-    {
-      "producer": "catsvote",
-      "round": 1,
-      "block": 401151304,
-      "ts": 1788265548500,
-      "postId": 9261
-    },
-    {
-      "producer": "totalproton",
-      "round": 1,
-      "block": 401153475,
-      "ts": 1788266634000,
-      "postId": 9263
-    },
     {
       "producer": "madblocks",
       "round": 1,

@@ -3458,6 +3458,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1790866037915,
+      "block": 406351559,
+      "producer": "blocksforge",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.2631578947368425,
+      "utilization": 0.034332275390625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.5,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec"
+      ]
     }
   ]
 }
