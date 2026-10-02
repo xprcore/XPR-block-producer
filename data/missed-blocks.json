@@ -2,45 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788367542000,
-  "newestTs": 1790667787500,
-  "pages": 6,
+  "oldestTs": 1788388777000,
+  "newestTs": 1790955144500,
+  "pages": 5,
   "events": [
-    {
-      "producer": "saltant",
-      "round": 1,
-      "block": 401355171,
-      "ts": 1788367542000,
-      "postId": 9279
-    },
-    {
-      "producer": "saltant",
-      "round": 2,
-      "block": 401355412,
-      "ts": 1788367668500,
-      "postId": 9280
-    },
-    {
-      "producer": "saltant",
-      "round": 3,
-      "block": 401355653,
-      "ts": 1788367795000,
-      "postId": 9281
-    },
-    {
-      "producer": "saltant",
-      "round": 4,
-      "block": 401355891,
-      "ts": 1788367920000,
-      "postId": 9283
-    },
-    {
-      "producer": "saltant",
-      "round": 5,
-      "block": 401356132,
-      "ts": 1788368046500,
-      "postId": 9284
-    },
     {
       "producer": "catsvote",
       "round": 1,
@@ -362,6 +327,20 @@
       "block": 405955060,
       "ts": 1790667787500,
       "postId": 9370
+    },
+    {
+      "producer": "storexbp",
+      "round": 1,
+      "block": 406527901,
+      "ts": 1790954208000,
+      "postId": 9378
+    },
+    {
+      "producer": "catsvote",
+      "round": 1,
+      "block": 406529774,
+      "ts": 1790955144500,
+      "postId": 9380
     }
   ]
 }
