@@ -2,73 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788330289000,
+  "oldestTs": 1788367542000,
   "newestTs": 1790667787500,
   "pages": 6,
   "events": [
-    {
-      "producer": "blocksforge",
-      "round": 1,
-      "block": 401280773,
-      "ts": 1788330289000,
-      "postId": 9269
-    },
-    {
-      "producer": "blocksforge",
-      "round": 2,
-      "block": 401281014,
-      "ts": 1788330415500,
-      "postId": 9270
-    },
-    {
-      "producer": "blocksforge",
-      "round": 3,
-      "block": 401281251,
-      "ts": 1788330540000,
-      "postId": 9271
-    },
-    {
-      "producer": "blocksforge",
-      "round": 4,
-      "block": 401281493,
-      "ts": 1788330667000,
-      "postId": 9272
-    },
-    {
-      "producer": "blocksforge",
-      "round": 5,
-      "block": 401281731,
-      "ts": 1788330792000,
-      "postId": 9273
-    },
-    {
-      "producer": "blocksforge",
-      "round": 6,
-      "block": 401281971,
-      "ts": 1788330918000,
-      "postId": 9274
-    },
-    {
-      "producer": "blocksforge",
-      "round": 7,
-      "block": 401282211,
-      "ts": 1788331044000,
-      "postId": 9275
-    },
-    {
-      "producer": "blocksforge",
-      "round": 8,
-      "block": 401282454,
-      "ts": 1788331171500,
-      "postId": 9276
-    },
-    {
-      "producer": "blocksforge",
-      "round": 9,
-      "block": 401282694,
-      "ts": 1788331297500,
-      "postId": 9277
-    },
     {
       "producer": "saltant",
       "round": 1,
