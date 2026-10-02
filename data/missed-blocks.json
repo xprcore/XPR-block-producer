@@ -2,24 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788388777000,
+  "oldestTs": 1788456744000,
   "newestTs": 1790955144500,
   "pages": 5,
   "events": [
-    {
-      "producer": "catsvote",
-      "round": 1,
-      "block": 401397581,
-      "ts": 1788388777000,
-      "postId": 9288
-    },
-    {
-      "producer": "catsvote",
-      "round": 2,
-      "block": 401397822,
-      "ts": 1788388903500,
-      "postId": 9289
-    },
     {
       "producer": "protonuk",
       "round": 1,

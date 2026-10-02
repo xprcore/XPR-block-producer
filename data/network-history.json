@@ -3710,6 +3710,42 @@
         "storexbp",
         "storexbp"
       ]
+    },
+    {
+      "ts": 1790984225577,
+      "block": 406587934,
+      "producer": "blocksforge",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.2105263157894735,
+      "utilization": 0.01983642578125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec"
+      ]
     }
   ]
 }
