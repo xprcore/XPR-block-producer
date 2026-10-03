@@ -3926,6 +3926,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1791067924095,
+      "block": 406755331,
+      "producer": "cryptolions",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.263157894736842,
+      "utilization": 0.109100341796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.55,
+      "finality": 165.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote"
+      ]
     }
   ]
 }
