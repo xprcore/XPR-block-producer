@@ -2,31 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788456744000,
+  "oldestTs": 1788521250500,
   "newestTs": 1790955144500,
   "pages": 5,
   "events": [
-    {
-      "producer": "protonuk",
-      "round": 1,
-      "block": 401533483,
-      "ts": 1788456744000,
-      "postId": 9291
-    },
-    {
-      "producer": "protonuk",
-      "round": 2,
-      "block": 401533724,
-      "ts": 1788456870500,
-      "postId": 9292
-    },
-    {
-      "producer": "protonuk",
-      "round": 3,
-      "block": 401533965,
-      "ts": 1788456997000,
-      "postId": 9293
-    },
     {
       "producer": "protonnz",
       "round": 1,
