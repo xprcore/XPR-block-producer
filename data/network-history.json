@@ -3854,6 +3854,42 @@
         "blocksforge",
         "blocksforge"
       ]
+    },
+    {
+      "ts": 1791048701039,
+      "block": 406716885,
+      "producer": "snipverse",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.368421052631579,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.55,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant"
+      ]
     }
   ]
 }
