@@ -4070,6 +4070,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1791137508868,
+      "block": 406894486,
+      "producer": "protonmadrid",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.894736842105263,
+      "utilization": 0.034332275390625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.8,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind"
+      ]
     }
   ]
 }
