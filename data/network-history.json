@@ -3962,6 +3962,42 @@
         "cerebroai",
         "catsvote"
       ]
+    },
+    {
+      "ts": 1791079883081,
+      "block": 406779249,
+      "producer": "catsvote",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 8.736842105263158,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 4.15,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe"
+      ]
     }
   ]
 }
