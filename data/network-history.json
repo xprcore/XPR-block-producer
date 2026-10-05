@@ -4178,6 +4178,42 @@
         "madblocks",
         "madblocks"
       ]
+    },
+    {
+      "ts": 1791177884727,
+      "block": 406975239,
+      "producer": "blocksforge",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.6315789473684212,
+      "utilization": 0.009918212890625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.25,
+      "finality": 164.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "alvosec",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp"
+      ]
     }
   ]
 }
