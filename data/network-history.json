@@ -4142,6 +4142,42 @@
         "cerebroai",
         "cerebroai"
       ]
+    },
+    {
+      "ts": 1791158542336,
+      "block": 406936554,
+      "producer": "protonind",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.3157894736842106,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.1,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks"
+      ]
     }
   ]
 }
