@@ -4250,6 +4250,42 @@
         "catsvote",
         "catsvote"
       ]
+    },
+    {
+      "ts": 1791233083383,
+      "block": 407085539,
+      "producer": "brotonbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 10.105263157894736,
+      "utilization": 0.035858154296875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 4.8,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge"
+      ]
     }
   ]
 }

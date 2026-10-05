@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1788972084000,
-  "newestTs": 1791090368000,
+  "newestTs": 1791232674500,
   "pages": 5,
   "events": [
     {
@@ -292,6 +292,62 @@
       "block": 406800209,
       "ts": 1791090368000,
       "postId": 9384
+    },
+    {
+      "producer": "totalproton",
+      "round": 1,
+      "block": 407083043,
+      "ts": 1791231792000,
+      "postId": 9386
+    },
+    {
+      "producer": "totalproton",
+      "round": 2,
+      "block": 407083283,
+      "ts": 1791231918000,
+      "postId": 9387
+    },
+    {
+      "producer": "totalproton",
+      "round": 3,
+      "block": 407083523,
+      "ts": 1791232044000,
+      "postId": 9388
+    },
+    {
+      "producer": "totalproton",
+      "round": 4,
+      "block": 407083765,
+      "ts": 1791232171000,
+      "postId": 9389
+    },
+    {
+      "producer": "totalproton",
+      "round": 5,
+      "block": 407084005,
+      "ts": 1791232297000,
+      "postId": 9390
+    },
+    {
+      "producer": "totalproton",
+      "round": 6,
+      "block": 407084244,
+      "ts": 1791232422500,
+      "postId": 9391
+    },
+    {
+      "producer": "totalproton",
+      "round": 7,
+      "block": 407084485,
+      "ts": 1791232549000,
+      "postId": 9392
+    },
+    {
+      "producer": "totalproton",
+      "round": 8,
+      "block": 407084724,
+      "ts": 1791232674500,
+      "postId": 9394
     }
   ]
 }
