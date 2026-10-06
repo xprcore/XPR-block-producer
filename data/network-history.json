@@ -4394,6 +4394,42 @@
         "madblocks",
         "madblocks"
       ]
+    },
+    {
+      "ts": 1791316139208,
+      "block": 407251651,
+      "producer": "cerebroai",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 6.315789473684211,
+      "utilization": 0.0396728515625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote"
+      ]
     }
   ]
 }
