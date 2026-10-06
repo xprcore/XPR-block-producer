@@ -4430,6 +4430,42 @@
         "catsvote",
         "catsvote"
       ]
+    },
+    {
+      "ts": 1791328881110,
+      "block": 407277135,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.315789473684211,
+      "utilization": 0.032806396484375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.05,
+      "finality": 164.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions"
+      ]
     }
   ]
 }
