@@ -4286,6 +4286,42 @@
         "blocksforge",
         "blocksforge"
       ]
+    },
+    {
+      "ts": 1791250049142,
+      "block": 407119471,
+      "producer": "saltant",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.578947368421052,
+      "utilization": 0.052642822265625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.65,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk"
+      ]
     }
   ]
 }
