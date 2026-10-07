@@ -4538,6 +4538,42 @@
         "xprnodeonebp",
         "xprnodeonebp"
       ]
+    },
+    {
+      "ts": 1791390272525,
+      "block": 407399917,
+      "producer": "protonuk",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.631578947368421,
+      "utilization": 0.16333384216150207,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.2,
+      "finality": 163.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonnz",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid"
+      ]
     }
   ]
 }
