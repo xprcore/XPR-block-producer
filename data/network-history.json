@@ -4466,6 +4466,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1791340158541,
+      "block": 407299690,
+      "producer": "xprdata",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 7.157894736842105,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3.4,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }
