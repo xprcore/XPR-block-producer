@@ -4646,6 +4646,42 @@
         "alvosec",
         "alvosec"
       ]
+    },
+    {
+      "ts": 1791444062964,
+      "block": 407507498,
+      "producer": "protonmadrid",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 5.052631578947368,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.4,
+      "finality": 164,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks"
+      ]
     }
   ]
 }
