@@ -4826,6 +4826,42 @@
         "xprdata",
         "xprdata"
       ]
+    },
+    {
+      "ts": 1791552619239,
+      "block": 407724610,
+      "producer": "brotonbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.789473684210526,
+      "utilization": 0.04425048828125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.8,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge",
+        "blocksforge"
+      ]
     }
   ]
 }
