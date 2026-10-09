@@ -4790,6 +4790,42 @@
         "bloxprod",
         "bloxprod"
       ]
+    },
+    {
+      "ts": 1791526895491,
+      "block": 407673164,
+      "producer": "xprnodeonebp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.473684210526316,
+      "utilization": 0.035858154296875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.65,
+      "finality": 167.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata"
+      ]
     }
   ]
 }
