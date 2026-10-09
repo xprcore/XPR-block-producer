@@ -4754,6 +4754,42 @@
         "eosamsterdam",
         "eosamsterdam"
       ]
+    },
+    {
+      "ts": 1791505250315,
+      "block": 407629872,
+      "producer": "cafe",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.0526315789473686,
+      "utilization": 0.029754638671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.45,
+      "finality": 163.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cafe",
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod"
+      ]
     }
   ]
 }
