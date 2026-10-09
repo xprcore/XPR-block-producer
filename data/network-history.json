@@ -4898,6 +4898,42 @@
         "saltant",
         "saltant"
       ]
+    },
+    {
+      "ts": 1791586982726,
+      "block": 407793336,
+      "producer": "totalproton",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.2105263157894735,
+      "utilization": 0.0457763671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2,
+      "finality": 164,
+      "validatorCounts": {},
+      "activeProducers": [
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse"
+      ]
     }
   ]
 }
