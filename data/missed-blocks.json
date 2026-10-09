@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1788972084000,
+  "oldestTs": 1789109976000,
   "newestTs": 1791232674500,
   "pages": 5,
   "events": [
-    {
-      "producer": "protonnz",
-      "round": 1,
-      "block": 402564090,
-      "ts": 1788972084000,
-      "postId": 9306
-    },
     {
       "producer": "blocksforge",
       "round": 1,
