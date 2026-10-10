@@ -5078,6 +5078,42 @@
         "blocksforge",
         "blocksforge"
       ]
+    },
+    {
+      "ts": 1791669810502,
+      "block": 407958980,
+      "producer": "cafe",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.4736842105263157,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.7,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp"
+      ]
     }
   ]
 }
