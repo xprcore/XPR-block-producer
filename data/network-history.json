@@ -5186,6 +5186,42 @@
         "protonnz",
         "protonnz"
       ]
+    },
+    {
+      "ts": 1791725252230,
+      "block": 408069861,
+      "producer": "catsvote",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.4210526315789473,
+      "utilization": 0.04425048828125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.15,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "catsvote",
+        "catsvote",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp"
+      ]
     }
   ]
 }

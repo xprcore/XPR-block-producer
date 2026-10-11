@@ -2,38 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1789109976000,
+  "oldestTs": 1789137121000,
   "newestTs": 1791656107000,
   "pages": 5,
   "events": [
-    {
-      "producer": "blocksforge",
-      "round": 1,
-      "block": 402839862,
-      "ts": 1789109976000,
-      "postId": 9310
-    },
-    {
-      "producer": "blocksforge",
-      "round": 2,
-      "block": 402840102,
-      "ts": 1789110102000,
-      "postId": 9311
-    },
-    {
-      "producer": "blocksforge",
-      "round": 3,
-      "block": 402840342,
-      "ts": 1789110228000,
-      "postId": 9312
-    },
-    {
-      "producer": "blocksforge",
-      "round": 4,
-      "block": 402840583,
-      "ts": 1789110354500,
-      "postId": 9313
-    },
     {
       "producer": "eosusa",
       "round": 1,
