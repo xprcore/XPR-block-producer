@@ -5150,6 +5150,42 @@
         "protonnz",
         "protonnz"
       ]
+    },
+    {
+      "ts": 1791700491533,
+      "block": 408020341,
+      "producer": "saltant",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.3157894736842106,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.1,
+      "finality": 164.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonnz",
+        "protonnz",
+        "protonnz"
+      ]
     }
   ]
 }
