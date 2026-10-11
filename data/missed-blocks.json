@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1789156146000,
-  "newestTs": 1791739039000,
+  "oldestTs": 1789195590000,
+  "newestTs": 1791744301000,
   "pages": 8,
   "events": [
-    {
-      "producer": "eosusa",
-      "round": 1,
-      "block": 402932118,
-      "ts": 1789156146000,
-      "postId": 9320
-    },
     {
       "producer": "madblocks",
       "round": 1,
@@ -733,6 +726,13 @@
       "block": 408096706,
       "ts": 1791739039000,
       "postId": 9463
+    },
+    {
+      "producer": "eosamsterdam",
+      "round": 1,
+      "block": 408107230,
+      "ts": 1791744301000,
+      "postId": 9467
     }
   ]
 }
