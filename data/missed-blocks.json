@@ -2,52 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1789195590000,
+  "oldestTs": 1789247910500,
   "newestTs": 1791744301000,
   "pages": 8,
   "events": [
-    {
-      "producer": "madblocks",
-      "round": 1,
-      "block": 403010994,
-      "ts": 1789195590000,
-      "postId": 9322
-    },
-    {
-      "producer": "madblocks",
-      "round": 2,
-      "block": 403011235,
-      "ts": 1789195716500,
-      "postId": 9323
-    },
-    {
-      "producer": "madblocks",
-      "round": 3,
-      "block": 403011475,
-      "ts": 1789195842500,
-      "postId": 9324
-    },
-    {
-      "producer": "madblocks",
-      "round": 4,
-      "block": 403011715,
-      "ts": 1789195968500,
-      "postId": 9325
-    },
-    {
-      "producer": "madblocks",
-      "round": 5,
-      "block": 403011956,
-      "ts": 1789196095000,
-      "postId": 9326
-    },
-    {
-      "producer": "madblocks",
-      "round": 6,
-      "block": 403012196,
-      "ts": 1789196221000,
-      "postId": 9327
-    },
     {
       "producer": "saltant",
       "round": 1,
