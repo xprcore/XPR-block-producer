@@ -5366,6 +5366,42 @@
         "eosusa",
         "eosusa"
       ]
+    },
+    {
+      "ts": 1791824069126,
+      "block": 408266764,
+      "producer": "madblocks",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 6.842105263157895,
+      "utilization": 0.01678466796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3.25,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa"
+      ]
     }
   ]
 }
