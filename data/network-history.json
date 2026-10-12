@@ -5402,6 +5402,42 @@
         "eosusa",
         "eosusa"
       ]
+    },
+    {
+      "ts": 1791847477833,
+      "block": 408313580,
+      "producer": "cerebroai",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 2.526315789473684,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.2,
+      "finality": 162.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe"
+      ]
     }
   ]
 }

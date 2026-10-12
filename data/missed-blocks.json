@@ -2,24 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1789247910500,
+  "oldestTs": 1789638189000,
   "newestTs": 1791744301000,
-  "pages": 8,
+  "pages": 7,
   "events": [
-    {
-      "producer": "saltant",
-      "round": 1,
-      "block": 403115563,
-      "ts": 1789247910500,
-      "postId": 9329
-    },
-    {
-      "producer": "brotonbp",
-      "round": 1,
-      "block": 403128241,
-      "ts": 1789254259500,
-      "postId": 9331
-    },
     {
       "producer": "cafe",
       "round": 1,
