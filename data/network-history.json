@@ -5510,6 +5510,42 @@
         "brotonbp",
         "brotonbp"
       ]
+    },
+    {
+      "ts": 1791915270694,
+      "block": 408449127,
+      "producer": "cafe",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 104.94736842105263,
+      "utilization": 0.33721923828125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 49.85,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod"
+      ]
     }
   ]
 }
