@@ -5474,6 +5474,42 @@
         "storexbp",
         "storexbp"
       ]
+    },
+    {
+      "ts": 1791889678298,
+      "block": 408397977,
+      "producer": "cafe",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 13.789473684210526,
+      "utilization": 0.031280517578125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 6.55,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "cafe",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp"
+      ]
     }
   ]
 }
