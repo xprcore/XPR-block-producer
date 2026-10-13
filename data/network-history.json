@@ -5438,6 +5438,42 @@
         "cafe",
         "cafe"
       ]
+    },
+    {
+      "ts": 1791862925854,
+      "block": 408344477,
+      "producer": "totalproton",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 1.6842105263157894,
+      "utilization": 0.023651123046875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 0.8,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp"
+      ]
     }
   ]
 }
