@@ -5546,6 +5546,42 @@
         "bloxprod",
         "bloxprod"
       ]
+    },
+    {
+      "ts": 1791931686165,
+      "block": 408481991,
+      "producer": "protonmadrid",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 67.78947368421052,
+      "utilization": 0.348663330078125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 32.2,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind"
+      ]
     }
   ]
 }
