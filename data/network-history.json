@@ -5762,6 +5762,42 @@
         "protonuk",
         "protonuk"
       ]
+    },
+    {
+      "ts": 1792020517787,
+      "block": 408659643,
+      "producer": "protonnz",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 111.6842105263158,
+      "utilization": 0.384521484375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 53.05,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonnz",
+        "protonnz",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind"
+      ]
     }
   ]
 }
