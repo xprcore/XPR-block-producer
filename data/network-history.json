@@ -5726,6 +5726,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1792010705013,
+      "block": 408640017,
+      "producer": "saltant",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 57.36842105263158,
+      "utilization": 0,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 27.25,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "saltant",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk",
+        "protonuk"
+      ]
     }
   ]
 }
