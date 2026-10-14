@@ -5654,6 +5654,42 @@
         "saltant",
         "saltant"
       ]
+    },
+    {
+      "ts": 1791980114761,
+      "block": 408578847,
+      "producer": "xprnodeonebp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 121.6842105263158,
+      "utilization": 0.33721923828125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 57.8,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }
