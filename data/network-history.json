@@ -5582,6 +5582,42 @@
         "protonind",
         "protonind"
       ]
+    },
+    {
+      "ts": 1791941183732,
+      "block": 408500986,
+      "producer": "xprnodeonebp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 109.26315789473684,
+      "utilization": 0.33721923828125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 51.9,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprnodeonebp",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata"
+      ]
     }
   ]
 }
