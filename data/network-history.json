@@ -5798,6 +5798,42 @@
         "protonind",
         "protonind"
       ]
+    },
+    {
+      "ts": 1792028556880,
+      "block": 408675721,
+      "producer": "eosamsterdam",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 68.42105263157895,
+      "utilization": 0.685882568359375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 32.5,
+      "finality": 168,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cryptolions"
+      ]
     }
   ]
 }
