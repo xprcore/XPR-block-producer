@@ -5834,6 +5834,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1792045689156,
+      "block": 408709954,
+      "producer": "cryptolions",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 108.52631578947368,
+      "utilization": 0.33721923828125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 51.55,
+      "finality": 169.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "chaininfra",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai"
+      ]
     }
   ]
 }

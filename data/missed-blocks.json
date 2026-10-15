@@ -3,8 +3,8 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1789638189000,
-  "newestTs": 1792008906500,
-  "pages": 7,
+  "newestTs": 1792035475000,
+  "pages": 8,
   "events": [
     {
       "producer": "cafe",
@@ -684,6 +684,20 @@
       "block": 408636423,
       "ts": 1792008906500,
       "postId": 9469
+    },
+    {
+      "producer": "alvosec",
+      "round": 1,
+      "block": 408689468,
+      "ts": 1792035438000,
+      "postId": 9471
+    },
+    {
+      "producer": "cerebroai",
+      "round": 1,
+      "block": 408689530,
+      "ts": 1792035475000,
+      "postId": 9472
     }
   ]
 }
