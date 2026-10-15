@@ -5870,6 +5870,42 @@
         "cerebroai",
         "cerebroai"
       ]
+    },
+    {
+      "ts": 1792065382162,
+      "block": 408749337,
+      "producer": "protonnz",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 361.1578947368421,
+      "utilization": 2.657318115234375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 171.55,
+      "finality": 163,
+      "validatorCounts": {},
+      "activeProducers": [
+        "protonnz",
+        "protonnz",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonmadrid",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind",
+        "protonind"
+      ]
     }
   ]
 }
