@@ -4,42 +4,6 @@
   "sampleIntervalSeconds": 300,
   "points": [
     {
-      "ts": 1789587957756,
-      "block": 403795632,
-      "producer": "protonind",
-      "blockTime": 0.5,
-      "currentBlockTime": 0.5,
-      "tps": 10.210526315789474,
-      "utilization": 0.05035400390625,
-      "successRate": 100,
-      "failureRate": 0,
-      "txPerBlock": 4.85,
-      "finality": 164.5,
-      "validatorCounts": {},
-      "activeProducers": [
-        "protonind",
-        "protonind",
-        "protonind",
-        "protonind",
-        "protonind",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "madblocks",
-        "eosusa",
-        "eosusa",
-        "eosusa"
-      ]
-    },
-    {
       "ts": 1789597412998,
       "block": 403814543,
       "producer": "protonmadrid",
@@ -5977,6 +5941,34 @@
         "storexbp",
         "storexbp",
         "storexbp"
+      ]
+    },
+    {
+      "ts": 1792184821530,
+      "block": 408988186,
+      "producer": "madblocks",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 4.909090909090909,
+      "utilization": 0.011444091796875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.25,
+      "finality": 163.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa"
       ]
     }
   ]
