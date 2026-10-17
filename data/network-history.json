@@ -5970,6 +5970,42 @@
         "madblocks",
         "madblocks"
       ]
+    },
+    {
+      "ts": 1792245155396,
+      "block": 409108888,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 11.368421052631579,
+      "utilization": 0.03509521484375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 5.4,
+      "finality": 167,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam"
+      ]
     }
   ]
 }
