@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1789638189000,
+  "oldestTs": 1790174478000,
   "newestTs": 1792096285000,
   "pages": 8,
   "events": [
-    {
-      "producer": "cafe",
-      "round": 1,
-      "block": 403896098,
-      "ts": 1789638189000,
-      "postId": 9337
-    },
     {
       "producer": "eosusa",
       "round": 1,
