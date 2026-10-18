@@ -6042,6 +6042,42 @@
         "cryptolions",
         "cryptolions"
       ]
+    },
+    {
+      "ts": 1792342101545,
+      "block": 409302767,
+      "producer": "storexbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 23.36842105263158,
+      "utilization": 0.55389404296875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 11.1,
+      "finality": 165,
+      "validatorCounts": {},
+      "activeProducers": [
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "storexbp",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "snipverse",
+        "saltant",
+        "saltant"
+      ]
     }
   ]
 }
