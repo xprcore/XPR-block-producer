@@ -3,8 +3,8 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1790174478000,
-  "newestTs": 1792270230500,
-  "pages": 8,
+  "newestTs": 1792405615000,
+  "pages": 9,
   "events": [
     {
       "producer": "eosusa",
@@ -712,6 +712,41 @@
       "block": 409159028,
       "ts": 1792270230500,
       "postId": 9491
+    },
+    {
+      "producer": "totalproton",
+      "round": 1,
+      "block": 409422224,
+      "ts": 1792401835000,
+      "postId": 9495
+    },
+    {
+      "producer": "totalproton",
+      "round": 2,
+      "block": 409422462,
+      "ts": 1792401960000,
+      "postId": 9496
+    },
+    {
+      "producer": "totalproton",
+      "round": 3,
+      "block": 409422705,
+      "ts": 1792402087500,
+      "postId": 9497
+    },
+    {
+      "producer": "totalproton",
+      "round": 4,
+      "block": 409422944,
+      "ts": 1792402213000,
+      "postId": 9499
+    },
+    {
+      "producer": "totalproton",
+      "round": 1,
+      "block": 409429736,
+      "ts": 1792405615000,
+      "postId": 9504
     }
   ]
 }
