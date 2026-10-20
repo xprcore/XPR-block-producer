@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1790174478000,
-  "newestTs": 1792405615000,
+  "newestTs": 1792454833000,
   "pages": 9,
   "events": [
     {
@@ -747,6 +747,13 @@
       "block": 409429736,
       "ts": 1792405615000,
       "postId": 9504
+    },
+    {
+      "producer": "madblocks",
+      "round": 1,
+      "block": 409528160,
+      "ts": 1792454833000,
+      "postId": 9508
     }
   ]
 }
