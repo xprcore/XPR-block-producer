@@ -3,8 +3,8 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1790174478000,
-  "newestTs": 1792582206000,
-  "pages": 9,
+  "newestTs": 1792617458000,
+  "pages": 10,
   "events": [
     {
       "producer": "eosusa",
@@ -768,6 +768,20 @@
       "block": 409782894,
       "ts": 1792582206000,
       "postId": 9514
+    },
+    {
+      "producer": "cafe",
+      "round": 1,
+      "block": 409853130,
+      "ts": 1792617330000,
+      "postId": 9516
+    },
+    {
+      "producer": "cafe",
+      "round": 2,
+      "block": 409853374,
+      "ts": 1792617458000,
+      "postId": 9517
     }
   ]
 }
