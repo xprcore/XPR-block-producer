@@ -5898,6 +5898,42 @@
         "protonnz",
         "protonnz"
       ]
+    },
+    {
+      "ts": 1792651238423,
+      "block": 409920931,
+      "producer": "cryptolions",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 3.0526315789473686,
+      "utilization": 0.069427490234375,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 1.45,
+      "finality": 163.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "cryptolions",
+        "cryptolions",
+        "cryptolions",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "cerebroai",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote",
+        "catsvote"
+      ]
     }
   ]
 }
