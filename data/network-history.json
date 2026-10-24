@@ -5898,6 +5898,42 @@
         "storexbp",
         "storexbp"
       ]
+    },
+    {
+      "ts": 1792853068910,
+      "block": 410324238,
+      "producer": "brotonbp",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 12.631578947368421,
+      "utilization": 1.795196533203125,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 6,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "brotonbp",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod",
+        "bloxprod"
+      ]
     }
   ]
 }
