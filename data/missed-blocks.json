@@ -3,8 +3,8 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1790259655000,
-  "newestTs": 1792789447000,
-  "pages": 10,
+  "newestTs": 1792828110500,
+  "pages": 11,
   "events": [
     {
       "producer": "eosusa",
@@ -789,6 +789,181 @@
       "block": 410197334,
       "ts": 1792789447000,
       "postId": 9531
+    },
+    {
+      "producer": "blocksforge",
+      "round": 1,
+      "block": 410268599,
+      "ts": 1792825087000,
+      "postId": 9533
+    },
+    {
+      "producer": "blocksforge",
+      "round": 2,
+      "block": 410268837,
+      "ts": 1792825212000,
+      "postId": 9534
+    },
+    {
+      "producer": "blocksforge",
+      "round": 3,
+      "block": 410269078,
+      "ts": 1792825338500,
+      "postId": 9535
+    },
+    {
+      "producer": "blocksforge",
+      "round": 4,
+      "block": 410269319,
+      "ts": 1792825465000,
+      "postId": 9536
+    },
+    {
+      "producer": "blocksforge",
+      "round": 5,
+      "block": 410269557,
+      "ts": 1792825590000,
+      "postId": 9537
+    },
+    {
+      "producer": "blocksforge",
+      "round": 6,
+      "block": 410269798,
+      "ts": 1792825716500,
+      "postId": 9538
+    },
+    {
+      "producer": "blocksforge",
+      "round": 7,
+      "block": 410270039,
+      "ts": 1792825843000,
+      "postId": 9539
+    },
+    {
+      "producer": "blocksforge",
+      "round": 8,
+      "block": 410270277,
+      "ts": 1792825968000,
+      "postId": 9540
+    },
+    {
+      "producer": "blocksforge",
+      "round": 9,
+      "block": 410270518,
+      "ts": 1792826094500,
+      "postId": 9541
+    },
+    {
+      "producer": "blocksforge",
+      "round": 10,
+      "block": 410270760,
+      "ts": 1792826221500,
+      "postId": 9542
+    },
+    {
+      "producer": "blocksforge",
+      "round": 11,
+      "block": 410270997,
+      "ts": 1792826346000,
+      "postId": 9543
+    },
+    {
+      "producer": "blocksforge",
+      "round": 12,
+      "block": 410271239,
+      "ts": 1792826473000,
+      "postId": 9544
+    },
+    {
+      "producer": "blocksforge",
+      "round": 13,
+      "block": 410271480,
+      "ts": 1792826599500,
+      "postId": 9545
+    },
+    {
+      "producer": "blocksforge",
+      "round": 14,
+      "block": 410271718,
+      "ts": 1792826724500,
+      "postId": 9546
+    },
+    {
+      "producer": "blocksforge",
+      "round": 15,
+      "block": 410271960,
+      "ts": 1792826851500,
+      "postId": 9547
+    },
+    {
+      "producer": "blocksforge",
+      "round": 16,
+      "block": 410272197,
+      "ts": 1792826976000,
+      "postId": 9548
+    },
+    {
+      "producer": "blocksforge",
+      "round": 17,
+      "block": 410272439,
+      "ts": 1792827103000,
+      "postId": 9549
+    },
+    {
+      "producer": "blocksforge",
+      "round": 18,
+      "block": 410272680,
+      "ts": 1792827229500,
+      "postId": 9550
+    },
+    {
+      "producer": "blocksforge",
+      "round": 19,
+      "block": 410272918,
+      "ts": 1792827354500,
+      "postId": 9551
+    },
+    {
+      "producer": "blocksforge",
+      "round": 20,
+      "block": 410273159,
+      "ts": 1792827481000,
+      "postId": 9552
+    },
+    {
+      "producer": "blocksforge",
+      "round": 21,
+      "block": 410273397,
+      "ts": 1792827606000,
+      "postId": 9553
+    },
+    {
+      "producer": "blocksforge",
+      "round": 22,
+      "block": 410273638,
+      "ts": 1792827732500,
+      "postId": 9554
+    },
+    {
+      "producer": "blocksforge",
+      "round": 23,
+      "block": 410273879,
+      "ts": 1792827859000,
+      "postId": 9555
+    },
+    {
+      "producer": "blocksforge",
+      "round": 24,
+      "block": 410274117,
+      "ts": 1792827984000,
+      "postId": 9556
+    },
+    {
+      "producer": "blocksforge",
+      "round": 25,
+      "block": 410274358,
+      "ts": 1792828110500,
+      "postId": 9557
     }
   ]
 }
