@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1790382631500,
-  "newestTs": 1792851942500,
+  "newestTs": 1792858747000,
   "pages": 11,
   "events": [
     {
@@ -957,6 +957,13 @@
       "block": 410321987,
       "ts": 1792851942500,
       "postId": 9559
+    },
+    {
+      "producer": "cafe",
+      "round": 1,
+      "block": 410335559,
+      "ts": 1792858747000,
+      "postId": 9561
     }
   ]
 }
