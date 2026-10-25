@@ -5934,6 +5934,42 @@
         "brotonbp",
         "brotonbp"
       ]
+    },
+    {
+      "ts": 1792886500575,
+      "block": 410390928,
+      "producer": "eosusa",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 6.526315789473684,
+      "utilization": 0.11138916015625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 3.1,
+      "finality": 166,
+      "validatorCounts": {},
+      "activeProducers": [
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam"
+      ]
     }
   ]
 }
