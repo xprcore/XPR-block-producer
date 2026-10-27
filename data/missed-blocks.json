@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1790538990000,
-  "newestTs": 1792897717500,
+  "newestTs": 1793116914500,
   "pages": 11,
   "events": [
     {
@@ -964,6 +964,13 @@
       "block": 410413352,
       "ts": 1792897717500,
       "postId": 9563
+    },
+    {
+      "producer": "brotonbp",
+      "round": 1,
+      "block": 410851735,
+      "ts": 1793116914500,
+      "postId": 9565
     }
   ]
 }
