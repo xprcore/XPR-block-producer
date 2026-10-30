@@ -3,8 +3,8 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1790954208000,
-  "newestTs": 1793325109000,
-  "pages": 10,
+  "newestTs": 1793346870500,
+  "pages": 11,
   "events": [
     {
       "producer": "storexbp",
@@ -866,6 +866,13 @@
       "block": 411268093,
       "ts": 1793325109000,
       "postId": 9567
+    },
+    {
+      "producer": "cafe",
+      "round": 1,
+      "block": 411311600,
+      "ts": 1793346870500,
+      "postId": 9571
     }
   ]
 }
