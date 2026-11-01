@@ -2,24 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1790954208000,
-  "newestTs": 1793454156000,
+  "oldestTs": 1791090368000,
+  "newestTs": 1793560291000,
   "pages": 12,
   "events": [
-    {
-      "producer": "storexbp",
-      "round": 1,
-      "block": 406527901,
-      "ts": 1790954208000,
-      "postId": 9378
-    },
-    {
-      "producer": "catsvote",
-      "round": 1,
-      "block": 406529774,
-      "ts": 1790955144500,
-      "postId": 9380
-    },
     {
       "producer": "eosusa",
       "round": 1,
@@ -915,6 +901,41 @@
       "block": 411526109,
       "ts": 1793454156000,
       "postId": 9588
+    },
+    {
+      "producer": "protonmadrid",
+      "round": 1,
+      "block": 411713307,
+      "ts": 1793547763000,
+      "postId": 9592
+    },
+    {
+      "producer": "protonmadrid",
+      "round": 2,
+      "block": 411713545,
+      "ts": 1793547888000,
+      "postId": 9593
+    },
+    {
+      "producer": "protonmadrid",
+      "round": 3,
+      "block": 411713787,
+      "ts": 1793548015000,
+      "postId": 9594
+    },
+    {
+      "producer": "protonmadrid",
+      "round": 4,
+      "block": 411714025,
+      "ts": 1793548140000,
+      "postId": 9596
+    },
+    {
+      "producer": "alvosec",
+      "round": 1,
+      "block": 411738315,
+      "ts": 1793560291000,
+      "postId": 9601
     }
   ]
 }
