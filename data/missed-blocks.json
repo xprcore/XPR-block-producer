@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1791656107000,
-  "newestTs": 1794054901500,
+  "newestTs": 1794066090500,
   "pages": 12,
   "events": [
     {
@@ -964,6 +964,13 @@
       "block": 412727378,
       "ts": 1794054901500,
       "postId": 9627
+    },
+    {
+      "producer": "cerebroai",
+      "round": 1,
+      "block": 412749725,
+      "ts": 1794066090500,
+      "postId": 9629
     }
   ]
 }
