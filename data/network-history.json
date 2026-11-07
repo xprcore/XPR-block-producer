@@ -5718,6 +5718,42 @@
         "blocksforge",
         "blocksforge"
       ]
+    },
+    {
+      "ts": 1794061505386,
+      "block": 412740583,
+      "producer": "xprdata",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 21.473684210526315,
+      "utilization": 0.18463134765625,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 10.2,
+      "finality": 166.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "xprdata",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton",
+        "totalproton"
+      ]
     }
   ]
 }

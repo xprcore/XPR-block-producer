@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1791656107000,
-  "newestTs": 1793889756500,
+  "newestTs": 1794054901500,
   "pages": 12,
   "events": [
     {
@@ -943,6 +943,27 @@
       "block": 412397147,
       "ts": 1793889756500,
       "postId": 9622
+    },
+    {
+      "producer": "cerebroai",
+      "round": 1,
+      "block": 412726613,
+      "ts": 1794054498000,
+      "postId": 9624
+    },
+    {
+      "producer": "madblocks",
+      "round": 1,
+      "block": 412727136,
+      "ts": 1794054774500,
+      "postId": 9626
+    },
+    {
+      "producer": "madblocks",
+      "round": 2,
+      "block": 412727378,
+      "ts": 1794054901500,
+      "postId": 9627
     }
   ]
 }
