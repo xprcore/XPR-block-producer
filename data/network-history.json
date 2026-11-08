@@ -5754,6 +5754,42 @@
         "storexbp",
         "snipverse"
       ]
+    },
+    {
+      "ts": 1794178754710,
+      "block": 412974793,
+      "producer": "madblocks",
+      "blockTime": 0.5,
+      "currentBlockTime": 0.5,
+      "tps": 6.2105263157894735,
+      "utilization": 0.029754638671875,
+      "successRate": 100,
+      "failureRate": 0,
+      "txPerBlock": 2.95,
+      "finality": 164.5,
+      "validatorCounts": {},
+      "activeProducers": [
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "madblocks",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosusa",
+        "eosamsterdam",
+        "eosamsterdam",
+        "eosamsterdam"
+      ]
     }
   ]
 }
