@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1791656107000,
-  "newestTs": 1794219073000,
-  "pages": 16,
+  "oldestTs": 1791731382000,
+  "newestTs": 1794225888000,
+  "pages": 17,
   "events": [
-    {
-      "producer": "eosusa",
-      "round": 1,
-      "block": 407931575,
-      "ts": 1791656107000,
-      "postId": 9398
-    },
     {
       "producer": "totalproton",
       "round": 1,
@@ -1433,6 +1426,62 @@
       "block": 413054639,
       "ts": 1794219073000,
       "postId": 9713
+    },
+    {
+      "producer": "eosusa",
+      "round": 42,
+      "block": 413054877,
+      "ts": 1794219198000,
+      "postId": 9714
+    },
+    {
+      "producer": "eosusa",
+      "round": 43,
+      "block": 413055119,
+      "ts": 1794219325000,
+      "postId": 9715
+    },
+    {
+      "producer": "eosusa",
+      "round": 44,
+      "block": 413055357,
+      "ts": 1794219450000,
+      "postId": 9716
+    },
+    {
+      "producer": "eosusa",
+      "round": 45,
+      "block": 413055599,
+      "ts": 1794219577000,
+      "postId": 9717
+    },
+    {
+      "producer": "eosusa",
+      "round": 46,
+      "block": 413055838,
+      "ts": 1794219702500,
+      "postId": 9718
+    },
+    {
+      "producer": "eosusa",
+      "round": 47,
+      "block": 413056079,
+      "ts": 1794219829000,
+      "postId": 9719
+    },
+    {
+      "producer": "saltant",
+      "round": 1,
+      "block": 413064702,
+      "ts": 1794224148000,
+      "postId": 9721
+    },
+    {
+      "producer": "protonind",
+      "round": 1,
+      "block": 413068169,
+      "ts": 1794225888000,
+      "postId": 9723
     }
   ]
 }
