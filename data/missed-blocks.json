@@ -3,8 +3,8 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1791731382000,
-  "newestTs": 1794270876500,
-  "pages": 17,
+  "newestTs": 1794287149500,
+  "pages": 18,
   "events": [
     {
       "producer": "totalproton",
@@ -1489,6 +1489,13 @@
       "block": 413158120,
       "ts": 1794270876500,
       "postId": 9727
+    },
+    {
+      "producer": "saltant",
+      "round": 1,
+      "block": 413190642,
+      "ts": 1794287149500,
+      "postId": 9735
     }
   ]
 }
