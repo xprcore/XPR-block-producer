@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1792008906500,
-  "newestTs": 1794325825000,
+  "newestTs": 1794406818000,
   "pages": 15,
   "events": [
     {
@@ -1104,6 +1104,13 @@
       "block": 413267918,
       "ts": 1794325825000,
       "postId": 9750
+    },
+    {
+      "producer": "eosusa",
+      "round": 1,
+      "block": 413429879,
+      "ts": 1794406818000,
+      "postId": 9752
     }
   ]
 }
