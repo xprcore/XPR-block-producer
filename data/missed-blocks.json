@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792064402000,
-  "newestTs": 1794637064000,
+  "oldestTs": 1792096285000,
+  "newestTs": 1794656054000,
   "pages": 15,
   "events": [
-    {
-      "producer": "alvosec",
-      "round": 1,
-      "block": 408747384,
-      "ts": 1792064402000,
-      "postId": 9481
-    },
     {
       "producer": "xprdata",
       "round": 1,
@@ -1153,6 +1146,20 @@
       "block": 413890275,
       "ts": 1794637064000,
       "postId": 9768
+    },
+    {
+      "producer": "madblocks",
+      "round": 1,
+      "block": 413927991,
+      "ts": 1794655928000,
+      "postId": 9772
+    },
+    {
+      "producer": "madblocks",
+      "round": 2,
+      "block": 413928231,
+      "ts": 1794656054000,
+      "postId": 9773
     }
   ]
 }
