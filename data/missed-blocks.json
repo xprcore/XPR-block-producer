@@ -2,24 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792035438000,
-  "newestTs": 1794406818000,
+  "oldestTs": 1792064402000,
+  "newestTs": 1794637064000,
   "pages": 15,
   "events": [
-    {
-      "producer": "alvosec",
-      "round": 1,
-      "block": 408689468,
-      "ts": 1792035438000,
-      "postId": 9471
-    },
-    {
-      "producer": "cerebroai",
-      "round": 1,
-      "block": 408689530,
-      "ts": 1792035475000,
-      "postId": 9472
-    },
     {
       "producer": "alvosec",
       "round": 1,
@@ -1104,6 +1090,69 @@
       "block": 413429879,
       "ts": 1794406818000,
       "postId": 9752
+    },
+    {
+      "producer": "blocksforge",
+      "round": 1,
+      "block": 413888402,
+      "ts": 1794636085500,
+      "postId": 9758
+    },
+    {
+      "producer": "blocksforge",
+      "round": 2,
+      "block": 413888643,
+      "ts": 1794636212000,
+      "postId": 9759
+    },
+    {
+      "producer": "blocksforge",
+      "round": 3,
+      "block": 413888883,
+      "ts": 1794636338000,
+      "postId": 9760
+    },
+    {
+      "producer": "blocksforge",
+      "round": 4,
+      "block": 413889123,
+      "ts": 1794636464000,
+      "postId": 9761
+    },
+    {
+      "producer": "blocksforge",
+      "round": 5,
+      "block": 413889363,
+      "ts": 1794636590000,
+      "postId": 9762
+    },
+    {
+      "producer": "blocksforge",
+      "round": 6,
+      "block": 413889603,
+      "ts": 1794636716000,
+      "postId": 9763
+    },
+    {
+      "producer": "blocksforge",
+      "round": 7,
+      "block": 413889843,
+      "ts": 1794636842000,
+      "postId": 9764
+    },
+    {
+      "producer": "blocksforge",
+      "round": 8,
+      "block": 413890083,
+      "ts": 1794636968000,
+      "postId": 9766
+    },
+    {
+      "producer": "storexbp",
+      "round": 1,
+      "block": 413890275,
+      "ts": 1794637064000,
+      "postId": 9768
     }
   ]
 }
