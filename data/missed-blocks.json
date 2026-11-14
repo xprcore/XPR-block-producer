@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1792096285000,
-  "newestTs": 1794656054000,
+  "newestTs": 1794687570000,
   "pages": 15,
   "events": [
     {
@@ -1160,6 +1160,20 @@
       "block": 413928231,
       "ts": 1794656054000,
       "postId": 9773
+    },
+    {
+      "producer": "xprdata",
+      "round": 1,
+      "block": 413959882,
+      "ts": 1794671879500,
+      "postId": 9775
+    },
+    {
+      "producer": "protonnz",
+      "round": 1,
+      "block": 413991230,
+      "ts": 1794687570000,
+      "postId": 9777
     }
   ]
 }
