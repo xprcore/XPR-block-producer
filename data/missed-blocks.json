@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1792270230500,
-  "newestTs": 1794687570000,
+  "newestTs": 1794748920500,
   "pages": 15,
   "events": [
     {
@@ -1167,6 +1167,13 @@
       "block": 413991230,
       "ts": 1794687570000,
       "postId": 9777
+    },
+    {
+      "producer": "protonmadrid",
+      "round": 1,
+      "block": 414113931,
+      "ts": 1794748920500,
+      "postId": 9781
     }
   ]
 }
