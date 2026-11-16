@@ -3,7 +3,7 @@
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
   "oldestTs": 1792270230500,
-  "newestTs": 1794748920500,
+  "newestTs": 1794853429000,
   "pages": 15,
   "events": [
     {
@@ -1174,6 +1174,13 @@
       "block": 414113931,
       "ts": 1794748920500,
       "postId": 9781
+    },
+    {
+      "producer": "alvosec",
+      "round": 1,
+      "block": 414322936,
+      "ts": 1794853429000,
+      "postId": 9785
     }
   ]
 }
