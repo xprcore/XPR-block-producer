@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792270230500,
+  "oldestTs": 1792401835000,
   "newestTs": 1794853429000,
   "pages": 15,
   "events": [
-    {
-      "producer": "eosusa",
-      "round": 1,
-      "block": 409159028,
-      "ts": 1792270230500,
-      "postId": 9491
-    },
     {
       "producer": "totalproton",
       "round": 1,
