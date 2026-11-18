@@ -2,38 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792401835000,
+  "oldestTs": 1792405615000,
   "newestTs": 1794853429000,
   "pages": 15,
   "events": [
-    {
-      "producer": "totalproton",
-      "round": 1,
-      "block": 409422224,
-      "ts": 1792401835000,
-      "postId": 9495
-    },
-    {
-      "producer": "totalproton",
-      "round": 2,
-      "block": 409422462,
-      "ts": 1792401960000,
-      "postId": 9496
-    },
-    {
-      "producer": "totalproton",
-      "round": 3,
-      "block": 409422705,
-      "ts": 1792402087500,
-      "postId": 9497
-    },
-    {
-      "producer": "totalproton",
-      "round": 4,
-      "block": 409422944,
-      "ts": 1792402213000,
-      "postId": 9499
-    },
     {
       "producer": "totalproton",
       "round": 1,
