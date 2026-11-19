@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792454833000,
+  "oldestTs": 1792562328500,
   "newestTs": 1794853429000,
-  "pages": 15,
+  "pages": 14,
   "events": [
-    {
-      "producer": "madblocks",
-      "round": 1,
-      "block": 409528160,
-      "ts": 1792454833000,
-      "postId": 9508
-    },
     {
       "producer": "protonuk",
       "round": 1,
