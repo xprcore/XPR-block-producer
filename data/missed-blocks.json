@@ -2,24 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792617330000,
+  "oldestTs": 1792655923500,
   "newestTs": 1794853429000,
   "pages": 14,
   "events": [
-    {
-      "producer": "cafe",
-      "round": 1,
-      "block": 409853130,
-      "ts": 1792617330000,
-      "postId": 9516
-    },
-    {
-      "producer": "cafe",
-      "round": 2,
-      "block": 409853374,
-      "ts": 1792617458000,
-      "postId": 9517
-    },
     {
       "producer": "protonmadrid",
       "round": 1,
