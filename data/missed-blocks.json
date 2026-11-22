@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792789447000,
+  "oldestTs": 1792825087000,
   "newestTs": 1795299300500,
-  "pages": 14,
+  "pages": 13,
   "events": [
-    {
-      "producer": "cafe",
-      "round": 1,
-      "block": 410197334,
-      "ts": 1792789447000,
-      "postId": 9531
-    },
     {
       "producer": "blocksforge",
       "round": 1,
