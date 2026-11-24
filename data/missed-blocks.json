@@ -2,17 +2,10 @@
   "version": 1,
   "source": "https://t.me/proton_mainnet_reliability",
   "coverageOk": false,
-  "oldestTs": 1792897717500,
-  "newestTs": 1795299300500,
+  "oldestTs": 1793116914500,
+  "newestTs": 1795513350000,
   "pages": 12,
   "events": [
-    {
-      "producer": "eosusa",
-      "round": 1,
-      "block": 410413352,
-      "ts": 1792897717500,
-      "postId": 9563
-    },
     {
       "producer": "brotonbp",
       "round": 1,
@@ -908,6 +901,55 @@
       "block": 415214666,
       "ts": 1795299300500,
       "postId": 9787
+    },
+    {
+      "producer": "madblocks",
+      "round": 1,
+      "block": 415631926,
+      "ts": 1795507938000,
+      "postId": 9789
+    },
+    {
+      "producer": "eosusa",
+      "round": 1,
+      "block": 415641480,
+      "ts": 1795512721000,
+      "postId": 9791
+    },
+    {
+      "producer": "eosusa",
+      "round": 2,
+      "block": 415641719,
+      "ts": 1795512846500,
+      "postId": 9792
+    },
+    {
+      "producer": "eosusa",
+      "round": 3,
+      "block": 415641959,
+      "ts": 1795512972500,
+      "postId": 9793
+    },
+    {
+      "producer": "eosusa",
+      "round": 4,
+      "block": 415642200,
+      "ts": 1795513099000,
+      "postId": 9794
+    },
+    {
+      "producer": "eosusa",
+      "round": 5,
+      "block": 415642440,
+      "ts": 1795513225000,
+      "postId": 9795
+    },
+    {
+      "producer": "eosusa",
+      "round": 6,
+      "block": 415642678,
+      "ts": 1795513350000,
+      "postId": 9796
     }
   ]
 }
